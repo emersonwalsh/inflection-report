@@ -10,6 +10,7 @@ export interface CompanyData {
   peMultiple: number | null;
   monthlyGrowth: MonthlyGrowth[];
   decemberGrowth: number | null;
+  googleTrendsUrl: string;
 }
 
 export interface Subsector {

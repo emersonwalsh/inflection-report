@@ -41,6 +41,13 @@ export class ReportComponent {
   expandedSubsectors = signal<Set<string>>(new Set());
 
   constructor() {
+    // Expand the first subsector by default
+    const firstSector = this.reportData.sectors[0];
+    if (firstSector && firstSector.subsectors[0]) {
+      const key = `${firstSector.name}::${firstSector.subsectors[0].name}`;
+      this.expandedSubsectors.set(new Set([key]));
+    }
+
     // Effect to render chart when selected company changes
     effect(() => {
       const company = this.selectedCompany();
