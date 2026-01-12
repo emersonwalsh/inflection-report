@@ -1,0 +1,29 @@
+// Component-specific styles (most styling done via Tailwind)
+
+:host {
+  display: block;
+}
+
+// Smooth transitions for expandable sections
+.overflow-hidden {
+  transition: max-height 0.3s ease-in-out;
+}
+
+// Table responsiveness
+table {
+  border-collapse: collapse;
+}
+
+// Sticky column shadow
+td.sticky,
+th.sticky {
+  &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: linear-gradient(to right, rgba(0,0,0,0.05), transparent);
+  }
+}

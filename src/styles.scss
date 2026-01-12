@@ -1,0 +1,49 @@
+@use "tailwindcss";
+
+/* Custom global styles */
+body {
+  @apply bg-gray-50 text-gray-900 font-sans;
+}
+
+/* Table styles */
+.data-table {
+  @apply w-full border-collapse;
+}
+
+.data-table th,
+.data-table td {
+  @apply px-3 py-2 text-sm border border-gray-200;
+}
+
+.data-table th {
+  @apply bg-gray-100 font-semibold text-left;
+}
+
+/* Growth color classes */
+.growth-positive-high {
+  @apply bg-green-500 text-white;
+}
+
+.growth-positive-medium {
+  @apply bg-green-300;
+}
+
+.growth-positive-low {
+  @apply bg-green-100;
+}
+
+.growth-negative-low {
+  @apply bg-red-100;
+}
+
+.growth-negative-medium {
+  @apply bg-red-300;
+}
+
+.growth-negative-high {
+  @apply bg-red-500 text-white;
+}
+
+.growth-neutral {
+  @apply bg-gray-100;
+}
