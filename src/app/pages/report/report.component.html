@@ -29,7 +29,7 @@
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
-                View in Google Trends
+                <span class="hidden sm:inline">View in </span>Google Trends
               </a>
               <button
                 (click)="closeChart()"
@@ -79,11 +79,27 @@
   </div>
 }
 
-<!-- Sticky Search and Controls Bar (top-[73px] accounts for sticky header) -->
-<div class="sticky top-[73px] z-20 bg-white border-b border-gray-200 shadow-sm -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-4 mb-6">
-  <div class="flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between">
+<!-- Sticky Search and Controls Bar -->
+<div class="sticky top-[89px] sm:top-[73px] z-20 bg-white border-b border-gray-200 shadow-sm -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-3 mb-6">
+  <!-- Top row: Search and Controls -->
+  <div class="flex flex-row gap-3 items-center justify-between">
+    <!-- Mobile: Hamburger Menu Button -->
+    <button
+      (click)="toggleMobileMenu()"
+      class="lg:hidden p-2 rounded-lg hover:bg-gray-100 text-gray-600"
+      aria-label="Toggle sector menu"
+    >
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        @if (mobileMenuOpen()) {
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        } @else {
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        }
+      </svg>
+    </button>
+
     <!-- Search Input -->
-    <div class="relative flex-1 max-w-md w-full">
+    <div class="relative flex-1 max-w-md">
       <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
         <svg class="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -93,8 +109,8 @@
         type="text"
         [value]="searchQuery()"
         (input)="onSearchInput($event)"
-        placeholder="Search by company name or ticker..."
-        class="block w-full pl-10 pr-10 py-2.5 border border-gray-300 rounded-lg text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        placeholder="Search by company or ticker..."
+        class="block w-full pl-10 pr-10 py-2 border border-gray-300 rounded-lg text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
       />
       @if (searchQuery()) {
         <button
@@ -111,22 +127,71 @@
     <!-- Controls -->
     <div class="flex gap-2 items-center">
       @if (searchQuery()) {
-        <span class="text-sm text-gray-500">{{ matchingCompaniesCount() }} results</span>
+        <span class="text-sm text-gray-500 hidden sm:inline">{{ matchingCompaniesCount() }} results</span>
       }
       <button
         (click)="expandAll()"
-        class="px-3 py-2 text-sm rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium transition-colors"
+        class="px-3 py-2 text-sm rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium transition-colors hidden sm:block"
       >
         Expand All
       </button>
       <button
         (click)="collapseAll()"
-        class="px-3 py-2 text-sm rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium transition-colors"
+        class="px-3 py-2 text-sm rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium transition-colors hidden sm:block"
       >
         Collapse All
       </button>
     </div>
   </div>
+
+  <!-- Desktop: Sector Navigation Tabs -->
+  <div class="hidden lg:flex gap-1 mt-3 overflow-x-auto pb-1">
+    @for (sector of reportData.sectors; track sector.name) {
+      <button
+        (click)="scrollToSector(sector.name)"
+        class="px-3 py-1.5 text-sm font-medium rounded-lg whitespace-nowrap transition-colors"
+        [class]="activeSector() === sector.name
+          ? 'bg-blue-600 text-white'
+          : 'text-gray-600 hover:bg-gray-100'"
+      >
+        {{ sector.name }}
+      </button>
+    }
+  </div>
+
+  <!-- Mobile: Collapsible Sector Menu -->
+  @if (mobileMenuOpen()) {
+    <div class="lg:hidden mt-3 pt-3 border-t border-gray-200">
+      <div class="grid grid-cols-2 gap-2">
+        @for (sector of reportData.sectors; track sector.name) {
+          <button
+            (click)="scrollToSector(sector.name)"
+            class="px-3 py-2 text-sm font-medium rounded-lg text-left transition-colors"
+            [class]="activeSector() === sector.name
+              ? 'bg-blue-600 text-white'
+              : 'bg-gray-100 text-gray-700 hover:bg-gray-200'"
+          >
+            {{ sector.name }}
+          </button>
+        }
+      </div>
+      <!-- Mobile expand/collapse buttons -->
+      <div class="flex gap-2 mt-3 pt-3 border-t border-gray-200">
+        <button
+          (click)="expandAll()"
+          class="flex-1 px-3 py-2 text-sm rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium transition-colors"
+        >
+          Expand All
+        </button>
+        <button
+          (click)="collapseAll()"
+          class="flex-1 px-3 py-2 text-sm rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium transition-colors"
+        >
+          Collapse All
+        </button>
+      </div>
+    </div>
+  }
 </div>
 
 <!-- Top Gainers & Decliners Section (hidden when searching) -->
@@ -156,7 +221,7 @@
           <tbody>
             @for (company of topGainers(); track company.searchQuery; let i = $index) {
               <tr class="border-b border-gray-100 hover:bg-gray-50">
-                <td class="px-4 py-2 text-gray-500">{{ i + 1 }}</td>
+                <td class="px-4 py-2 text-gray-500">{{ i + 1 + gainersPage() * pageSize }}</td>
                 <td
                   class="px-4 py-2 font-medium text-blue-600 cursor-pointer hover:text-blue-800 hover:underline"
                   (click)="selectCompany(company, company.sectorName, company.subsectorName)"
@@ -174,6 +239,34 @@
             }
           </tbody>
         </table>
+      </div>
+      <!-- Pagination -->
+      <div class="px-4 py-3 bg-gray-50 border-t border-gray-200 flex items-center justify-between">
+        <button
+          (click)="prevGainersPage()"
+          [disabled]="gainersPage() === 0"
+          class="px-3 py-1.5 text-sm font-medium rounded-lg transition-colors"
+          [class]="gainersPage() === 0 ? 'text-gray-400 cursor-not-allowed' : 'text-gray-700 hover:bg-gray-200'"
+        >
+          <svg class="w-5 h-5 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+          Prev
+        </button>
+        <span class="text-sm text-gray-600">
+          Page {{ gainersPage() + 1 }} of {{ gainersTotalPages() }}
+        </span>
+        <button
+          (click)="nextGainersPage()"
+          [disabled]="gainersPage() >= gainersTotalPages() - 1"
+          class="px-3 py-1.5 text-sm font-medium rounded-lg transition-colors"
+          [class]="gainersPage() >= gainersTotalPages() - 1 ? 'text-gray-400 cursor-not-allowed' : 'text-gray-700 hover:bg-gray-200'"
+        >
+          Next
+          <svg class="w-5 h-5 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
       </div>
     </div>
 
@@ -201,7 +294,7 @@
           <tbody>
             @for (company of topDecliners(); track company.searchQuery; let i = $index) {
               <tr class="border-b border-gray-100 hover:bg-gray-50">
-                <td class="px-4 py-2 text-gray-500">{{ i + 1 }}</td>
+                <td class="px-4 py-2 text-gray-500">{{ i + 1 + declinersPage() * pageSize }}</td>
                 <td
                   class="px-4 py-2 font-medium text-blue-600 cursor-pointer hover:text-blue-800 hover:underline"
                   (click)="selectCompany(company, company.sectorName, company.subsectorName)"
@@ -219,6 +312,34 @@
             }
           </tbody>
         </table>
+      </div>
+      <!-- Pagination -->
+      <div class="px-4 py-3 bg-gray-50 border-t border-gray-200 flex items-center justify-between">
+        <button
+          (click)="prevDeclinersPage()"
+          [disabled]="declinersPage() === 0"
+          class="px-3 py-1.5 text-sm font-medium rounded-lg transition-colors"
+          [class]="declinersPage() === 0 ? 'text-gray-400 cursor-not-allowed' : 'text-gray-700 hover:bg-gray-200'"
+        >
+          <svg class="w-5 h-5 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+          Prev
+        </button>
+        <span class="text-sm text-gray-600">
+          Page {{ declinersPage() + 1 }} of {{ declinersTotalPages() }}
+        </span>
+        <button
+          (click)="nextDeclinersPage()"
+          [disabled]="declinersPage() >= declinersTotalPages() - 1"
+          class="px-3 py-1.5 text-sm font-medium rounded-lg transition-colors"
+          [class]="declinersPage() >= declinersTotalPages() - 1 ? 'text-gray-400 cursor-not-allowed' : 'text-gray-700 hover:bg-gray-200'"
+        >
+          Next
+          <svg class="w-5 h-5 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
       </div>
     </div>
   </div>
@@ -245,7 +366,7 @@
 @if (hasSearchResults()) {
   <div class="space-y-8">
     @for (sector of filteredSectors(); track sector.name) {
-      <section>
+      <section [attr.data-sector]="sector.name" [id]="getSectorId(sector.name)">
         <!-- Sector Header -->
         <div class="flex items-center gap-3 mb-4">
           <h2 class="text-xl font-bold text-gray-900">{{ sector.name }}</h2>

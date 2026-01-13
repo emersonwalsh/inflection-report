@@ -1,4 +1,4 @@
-import { Component, signal, computed, ViewChild, ElementRef, effect } from '@angular/core';
+import { Component, signal, computed, ViewChild, ElementRef, effect, AfterViewInit, OnDestroy, NgZone } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Chart, registerables } from 'chart.js';
@@ -7,6 +7,10 @@ import { Sector, Subsector, CompanyData, MONTHS } from '../../models/report.mode
 
 // Register Chart.js components
 Chart.register(...registerables);
+
+// Configurable: Maximum number of companies to show in Top Gainers/Decliners
+const TOP_LIST_MAX_COUNT = 100;
+const TOP_LIST_PAGE_SIZE = 10;
 
 interface CompanyWithContext extends CompanyData {
   sectorName: string;
@@ -28,7 +32,7 @@ interface SortState {
   templateUrl: './report.component.html',
   styleUrl: './report.component.scss'
 })
-export class ReportComponent {
+export class ReportComponent implements AfterViewInit, OnDestroy {
   @ViewChild('chartCanvas') chartCanvas!: ElementRef<HTMLCanvasElement>;
 
   readonly reportData = REPORT_DATA;
@@ -37,15 +41,30 @@ export class ReportComponent {
   searchQuery = signal('');
   selectedCompany = signal<CompanyWithContext | null>(null);
 
+  // Pagination for Top Gainers/Decliners
+  gainersPage = signal(0);
+  declinersPage = signal(0);
+  readonly pageSize = TOP_LIST_PAGE_SIZE;
+
+  // Sector navigation
+  activeSector = signal<string>('');
+  mobileMenuOpen = signal(false);
+  private sectorObserver: IntersectionObserver | null = null;
+
   private chart: Chart | null = null;
   expandedSubsectors = signal<Set<string>>(new Set());
 
-  constructor() {
+  constructor(private ngZone: NgZone) {
     // Expand the first subsector by default
     const firstSector = this.reportData.sectors[0];
     if (firstSector && firstSector.subsectors[0]) {
       const key = `${firstSector.name}::${firstSector.subsectors[0].name}`;
       this.expandedSubsectors.set(new Set([key]));
+    }
+
+    // Set initial active sector
+    if (firstSector) {
+      this.activeSector.set(firstSector.name);
     }
 
     // Effect to render chart when selected company changes
@@ -56,6 +75,93 @@ export class ReportComponent {
         setTimeout(() => this.renderChart(company), 0);
       }
     });
+
+    // Effect to auto-expand subsectors when searching
+    effect(() => {
+      const query = this.searchQuery().toLowerCase().trim();
+      if (query) {
+        // Find all subsectors with matching companies and expand them
+        const keysToExpand = new Set<string>();
+        for (const sector of this.reportData.sectors) {
+          for (const subsector of sector.subsectors) {
+            const hasMatch = subsector.companies.some(company =>
+              company.searchQuery.toLowerCase().includes(query) ||
+              company.ticker.toLowerCase().includes(query)
+            );
+            if (hasMatch) {
+              keysToExpand.add(`${sector.name}::${subsector.name}`);
+            }
+          }
+        }
+        if (keysToExpand.size > 0) {
+          this.expandedSubsectors.set(keysToExpand);
+        }
+      }
+    });
+  }
+
+  ngAfterViewInit(): void {
+    this.setupSectorObserver();
+  }
+
+  ngOnDestroy(): void {
+    if (this.sectorObserver) {
+      this.sectorObserver.disconnect();
+    }
+  }
+
+  private setupSectorObserver(): void {
+    // Use IntersectionObserver to detect which sector is in view
+    this.sectorObserver = new IntersectionObserver(
+      (entries) => {
+        // Find the entry that is most visible
+        const visibleEntries = entries.filter(e => e.isIntersecting);
+        if (visibleEntries.length > 0) {
+          // Sort by intersection ratio to find the most visible
+          visibleEntries.sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+          const sectorName = visibleEntries[0].target.getAttribute('data-sector');
+          if (sectorName) {
+            this.ngZone.run(() => {
+              this.activeSector.set(sectorName);
+            });
+          }
+        }
+      },
+      {
+        root: null,
+        rootMargin: '-20% 0px -60% 0px',
+        threshold: [0, 0.25, 0.5, 0.75, 1]
+      }
+    );
+
+    // Observe all sector sections after a short delay to ensure DOM is ready
+    setTimeout(() => {
+      const sectorElements = document.querySelectorAll('[data-sector]');
+      sectorElements.forEach(el => this.sectorObserver?.observe(el));
+    }, 100);
+  }
+
+  scrollToSector(sectorName: string): void {
+    const element = document.querySelector(`[data-sector="${sectorName}"]`);
+    if (element) {
+      const headerOffset = 180; // Account for sticky headers
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+    this.mobileMenuOpen.set(false);
+  }
+
+  toggleMobileMenu(): void {
+    this.mobileMenuOpen.set(!this.mobileMenuOpen());
+  }
+
+  getSectorId(sectorName: string): string {
+    return sectorName.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
   }
 
   // Sorting state per subsector (key: "sectorName::subsectorName")
@@ -78,20 +184,42 @@ export class ReportComponent {
     return companies;
   });
 
-  // Top gainers (highest December growth)
-  topGainers = computed(() => {
+  // All top gainers (highest December growth) - only positive growth, up to max
+  allTopGainers = computed(() => {
     return [...this.allCompanies()]
-      .filter(c => c.decemberGrowth !== null)
+      .filter(c => c.decemberGrowth !== null && c.decemberGrowth > 0)
       .sort((a, b) => (b.decemberGrowth ?? 0) - (a.decemberGrowth ?? 0))
-      .slice(0, 10);
+      .slice(0, TOP_LIST_MAX_COUNT);
   });
 
-  // Top decliners (lowest December growth)
-  topDecliners = computed(() => {
+  // All top decliners (lowest December growth) - only negative growth, up to max
+  allTopDecliners = computed(() => {
     return [...this.allCompanies()]
-      .filter(c => c.decemberGrowth !== null)
+      .filter(c => c.decemberGrowth !== null && c.decemberGrowth < 0)
       .sort((a, b) => (a.decemberGrowth ?? 0) - (b.decemberGrowth ?? 0))
-      .slice(0, 10);
+      .slice(0, TOP_LIST_MAX_COUNT);
+  });
+
+  // Paginated top gainers for display
+  topGainers = computed(() => {
+    const start = this.gainersPage() * this.pageSize;
+    return this.allTopGainers().slice(start, start + this.pageSize);
+  });
+
+  // Paginated top decliners for display
+  topDecliners = computed(() => {
+    const start = this.declinersPage() * this.pageSize;
+    return this.allTopDecliners().slice(start, start + this.pageSize);
+  });
+
+  // Total pages for gainers
+  gainersTotalPages = computed(() => {
+    return Math.ceil(this.allTopGainers().length / this.pageSize);
+  });
+
+  // Total pages for decliners
+  declinersTotalPages = computed(() => {
+    return Math.ceil(this.allTopDecliners().length / this.pageSize);
   });
 
   // Filter sectors based on search
@@ -169,6 +297,31 @@ export class ReportComponent {
   onSearchInput(event: Event): void {
     const input = event.target as HTMLInputElement;
     this.searchQuery.set(input.value);
+  }
+
+  // Pagination methods for Top Gainers/Decliners
+  nextGainersPage(): void {
+    if (this.gainersPage() < this.gainersTotalPages() - 1) {
+      this.gainersPage.set(this.gainersPage() + 1);
+    }
+  }
+
+  prevGainersPage(): void {
+    if (this.gainersPage() > 0) {
+      this.gainersPage.set(this.gainersPage() - 1);
+    }
+  }
+
+  nextDeclinersPage(): void {
+    if (this.declinersPage() < this.declinersTotalPages() - 1) {
+      this.declinersPage.set(this.declinersPage() + 1);
+    }
+  }
+
+  prevDeclinersPage(): void {
+    if (this.declinersPage() > 0) {
+      this.declinersPage.set(this.declinersPage() - 1);
+    }
   }
 
   // Sorting methods
@@ -267,17 +420,19 @@ export class ReportComponent {
 
   formatValue(value: number | null): string {
     if (value === null) return '-';
-    return value > 0 ? `+${value}%` : `${value}%`;
+    const formatted = value.toLocaleString();
+    return value > 0 ? `+${formatted}%` : `${formatted}%`;
   }
 
   formatReturn(value: number | null): string {
     if (value === null) return '-';
-    return value > 0 ? `+${value}%` : `${value}%`;
+    const formatted = value.toLocaleString();
+    return value > 0 ? `+${formatted}%` : `${formatted}%`;
   }
 
   formatPE(value: number | null): string {
     if (value === null) return '-';
-    return `${value}x`;
+    return `${value.toLocaleString()}x`;
   }
 
   // Chart methods
@@ -337,6 +492,27 @@ export class ReportComponent {
           pointBorderWidth: 2,
         }]
       },
+      plugins: [{
+        id: 'zeroLine',
+        beforeDraw: (chart: any) => {
+          const ctx = chart.ctx;
+          const yAxis = chart.scales.y;
+          const xAxis = chart.scales.x;
+          const y = yAxis.getPixelForValue(0);
+
+          if (y >= yAxis.top && y <= yAxis.bottom) {
+            ctx.save();
+            ctx.beginPath();
+            ctx.moveTo(xAxis.left, y);
+            ctx.lineTo(xAxis.right, y);
+            ctx.strokeStyle = 'rgba(0, 0, 0, 0.4)';
+            ctx.lineWidth = 1.5;
+            ctx.setLineDash([6, 4]);
+            ctx.stroke();
+            ctx.restore();
+          }
+        }
+      }],
       options: {
         responsive: true,
         maintainAspectRatio: false,
@@ -354,7 +530,8 @@ export class ReportComponent {
               label: (context) => {
                 const value = context.parsed.y;
                 if (value === null) return 'N/A';
-                return value > 0 ? `+${value}%` : `${value}%`;
+                const formatted = value.toLocaleString();
+                return value > 0 ? `+${formatted}%` : `${formatted}%`;
               }
             }
           }
@@ -375,7 +552,7 @@ export class ReportComponent {
               color: 'rgba(0, 0, 0, 0.05)'
             },
             ticks: {
-              callback: (value) => `${value}%`,
+              callback: (value) => `${Number(value).toLocaleString()}%`,
               font: {
                 size: 11
               }
