@@ -57,6 +57,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/inflection-report/",
               "budgets": [
                 {
                   "type": "initial",
@@ -90,6 +91,9 @@
             }
           },
           "defaultConfiguration": "development"
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
