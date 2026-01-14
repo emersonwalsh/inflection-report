@@ -14,7 +14,7 @@ Open your browser and navigate to `http://localhost:4200/`. The application will
 
 ## Deployment
 
-### Deploy to Hostinger (kinesiccap.com/google-trends)
+### Deploy to Hostinger (kinesiccap.com/googletrends)
 
 1. **Build and create the zip file:**
 
@@ -22,19 +22,19 @@ Open your browser and navigate to `http://localhost:4200/`. The application will
    npm run deploy:hostinger
    ```
 
-   This creates `google-trends.zip` in the project root.
+   This creates `googletrends.zip` in the project root.
 
 2. **Upload to Hostinger:**
 
    - Log in to your Hostinger control panel
    - Go to **File Manager** (or use FTP)
    - Navigate to your `public_html` folder
-   - Open or create the `google-trends` folder
-   - Upload `google-trends.zip` to this folder
+   - Open or create the `googletrends` folder
+   - Upload `googletrends.zip` to this folder
    - Extract the zip file contents
    - Delete the zip file after extraction
 
-3. **Verify:** Visit https://kinesiccap.com/google-trends
+3. **Verify:** Visit https://kinesiccap.com/googletrends
 
 ### Deploy to GitHub Pages
 

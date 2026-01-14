@@ -9,8 +9,8 @@
     "test": "ng test",
     "deploy": "ng deploy",
     "build:data": "node ../scripts/buildAngularData.js",
-    "build:hostinger": "ng build --base-href=/google-trends/",
-    "zip:hostinger": "cd dist/inflection-report/browser && zip -r ../../../google-trends.zip .",
+    "build:hostinger": "ng build --base-href=/googletrends/",
+    "zip:hostinger": "cd dist/inflection-report/browser && zip -r ../../../googletrends.zip .",
     "deploy:hostinger": "npm run build:hostinger && npm run zip:hostinger"
   },
   "prettier": {
