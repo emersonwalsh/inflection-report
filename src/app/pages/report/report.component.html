@@ -93,7 +93,7 @@
 }
 
 <!-- Sticky Search and Controls Bar -->
-<div class="sticky top-[68px] z-20 bg-white/90 backdrop-blur-lg border border-[rgba(15,23,42,0.08)] rounded-lg shadow-md py-3 px-4 mb-6">
+<div class="sticky z-20 bg-white/90 backdrop-blur-lg border border-[rgba(15,23,42,0.08)] rounded-lg shadow-md py-3 px-4 mb-6 transition-[top] duration-300" style="top: var(--search-bar-top)">
   <!-- Top row: Search and Controls -->
   <div class="flex flex-row gap-3 items-center justify-between">
     <!-- Mobile: Hamburger Menu Button -->
@@ -122,7 +122,7 @@
         type="text"
         [value]="searchQuery()"
         (input)="onSearchInput($event)"
-        placeholder="Search company or ticker..."
+        [placeholder]="searchPlaceholder()"
         class="block w-full pl-10 pr-10 py-2 border border-gray-300 rounded-lg text-base md:text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
       />
       @if (searchQuery()) {

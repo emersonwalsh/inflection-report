@@ -1,4 +1,4 @@
-import { Component, signal, computed, ViewChild, ElementRef, effect, AfterViewInit, OnDestroy, NgZone } from '@angular/core';
+import { Component, signal, computed, ViewChild, ElementRef, effect, AfterViewInit, OnDestroy, OnInit, NgZone, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Chart, registerables } from 'chart.js';
@@ -32,11 +32,15 @@ interface SortState {
   templateUrl: './report.component.html',
   styleUrl: './report.component.scss'
 })
-export class ReportComponent implements AfterViewInit, OnDestroy {
+export class ReportComponent implements AfterViewInit, OnDestroy, OnInit {
   @ViewChild('chartCanvas') chartCanvas!: ElementRef<HTMLCanvasElement>;
 
   readonly reportData = REPORT_DATA;
   readonly months = MONTHS;
+
+  // Mobile detection for responsive placeholder
+  isMobile = signal(false);
+  searchPlaceholder = computed(() => this.isMobile() ? 'Company or ticker...' : 'Search company or ticker...');
 
   searchQuery = signal('');
   selectedCompany = signal<CompanyWithContext | null>(null);
@@ -98,6 +102,19 @@ export class ReportComponent implements AfterViewInit, OnDestroy {
         }
       }
     });
+  }
+
+  ngOnInit(): void {
+    this.checkMobile();
+  }
+
+  @HostListener('window:resize')
+  onResize(): void {
+    this.checkMobile();
+  }
+
+  private checkMobile(): void {
+    this.isMobile.set(window.innerWidth < 768);
   }
 
   ngAfterViewInit(): void {
