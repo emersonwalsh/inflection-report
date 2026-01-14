@@ -24,6 +24,10 @@ body {
 }
 
 /* Button styles */
+button, a.btn {
+  cursor: pointer;
+}
+
 .btn {
   // display: inline-flex;
   align-items: center;
