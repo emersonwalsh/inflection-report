@@ -24,7 +24,7 @@
                 [href]="selectedCompany()!.googleTrendsUrl"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="inline-flex items-center gap-2 px-3 py-1.5 text-sm font-medium text-blue-600 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors"
+                class="btn btn-primary text-sm"
               >
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -80,7 +80,7 @@
 }
 
 <!-- Sticky Search and Controls Bar -->
-<div class="sticky top-[89px] sm:top-[73px] z-20 bg-white border border-gray-200 rounded-lg shadow-sm py-3 px-4 mb-6">
+<div class="sticky top-[68px] z-20 bg-white/90 backdrop-blur-lg border border-[rgba(15,23,42,0.08)] rounded-lg shadow-md py-3 px-4 mb-6">
   <!-- Top row: Search and Controls -->
   <div class="flex flex-row gap-3 items-center justify-between">
     <!-- Mobile: Hamburger Menu Button -->
@@ -131,13 +131,13 @@
       }
       <button
         (click)="expandAll()"
-        class="px-3 py-2 text-sm rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium transition-colors hidden sm:block"
+        class="btn btn-ghost text-sm hidden sm:inline-flex"
       >
         Expand All
       </button>
       <button
         (click)="collapseAll()"
-        class="px-3 py-2 text-sm rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium transition-colors hidden sm:block"
+        class="btn btn-ghost text-sm hidden sm:inline-flex"
       >
         Collapse All
       </button>
@@ -149,10 +149,10 @@
     @for (sector of reportData.sectors; track sector.name) {
       <button
         (click)="scrollToSector(sector.name)"
-        class="px-3 py-1.5 text-sm font-medium rounded-lg whitespace-nowrap transition-colors"
+        class="px-3 py-1.5 text-sm font-medium rounded-full whitespace-nowrap transition-all"
         [class]="activeSector() === sector.name
-          ? 'bg-blue-600 text-white'
-          : 'text-gray-600 hover:bg-gray-100'"
+          ? 'bg-gradient-to-r from-[#4f46e5] to-[#3b82f6] text-white'
+          : 'text-[#0f172a] bg-[rgba(15,23,42,0.06)] hover:bg-[rgba(15,23,42,0.1)]'"
       >
         {{ sector.name }}
       </button>
@@ -166,10 +166,10 @@
         @for (sector of reportData.sectors; track sector.name) {
           <button
             (click)="scrollToSector(sector.name)"
-            class="px-3 py-2 text-sm font-medium rounded-lg text-left transition-colors"
+            class="px-3 py-2 text-sm font-medium rounded-full text-left transition-all"
             [class]="activeSector() === sector.name
-              ? 'bg-blue-600 text-white'
-              : 'bg-gray-100 text-gray-700 hover:bg-gray-200'"
+              ? 'bg-gradient-to-r from-[#4f46e5] to-[#3b82f6] text-white'
+              : 'bg-[rgba(15,23,42,0.06)] text-[#0f172a] hover:bg-[rgba(15,23,42,0.1)]'"
           >
             {{ sector.name }}
           </button>
@@ -179,13 +179,13 @@
       <div class="flex gap-2 mt-3 pt-3 border-t border-gray-200">
         <button
           (click)="expandAll()"
-          class="flex-1 px-3 py-2 text-sm rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium transition-colors"
+          class="btn btn-ghost text-sm flex-1"
         >
           Expand All
         </button>
         <button
           (click)="collapseAll()"
-          class="flex-1 px-3 py-2 text-sm rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium transition-colors"
+          class="btn btn-ghost text-sm flex-1"
         >
           Collapse All
         </button>
@@ -198,7 +198,7 @@
 @if (!searchQuery()) {
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
     <!-- Top Gainers -->
-    <div class="bg-white rounded-lg shadow border border-gray-200 overflow-hidden">
+    <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
       <div class="px-4 py-3 bg-green-50 border-b border-green-100">
         <h2 class="text-lg font-semibold text-green-800 flex items-center gap-2">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -214,7 +214,7 @@
               <th class="px-4 py-2 text-left font-semibold text-gray-700">#</th>
               <th class="px-4 py-2 text-left font-semibold text-gray-700">Company</th>
               <th class="px-4 py-2 text-left font-semibold text-gray-700">Ticker</th>
-              <th class="px-4 py-2 text-left font-semibold text-gray-700 text-xs">Subsector</th>
+              <th class="px-4 py-2 text-left font-semibold text-gray-700 text-xs hidden sm:table-cell">Subsector</th>
               <th class="px-4 py-2 text-right font-semibold text-gray-700">Growth</th>
             </tr>
           </thead>
@@ -230,7 +230,7 @@
                   {{ company.searchQuery }}
                 </td>
                 <td class="px-4 py-2 text-gray-600 whitespace-nowrap">{{ company.ticker }}</td>
-                <td class="px-4 py-2 text-gray-500 text-xs whitespace-nowrap overflow-hidden text-ellipsis max-w-[120px]" [title]="company.subsectorName">{{ company.subsectorName }}</td>
+                <td class="px-4 py-2 text-gray-500 text-xs whitespace-nowrap overflow-hidden text-ellipsis max-w-[120px] hidden sm:table-cell" [title]="company.subsectorName">{{ company.subsectorName }}</td>
                 <td class="px-4 py-2 text-right">
                   <span class="inline-block px-2 py-1 rounded text-sm font-semibold" [class]="getGrowthClass(company.decemberGrowth)">
                     {{ formatValue(company.decemberGrowth) }}
@@ -272,7 +272,7 @@
     </div>
 
     <!-- Top Decliners -->
-    <div class="bg-white rounded-lg shadow border border-gray-200 overflow-hidden">
+    <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
       <div class="px-4 py-3 bg-red-50 border-b border-red-100">
         <h2 class="text-lg font-semibold text-red-800 flex items-center gap-2">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -288,7 +288,7 @@
               <th class="px-4 py-2 text-left font-semibold text-gray-700">#</th>
               <th class="px-4 py-2 text-left font-semibold text-gray-700">Company</th>
               <th class="px-4 py-2 text-left font-semibold text-gray-700">Ticker</th>
-              <th class="px-4 py-2 text-left font-semibold text-gray-700 text-xs">Subsector</th>
+              <th class="px-4 py-2 text-left font-semibold text-gray-700 text-xs hidden sm:table-cell">Subsector</th>
               <th class="px-4 py-2 text-right font-semibold text-gray-700">Growth</th>
             </tr>
           </thead>
@@ -304,7 +304,7 @@
                   {{ company.searchQuery }}
                 </td>
                 <td class="px-4 py-2 text-gray-600 whitespace-nowrap">{{ company.ticker }}</td>
-                <td class="px-4 py-2 text-gray-500 text-xs whitespace-nowrap overflow-hidden text-ellipsis max-w-[120px]" [title]="company.subsectorName">{{ company.subsectorName }}</td>
+                <td class="px-4 py-2 text-gray-500 text-xs whitespace-nowrap overflow-hidden text-ellipsis max-w-[120px] hidden sm:table-cell" [title]="company.subsectorName">{{ company.subsectorName }}</td>
                 <td class="px-4 py-2 text-right">
                   <span class="inline-block px-2 py-1 rounded text-sm font-semibold" [class]="getGrowthClass(company.decemberGrowth)">
                     {{ formatValue(company.decemberGrowth) }}
@@ -349,7 +349,7 @@
 
 <!-- No Results Message -->
 @if (!hasSearchResults()) {
-  <div class="bg-white rounded-lg shadow border border-gray-200 p-8 text-center">
+  <div class="bg-white rounded-lg shadow-md border border-gray-200 p-8 text-center">
     <svg class="mx-auto h-12 w-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
     </svg>
@@ -357,7 +357,7 @@
     <p class="mt-1 text-sm text-gray-500">No companies match "{{ searchQuery() }}". Try a different search term.</p>
     <button
       (click)="clearSearch()"
-      class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+      class="btn btn-primary mt-4"
     >
       Clear search
     </button>
@@ -380,13 +380,13 @@
         <!-- Subsectors -->
         <div class="space-y-3">
           @for (subsector of sector.subsectors; track subsector.name) {
-            <div class="bg-white rounded-lg shadow border border-gray-200 overflow-hidden">
+            <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
               <!-- Subsector Header -->
               <button
                 (click)="toggleSubsector(sector.name, subsector.name)"
                 class="w-full px-4 py-3 flex items-center justify-between bg-gray-50 hover:bg-gray-100 transition-colors"
               >
-                <h3 class="text-base font-semibold text-gray-800">{{ subsector.name }}</h3>
+                <h3 class="text-base font-semibold text-gray-800 text-left">{{ subsector.name }}</h3>
                 <div class="flex items-center gap-3">
                   <span class="text-sm text-gray-500">{{ subsector.companies.length }} companies</span>
                   <svg
@@ -540,7 +540,7 @@
 }
 
 <!-- Legend -->
-<div class="mt-8 p-4 bg-white rounded-lg shadow border border-gray-200">
+<div class="mt-8 p-4 bg-white rounded-lg shadow-md border border-gray-200">
   <h4 class="font-semibold text-gray-700 mb-3">Growth Legend (YoY Change)</h4>
   <div class="flex flex-wrap gap-4 text-sm">
     <div class="flex items-center gap-2">

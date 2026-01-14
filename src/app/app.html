@@ -1,15 +1,12 @@
-<header class="sticky top-0 z-30 bg-white shadow-sm border-b border-gray-200">
-  <div class="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between">
-      <div>
-        <h1 class="text-2xl font-bold text-gray-900">The Inflection Report</h1>
-        <p class="text-sm text-gray-500">December 2025 | Data updated through January 3, 2026</p>
-      </div>
-      <div class="text-right hidden sm:block">
-        <p class="text-sm text-gray-600">Google Trends YoY Search Interest Growth</p>
-        <p class="text-xs text-gray-400">By Inflection Labs</p>
-      </div>
+<header class="sticky top-0 z-30 bg-white/80 backdrop-blur-xl backdrop-saturate-[180%] border-b border-[rgba(15,23,42,0.03)]">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[60px] flex items-center justify-between">
+    <div>
+      <h1 class="text-xl font-bold text-[#0f172a]">The Inflection Report</h1>
+      <p class="text-xs text-[#6b7280] flex">December 2025<span class="hidden sm:block">| Data updated through January 3, 2026</span></p>
     </div>
+    <a href="https://inflectionlabs.io" target="_blank" class="btn btn-ghost text-sm hidden sm:inline-flex">
+      Inflection Labs
+    </a>
   </div>
 </header>
 
@@ -17,8 +14,23 @@
   <router-outlet />
 </main>
 
-<footer class="bg-gray-100 border-t border-gray-200 mt-8">
-  <div class="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8 text-center text-sm text-gray-500">
-    Data source: Google Trends | Inflection Labs
+<footer class="bg-white border-t border-[rgba(15,23,42,0.05)] mt-8 py-6">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Mobile only: Data updated and Inflection Labs link -->
+    <div class="sm:hidden flex flex-col items-center gap-3 mb-4 pb-4 border-b border-[rgba(15,23,42,0.05)]">
+      <p class="text-xs text-[#6b7280]">Data updated through January 3, 2026</p>
+      <a href="https://inflectionlabs.io" target="_blank" class="btn btn-ghost text-sm">
+        Inflection Labs
+      </a>
+    </div>
+    <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p class="text-sm text-[#6b7280]">&copy; 2025 Inflection Labs. All rights reserved.</p>
+      <div class="flex items-center gap-4">
+        <a href="mailto:research@inflectionlabs.io" class="text-sm text-[#6b7280] hover:text-[#0f172a] transition-colors">Contact</a>
+        <a href="https://x.com/Inflection_Labs" target="_blank" class="text-[#6b7280] hover:text-[#0f172a] transition-colors">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+      </div>
+    </div>
   </div>
 </footer>
