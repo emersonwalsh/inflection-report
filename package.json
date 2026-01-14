@@ -8,7 +8,10 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "deploy": "ng deploy",
-    "build:data": "node ../scripts/buildAngularData.js"
+    "build:data": "node ../scripts/buildAngularData.js",
+    "build:hostinger": "ng build --base-href=/report/",
+    "zip:hostinger": "cd dist/inflection-report/browser && zip -r ../../../report.zip .",
+    "deploy:hostinger": "npm run build:hostinger && npm run zip:hostinger"
   },
   "prettier": {
     "printWidth": 100,
