@@ -1,7 +1,7 @@
 import { ReportData } from '../models/report.model';
 
 export const REPORT_DATA: ReportData = {
-  title: "The Inflection Report",
+  title: "Google Trends Tracker",
   date: "December 2025",
   dataUpdatedThrough: "January 3, 2026",
   sectors: [
