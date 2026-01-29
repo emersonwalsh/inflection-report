@@ -1,0 +1,84 @@
+<div class="h-dvh fixed inset-0 flex items-center justify-center bg-gray-50 p-4 overflow-hidden">
+  <div class="bg-white rounded-xl shadow-2xl w-full max-w-md">
+    <!-- Logo -->
+    <div class="pt-8 pb-4 mx-8 flex justify-center border-b border-[rgba(15,23,42,0.05)]">
+      <img src="black_logo.png" alt="Kinesic Capital" class="h-10 mb-4">
+    </div>
+
+    <!-- Content -->
+    <div class="px-8 pt-6 pb-8">
+      @if (!emailSent()) {
+        <!-- Email Form -->
+        <h2 class="text-2xl font-bold text-center text-[#0f172a] mb-2">
+          Google Trends Tracker
+        </h2>
+        <p class="text-sm text-center text-[#6b7280] mb-6">
+          Enter your email to access the full report with YoY search interest data for 500+ companies.
+        </p>
+
+        <form (ngSubmit)="submitEmail()" class="space-y-4">
+          <div>
+            <input
+              type="email"
+              [(ngModel)]="email"
+              name="email"
+              placeholder="Enter your email address"
+              class="block w-full px-4 py-3 border border-gray-300 rounded-lg text-base placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              [disabled]="isSubmitting()"
+              autocomplete="email"
+            />
+            @if (error()) {
+              <p class="mt-2 text-sm text-red-600">{{ error() }}</p>
+            }
+          </div>
+
+          <button
+            type="submit"
+            [disabled]="isSubmitting()"
+            class="w-full btn btn-primary py-3 text-base font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            @if (isSubmitting()) {
+              <svg class="animate-spin h-5 w-5 inline mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+              </svg>
+              Sending...
+            } @else {
+              Continue with Email
+            }
+          </button>
+        </form>
+
+        <p class="mt-4 text-xs text-center text-[#9ca3af]">
+          We'll send you a magic link to verify your email.
+        </p>
+      } @else {
+        <!-- Email Sent Confirmation -->
+        <div class="text-center">
+          <div class="mx-auto w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
+            <svg class="w-8 h-8 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+          </div>
+          <h2 class="text-2xl font-bold text-[#0f172a] mb-2">
+            Check your email
+          </h2>
+          <p class="text-sm text-[#6b7280] mb-6">
+            We sent a verification link to<br>
+            <span class="font-medium text-[#0f172a]">{{ email() }}</span>
+          </p>
+          <p class="text-xs text-[#9ca3af] mb-6">
+            Click the link in the email to access the report.<br>
+            The link will expire in 1 hour.
+          </p>
+          <button
+            (click)="resetForm()"
+            class="text-sm text-blue-600 hover:text-blue-700 font-medium"
+          >
+            Use a different email
+          </button>
+        </div>
+      }
+    </div>
+  </div>
+</div>

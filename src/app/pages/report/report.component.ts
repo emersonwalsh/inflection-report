@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { Chart, registerables } from 'chart.js';
 import { REPORT_DATA } from '../../data/report-data';
 import { Sector, Subsector, CompanyData, MONTHS } from '../../models/report.model';
-import { EmailCaptureComponent } from '../../components/email-capture/email-capture.component';
+import { SupabaseService } from '../../services/supabase.service';
 
 // Register Chart.js components
 Chart.register(...registerables);
@@ -29,7 +29,7 @@ interface SortState {
 @Component({
   selector: 'app-report',
   standalone: true,
-  imports: [CommonModule, FormsModule, EmailCaptureComponent],
+  imports: [CommonModule, FormsModule],
   templateUrl: './report.component.html',
   styleUrl: './report.component.scss'
 })
@@ -38,9 +38,6 @@ export class ReportComponent implements AfterViewInit, OnDestroy, OnInit {
 
   readonly reportData = REPORT_DATA;
   readonly months = MONTHS;
-
-  // Email capture modal
-  showEmailCapture = signal(false);
 
   // Mobile detection for responsive placeholder
   isMobile = signal(false);
@@ -110,17 +107,6 @@ export class ReportComponent implements AfterViewInit, OnDestroy, OnInit {
 
   ngOnInit(): void {
     this.checkMobile();
-    this.checkEmailCapture();
-  }
-
-  private checkEmailCapture(): void {
-    if (!EmailCaptureComponent.hasAlreadyCaptured()) {
-      this.showEmailCapture.set(true);
-    }
-  }
-
-  onEmailCaptured(): void {
-    this.showEmailCapture.set(false);
   }
 
   @HostListener('window:resize')

@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /googletrends/
+
+    # If the requested file or directory doesn't exist
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Rewrite all requests to index.html
+    RewriteRule ^.*$ index.html [L]
+</IfModule>
+
+# Fallback for when mod_rewrite is not available
+ErrorDocument 404 /googletrends/index.html

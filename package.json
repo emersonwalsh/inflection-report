@@ -9,7 +9,7 @@
     "test": "ng test",
     "deploy": "ng deploy",
     "build:data": "node ../scripts/buildAngularData.js",
-    "build:hostinger": "ng build --base-href=/googletrends/",
+    "build:hostinger": "ng build --base-href=/googletrends/ && mkdir -p dist/inflection-report/browser/auth/callback && cp dist/inflection-report/browser/index.html dist/inflection-report/browser/auth/callback/index.html && mkdir -p dist/inflection-report/browser/login && cp dist/inflection-report/browser/index.html dist/inflection-report/browser/login/index.html",
     "zip:hostinger": "cd dist/inflection-report/browser && zip -r ../../../googletrends.zip .",
     "deploy:hostinger": "npm run build:hostinger && npm run zip:hostinger"
   },
@@ -35,6 +35,7 @@
     "@angular/forms": "^21.0.0",
     "@angular/platform-browser": "^21.0.0",
     "@angular/router": "^21.0.0",
+    "@supabase/supabase-js": "^2.91.0",
     "chart.js": "^4.5.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"

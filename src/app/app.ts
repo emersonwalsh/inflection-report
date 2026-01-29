@@ -1,5 +1,7 @@
-import { Component, signal, HostListener } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, signal, HostListener, computed } from '@angular/core';
+import { RouterOutlet, Router, NavigationEnd } from '@angular/router';
+import { filter } from 'rxjs/operators';
+import { toSignal } from '@angular/core/rxjs-interop';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +18,21 @@ export class App {
 
   private lastScrollY = 0;
   private scrollThreshold = 60; // Header height
+
+  // Track if we're on a full-screen page (login, auth-callback)
+  private currentUrl = signal('/');
+  protected readonly isFullScreenPage = computed(() => {
+    const url = this.currentUrl();
+    return url.includes('/login') || url.includes('/auth/callback');
+  });
+
+  constructor(private router: Router) {
+    this.router.events.pipe(
+      filter(event => event instanceof NavigationEnd)
+    ).subscribe((event: NavigationEnd) => {
+      this.currentUrl.set(event.urlAfterRedirects);
+    });
+  }
 
   @HostListener('window:scroll')
   onScroll() {

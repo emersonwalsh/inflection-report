@@ -1,7 +1,19 @@
 import { Routes } from '@angular/router';
-import { ReportComponent } from './pages/report/report.component';
+import { authGuard } from './guards/auth.guard';
 
 export const routes: Routes = [
-  { path: '', component: ReportComponent },
+  {
+    path: '',
+    loadComponent: () => import('./pages/report/report.component').then(m => m.ReportComponent),
+    canActivate: [authGuard]
+  },
+  {
+    path: 'login',
+    loadComponent: () => import('./pages/login/login.component').then(m => m.LoginComponent)
+  },
+  {
+    path: 'auth/callback',
+    loadComponent: () => import('./pages/auth-callback/auth-callback.component').then(m => m.AuthCallbackComponent)
+  },
   { path: '**', redirectTo: '' }
 ];

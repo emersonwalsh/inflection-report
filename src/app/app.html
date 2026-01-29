@@ -1,20 +1,23 @@
-<header class="header sticky top-0 z-30 bg-white backdrop-blur-xl backdrop-saturate-[180%] border-b border-[rgba(15,23,42,0.03)] transition-transform duration-300">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[60px] flex items-center justify-between">
-    <div>
-      <h1 class="text-xl font-bold text-[#0f172a]">Google Trends Tracker</h1>
-      <p class="text-xs text-[#6b7280] flex">December 2025<span class="hidden sm:block">&nbsp;| Data updated through January 3, 2026</span></p>
+@if (!isFullScreenPage()) {
+  <header class="header sticky top-0 z-30 bg-white backdrop-blur-xl backdrop-saturate-[180%] border-b border-[rgba(15,23,42,0.03)] transition-transform duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[60px] flex items-center justify-between">
+      <div>
+        <h1 class="text-xl font-bold text-[#0f172a]">Google Trends Tracker</h1>
+        <p class="text-xs text-[#6b7280] flex">December 2025<span class="hidden sm:block">&nbsp;| Data updated through January 3, 2026</span></p>
+      </div>
+      <a href="https://kinesiccap.com" target="_blank" class="hidden sm:inline-flex hover:opacity-70 transition-opacity">
+        <img src="black_logo.png" alt="Kinesic Capital" class="h-7">
+      </a>
     </div>
-    <a href="https://kinesiccap.com" target="_blank" class="hidden sm:inline-flex hover:opacity-70 transition-opacity">
-      <img src="black_logo.png" alt="Kinesic Capital" class="h-7">
-    </a>
-  </div>
-</header>
+  </header>
+}
 
-<main class="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
+<main [class]="isFullScreenPage() ? '' : 'max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8'">
   <router-outlet />
 </main>
 
-<footer class="bg-white border-t border-[rgba(15,23,42,0.05)] mt-8 py-6">
+@if (!isFullScreenPage()) {
+  <footer class="bg-white border-t border-[rgba(15,23,42,0.05)] mt-8 py-6">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <!-- Mobile only: Logo and Data updated -->
     <div class="sm:hidden flex flex-col items-center gap-3 mb-4 pb-4 border-b border-[rgba(15,23,42,0.05)]">
@@ -38,3 +41,4 @@
     </div>
   </div>
 </footer>
+}
