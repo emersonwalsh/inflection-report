@@ -9,8 +9,8 @@
     "test": "ng test",
     "deploy": "ng deploy",
     "build:data": "node ../scripts/buildAngularData.js",
-    "build:hostinger": "ng build --base-href=/googletrends/ && mkdir -p dist/inflection-report/browser/auth/callback && cp dist/inflection-report/browser/index.html dist/inflection-report/browser/auth/callback/index.html && mkdir -p dist/inflection-report/browser/login && cp dist/inflection-report/browser/index.html dist/inflection-report/browser/login/index.html",
-    "zip:hostinger": "cd dist/inflection-report/browser && zip -r ../../../googletrends.zip .",
+    "build:hostinger": "rm -rf dist/inflection-report && ng build --base-href=/googletrends/ && mkdir -p dist/inflection-report/browser/auth/callback && cp dist/inflection-report/browser/index.html dist/inflection-report/browser/auth/callback/index.html && mkdir -p dist/inflection-report/browser/login && cp dist/inflection-report/browser/index.html dist/inflection-report/browser/login/index.html",
+    "zip:hostinger": "rm -f googletrends.zip && cd dist/inflection-report/browser && zip -r ../../../googletrends.zip .",
     "deploy:hostinger": "npm run build:hostinger && npm run zip:hostinger"
   },
   "prettier": {
