@@ -74,14 +74,18 @@ export class ReportComponent implements AfterViewInit, OnDestroy, OnInit {
   expandedSubsectors = signal<Set<string>>(new Set());
 
   constructor(private ngZone: NgZone) {
-    // Expand the first subsector by default
-    const firstSector = this.reportData.sectors[0];
-    if (firstSector && firstSector.subsectors[0]) {
-      const key = `${firstSector.name}::${firstSector.subsectors[0].name}`;
-      this.expandedSubsectors.set(new Set([key]));
+    // Expand the first subsector (alphabetically) of each sector by default
+    const expandedKeys = new Set<string>();
+    for (const sector of this.reportData.sectors) {
+      if (sector.subsectors.length > 0) {
+        const firstSubsector = [...sector.subsectors].sort((a, b) => a.name.localeCompare(b.name))[0];
+        expandedKeys.add(`${sector.name}::${firstSubsector.name}`);
+      }
     }
+    this.expandedSubsectors.set(expandedKeys);
 
     // Set initial active sector
+    const firstSector = this.reportData.sectors[0];
     if (firstSector) {
       this.activeSector.set(firstSector.name);
     }
