@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Chart, registerables } from 'chart.js';
 import { REPORT_DATA } from '../../data/report-data';
-import { Sector, Subsector, CompanyData, MONTHS } from '../../models/report.model';
+import { Sector, Subsector, CompanyData } from '../../models/report.model';
 import { SupabaseService } from '../../services/supabase.service';
 
 // Register Chart.js components
@@ -37,7 +37,9 @@ export class ReportComponent implements AfterViewInit, OnDestroy, OnInit {
   @ViewChild('chartCanvas') chartCanvas!: ElementRef<HTMLCanvasElement>;
 
   readonly reportData = REPORT_DATA;
-  readonly months = MONTHS;
+
+  // Derive months from the actual data instead of a hardcoded constant
+  readonly months = this.reportData.sectors[0]?.subsectors[0]?.companies[0]?.monthlyGrowth.map(m => m.month) ?? [];
 
   // Mobile detection for responsive placeholder
   isMobile = signal(false);
@@ -243,19 +245,27 @@ export class ReportComponent implements AfterViewInit, OnDestroy, OnInit {
   // Filter sectors based on search
   filteredSectors = computed(() => {
     const query = this.searchQuery().toLowerCase().trim();
+    const sortSubsectors = (subsectors: Subsector[]) =>
+      [...subsectors].sort((a, b) => a.name.localeCompare(b.name));
+
     if (!query) {
-      return this.reportData.sectors;
+      return this.reportData.sectors.map(sector => ({
+        ...sector,
+        subsectors: sortSubsectors(sector.subsectors)
+      }));
     }
 
     return this.reportData.sectors.map(sector => ({
       ...sector,
-      subsectors: sector.subsectors.map(subsector => ({
-        ...subsector,
-        companies: subsector.companies.filter(company =>
-          company.searchQuery.toLowerCase().includes(query) ||
-          company.ticker.toLowerCase().includes(query)
-        )
-      })).filter(subsector => subsector.companies.length > 0)
+      subsectors: sortSubsectors(
+        sector.subsectors.map(subsector => ({
+          ...subsector,
+          companies: subsector.companies.filter(company =>
+            company.searchQuery.toLowerCase().includes(query) ||
+            company.ticker.toLowerCase().includes(query)
+          )
+        })).filter(subsector => subsector.companies.length > 0)
+      )
     })).filter(sector => sector.subsectors.length > 0);
   });
 

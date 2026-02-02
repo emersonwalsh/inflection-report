@@ -68,7 +68,7 @@
         <div class="px-6 py-4 bg-gray-50 rounded-b-xl border-t border-gray-200">
           <div class="grid grid-cols-3 gap-4 text-center">
             <div>
-              <p class="text-xs text-gray-500 uppercase tracking-wide">December Growth</p>
+              <p class="text-xs text-gray-500 uppercase tracking-wide">January Growth</p>
               <p class="text-lg font-bold" [class]="selectedCompany()!.decemberGrowth !== null && selectedCompany()!.decemberGrowth! > 0 ? 'text-green-600' : selectedCompany()!.decemberGrowth !== null && selectedCompany()!.decemberGrowth! < 0 ? 'text-red-600' : 'text-gray-600'">
                 {{ formatValue(selectedCompany()!.decemberGrowth) }}
               </p>
@@ -217,7 +217,7 @@
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
           </svg>
-          Top Gainers (December YoY)
+          Top Gainers (January YoY)
         </h2>
       </div>
       <div class="overflow-x-auto">
@@ -291,7 +291,7 @@
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0v-8m0 8l-8-8-4 4-6-6" />
           </svg>
-          Top Decliners (December YoY)
+          Top Decliners (January YoY)
         </h2>
       </div>
       <div class="overflow-x-auto">
