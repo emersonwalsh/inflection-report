@@ -9,7 +9,7 @@ export interface CompanyData {
   weekReturn52: number | null;
   peMultiple: number | null;
   monthlyGrowth: MonthlyGrowth[];
-  decemberGrowth: number | null;
+  latestGrowth: number | null;
   googleTrendsUrl: string;
 }
 

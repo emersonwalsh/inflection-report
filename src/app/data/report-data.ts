@@ -66,7 +66,7 @@ export const REPORT_DATA: ReportData = {
                   value: 23
                 }
               ],
-              decemberGrowth: 23,
+              latestGrowth: 23,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Xometry,Xometry,Xometry,Xometry&hl=en"
             },
             {
@@ -124,7 +124,7 @@ export const REPORT_DATA: ReportData = {
                   value: 13
                 }
               ],
-              decemberGrowth: 13,
+              latestGrowth: 13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Moonpig,Moonpig,Moonpig,Moonpig&hl=en"
             },
             {
@@ -182,7 +182,7 @@ export const REPORT_DATA: ReportData = {
                   value: 5
                 }
               ],
-              decemberGrowth: 5,
+              latestGrowth: 5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Haypp,Haypp,Haypp,Haypp&hl=en"
             },
             {
@@ -240,7 +240,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1
                 }
               ],
-              decemberGrowth: 1,
+              latestGrowth: 1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Chewy,Chewy,Chewy,Chewy&hl=en"
             },
             {
@@ -298,7 +298,7 @@ export const REPORT_DATA: ReportData = {
                   value: 0
                 }
               ],
-              decemberGrowth: 0,
+              latestGrowth: 0,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Temple%20Webster,Temple%20Webster,Temple%20Webster,Temple%20Webster&hl=en"
             },
             {
@@ -356,7 +356,7 @@ export const REPORT_DATA: ReportData = {
                   value: 0
                 }
               ],
-              decemberGrowth: 0,
+              latestGrowth: 0,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Overstock,Overstock,Overstock,Overstock&hl=en"
             },
             {
@@ -414,7 +414,7 @@ export const REPORT_DATA: ReportData = {
                   value: -9
                 }
               ],
-              decemberGrowth: -9,
+              latestGrowth: -9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=4imprint%20%2B%204%20imprint,4imprint%20%2B%204%20imprint,4imprint%20%2B%204%20imprint,4imprint%20%2B%204%20imprint&hl=en"
             },
             {
@@ -472,7 +472,7 @@ export const REPORT_DATA: ReportData = {
                   value: -12
                 }
               ],
-              decemberGrowth: -12,
+              latestGrowth: -12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=VistaPrint%20%2B%20Vista%20Print,VistaPrint%20%2B%20Vista%20Print,VistaPrint%20%2B%20Vista%20Print,VistaPrint%20%2B%20Vista%20Print&hl=en"
             },
             {
@@ -530,7 +530,7 @@ export const REPORT_DATA: ReportData = {
                   value: -13
                 }
               ],
-              decemberGrowth: -13,
+              latestGrowth: -13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Wayfair,Wayfair,Wayfair,Wayfair&hl=en"
             },
             {
@@ -588,7 +588,7 @@ export const REPORT_DATA: ReportData = {
                   value: -27
                 }
               ],
-              decemberGrowth: -27,
+              latestGrowth: -27,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=BarkBox%20%2B%20Bark%20Box,BarkBox%20%2B%20Bark%20Box,BarkBox%20%2B%20Bark%20Box,BarkBox%20%2B%20Bark%20Box&hl=en"
             }
           ]
@@ -651,7 +651,7 @@ export const REPORT_DATA: ReportData = {
                   value: 52
                 }
               ],
-              decemberGrowth: 52,
+              latestGrowth: 52,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=AutoHero%20%2B%20Auto%20Hero,AutoHero%20%2B%20Auto%20Hero,AutoHero%20%2B%20Auto%20Hero,AutoHero%20%2B%20Auto%20Hero&hl=en"
             },
             {
@@ -709,7 +709,7 @@ export const REPORT_DATA: ReportData = {
                   value: 12
                 }
               ],
-              decemberGrowth: 12,
+              latestGrowth: 12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Cars.com,Cars.com,Cars.com,Cars.com&hl=en"
             },
             {
@@ -767,7 +767,7 @@ export const REPORT_DATA: ReportData = {
                   value: 11
                 }
               ],
-              decemberGrowth: 11,
+              latestGrowth: 11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Carvana,Carvana,Carvana,Carvana&hl=en"
             },
             {
@@ -825,7 +825,7 @@ export const REPORT_DATA: ReportData = {
                   value: 5
                 }
               ],
-              decemberGrowth: 5,
+              latestGrowth: 5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=ACV%20Auctions,ACV%20Auctions,ACV%20Auctions,ACV%20Auctions&hl=en"
             },
             {
@@ -883,7 +883,7 @@ export const REPORT_DATA: ReportData = {
                   value: 3
                 }
               ],
-              decemberGrowth: 3,
+              latestGrowth: 3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=CarMax%20%2B%20Car%20Max,CarMax%20%2B%20Car%20Max,CarMax%20%2B%20Car%20Max,CarMax%20%2B%20Car%20Max&hl=en"
             },
             {
@@ -941,7 +941,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=TrueCar,TrueCar,TrueCar,TrueCar&hl=en"
             },
             {
@@ -999,7 +999,7 @@ export const REPORT_DATA: ReportData = {
                   value: -7
                 }
               ],
-              decemberGrowth: -7,
+              latestGrowth: -7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=CarGurus%20%2B%20CarGuru%20%2B%20Car%20Gurus%20%2B%20Car%20Guru,CarGurus%20%2B%20CarGuru%20%2B%20Car%20Gurus%20%2B%20Car%20Guru,CarGurus%20%2B%20CarGuru%20%2B%20Car%20Gurus%20%2B%20Car%20Guru,CarGurus%20%2B%20CarGuru%20%2B%20Car%20Gurus%20%2B%20Car%20Guru&hl=en"
             },
             {
@@ -1057,7 +1057,7 @@ export const REPORT_DATA: ReportData = {
                   value: -12
                 }
               ],
-              decemberGrowth: -12,
+              latestGrowth: -12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Autotrader%20%2B%20Auto%20Trader,Autotrader%20%2B%20Auto%20Trader,Autotrader%20%2B%20Auto%20Trader,Autotrader%20%2B%20Auto%20Trader&hl=en"
             }
           ]
@@ -1120,7 +1120,7 @@ export const REPORT_DATA: ReportData = {
                   value: 126
                 }
               ],
-              decemberGrowth: 126,
+              latestGrowth: 126,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Ticketmaster,Ticketmaster,Ticketmaster,Ticketmaster&hl=en"
             },
             {
@@ -1178,7 +1178,7 @@ export const REPORT_DATA: ReportData = {
                   value: 85
                 }
               ],
-              decemberGrowth: 85,
+              latestGrowth: 85,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=SeatGeek%20%2B%20Seat%20Geek,SeatGeek%20%2B%20Seat%20Geek,SeatGeek%20%2B%20Seat%20Geek,SeatGeek%20%2B%20Seat%20Geek&hl=en"
             },
             {
@@ -1236,7 +1236,7 @@ export const REPORT_DATA: ReportData = {
                   value: 85
                 }
               ],
-              decemberGrowth: 85,
+              latestGrowth: 85,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0121_srq,%2Fm%2F0121_srq,%2Fm%2F0121_srq,%2Fm%2F0121_srq&hl=en"
             },
             {
@@ -1294,7 +1294,7 @@ export const REPORT_DATA: ReportData = {
                   value: 63
                 }
               ],
-              decemberGrowth: 63,
+              latestGrowth: 63,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Clear%20Membership%20%2B%20%22Clear%20Plus%22%20%2B%20Airport%20Clear,Clear%20Membership%20%2B%20%22Clear%20Plus%22%20%2B%20Airport%20Clear,Clear%20Membership%20%2B%20%22Clear%20Plus%22%20%2B%20Airport%20Clear,Clear%20Membership%20%2B%20%22Clear%20Plus%22%20%2B%20Airport%20Clear&hl=en"
             },
             {
@@ -1352,7 +1352,7 @@ export const REPORT_DATA: ReportData = {
                   value: 61
                 }
               ],
-              decemberGrowth: 61,
+              latestGrowth: 61,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Viagogo,Viagogo,Viagogo,Viagogo&hl=en"
             },
             {
@@ -1410,7 +1410,7 @@ export const REPORT_DATA: ReportData = {
                   value: 40
                 }
               ],
-              decemberGrowth: 40,
+              latestGrowth: 40,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Expedia,Expedia,Expedia,Expedia&hl=en"
             },
             {
@@ -1468,7 +1468,7 @@ export const REPORT_DATA: ReportData = {
                   value: 30
                 }
               ],
-              decemberGrowth: 30,
+              latestGrowth: 30,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=GetYourGuide%20%2B%20Get%20Your%20Guide,GetYourGuide%20%2B%20Get%20Your%20Guide,GetYourGuide%20%2B%20Get%20Your%20Guide,GetYourGuide%20%2B%20Get%20Your%20Guide&hl=en"
             },
             {
@@ -1526,7 +1526,7 @@ export const REPORT_DATA: ReportData = {
                   value: 27
                 }
               ],
-              decemberGrowth: 27,
+              latestGrowth: 27,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=StubHub%20%2B%20Stub%20Hub,StubHub%20%2B%20Stub%20Hub,StubHub%20%2B%20Stub%20Hub,StubHub%20%2B%20Stub%20Hub&hl=en"
             },
             {
@@ -1584,7 +1584,7 @@ export const REPORT_DATA: ReportData = {
                   value: 27
                 }
               ],
-              decemberGrowth: 27,
+              latestGrowth: 27,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0zc1k1w,%2Fm%2F0zc1k1w,%2Fm%2F0zc1k1w,%2Fm%2F0zc1k1w&hl=en"
             },
             {
@@ -1642,7 +1642,7 @@ export const REPORT_DATA: ReportData = {
                   value: 15
                 }
               ],
-              decemberGrowth: 15,
+              latestGrowth: 15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Trivago,Trivago,Trivago,Trivago&hl=en"
             },
             {
@@ -1700,7 +1700,7 @@ export const REPORT_DATA: ReportData = {
                   value: 12
                 }
               ],
-              decemberGrowth: 12,
+              latestGrowth: 12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Viator,Viator,Viator,Viator&hl=en"
             },
             {
@@ -1758,7 +1758,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Agoda,Agoda,Agoda,Agoda&hl=en"
             },
             {
@@ -1816,7 +1816,7 @@ export const REPORT_DATA: ReportData = {
                   value: 3
                 }
               ],
-              decemberGrowth: 3,
+              latestGrowth: 3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Vivid%20Seats,Vivid%20Seats,Vivid%20Seats,Vivid%20Seats&hl=en"
             },
             {
@@ -1874,7 +1874,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1
                 }
               ],
-              decemberGrowth: 1,
+              latestGrowth: 1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Eventbrite,Eventbrite,Eventbrite,Eventbrite&hl=en"
             },
             {
@@ -1932,7 +1932,7 @@ export const REPORT_DATA: ReportData = {
                   value: 0
                 }
               ],
-              decemberGrowth: 0,
+              latestGrowth: 0,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=VRBO,VRBO,VRBO,VRBO&hl=en"
             },
             {
@@ -1990,7 +1990,7 @@ export const REPORT_DATA: ReportData = {
                   value: -2
                 }
               ],
-              decemberGrowth: -2,
+              latestGrowth: -2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Hotels.com,Hotels.com,Hotels.com,Hotels.com&hl=en"
             },
             {
@@ -2048,7 +2048,7 @@ export const REPORT_DATA: ReportData = {
                   value: -3
                 }
               ],
-              decemberGrowth: -3,
+              latestGrowth: -3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0yxzc1z,%2Fm%2F0yxzc1z,%2Fm%2F0yxzc1z,%2Fm%2F0yxzc1z&hl=en"
             },
             {
@@ -2106,7 +2106,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Airbnb%20%2B%20Air%20bnb,Airbnb%20%2B%20Air%20bnb,Airbnb%20%2B%20Air%20bnb,Airbnb%20%2B%20Air%20bnb&hl=en"
             },
             {
@@ -2164,7 +2164,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Despegar,Despegar,Despegar,Despegar&hl=en"
             },
             {
@@ -2222,7 +2222,7 @@ export const REPORT_DATA: ReportData = {
                   value: -9
                 }
               ],
-              decemberGrowth: -9,
+              latestGrowth: -9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Priceline,Priceline,Priceline,Priceline&hl=en"
             },
             {
@@ -2280,7 +2280,7 @@ export const REPORT_DATA: ReportData = {
                   value: -9
                 }
               ],
-              decemberGrowth: -9,
+              latestGrowth: -9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=TheFork%20%2B%20%22The%20Fork%22,TheFork%20%2B%20%22The%20Fork%22,TheFork%20%2B%20%22The%20Fork%22,TheFork%20%2B%20%22The%20Fork%22&hl=en"
             },
             {
@@ -2338,7 +2338,7 @@ export const REPORT_DATA: ReportData = {
                   value: -13
                 }
               ],
-              decemberGrowth: -13,
+              latestGrowth: -13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=TripAdvisor%20%2B%20Trip%20Advisor,TripAdvisor%20%2B%20Trip%20Advisor,TripAdvisor%20%2B%20Trip%20Advisor,TripAdvisor%20%2B%20Trip%20Advisor&hl=en"
             },
             {
@@ -2396,7 +2396,7 @@ export const REPORT_DATA: ReportData = {
                   value: -21
                 }
               ],
-              decemberGrowth: -21,
+              latestGrowth: -21,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F03mcw9d,%2Fm%2F03mcw9d,%2Fm%2F03mcw9d,%2Fm%2F03mcw9d&hl=en"
             }
           ]
@@ -2459,7 +2459,7 @@ export const REPORT_DATA: ReportData = {
                   value: 23
                 }
               ],
-              decemberGrowth: 23,
+              latestGrowth: 23,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Depop,Depop,Depop,Depop&hl=en"
             },
             {
@@ -2517,7 +2517,7 @@ export const REPORT_DATA: ReportData = {
                   value: 18
                 }
               ],
-              decemberGrowth: 18,
+              latestGrowth: 18,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0134c_p9,%2Fm%2F0134c_p9,%2Fm%2F0134c_p9,%2Fm%2F0134c_p9&hl=en"
             },
             {
@@ -2575,7 +2575,7 @@ export const REPORT_DATA: ReportData = {
                   value: 11
                 }
               ],
-              decemberGrowth: 11,
+              latestGrowth: 11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%EC%BF%A0%ED%8C%A1,%EC%BF%A0%ED%8C%A1,%EC%BF%A0%ED%8C%A1,%EC%BF%A0%ED%8C%A1&hl=en"
             },
             {
@@ -2633,7 +2633,7 @@ export const REPORT_DATA: ReportData = {
                   value: 9
                 }
               ],
-              decemberGrowth: 9,
+              latestGrowth: 9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Local,Local,Local,Local&hl=en"
             },
             {
@@ -2691,7 +2691,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Mercado%20Libre%20%2B%20Mercado%20Livre%20%2B%20MercadoLibre%20%2B%20MercadoLivre,Mercado%20Libre%20%2B%20Mercado%20Livre%20%2B%20MercadoLibre%20%2B%20MercadoLivre,Mercado%20Libre%20%2B%20Mercado%20Livre%20%2B%20MercadoLibre%20%2B%20MercadoLivre,Mercado%20Libre%20%2B%20Mercado%20Livre%20%2B%20MercadoLibre%20%2B%20MercadoLivre&hl=en"
             },
             {
@@ -2749,7 +2749,7 @@ export const REPORT_DATA: ReportData = {
                   value: 5
                 }
               ],
-              decemberGrowth: 5,
+              latestGrowth: 5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11gh3fk34r,%2Fg%2F11gh3fk34r,%2Fg%2F11gh3fk34r,%2Fg%2F11gh3fk34r&hl=en"
             },
             {
@@ -2807,7 +2807,7 @@ export const REPORT_DATA: ReportData = {
                   value: 4
                 }
               ],
-              decemberGrowth: 4,
+              latestGrowth: 4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Alibaba,Alibaba,Alibaba,Alibaba&hl=en"
             },
             {
@@ -2865,7 +2865,7 @@ export const REPORT_DATA: ReportData = {
                   value: 2
                 }
               ],
-              decemberGrowth: 2,
+              latestGrowth: 2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11bxwjl3bf,%2Fg%2F11bxwjl3bf,%2Fg%2F11bxwjl3bf,%2Fg%2F11bxwjl3bf&hl=en"
             },
             {
@@ -2923,7 +2923,7 @@ export const REPORT_DATA: ReportData = {
                   value: -4
                 }
               ],
-              decemberGrowth: -4,
+              latestGrowth: -4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Etsy,Etsy,Etsy,Etsy&hl=en"
             },
             {
@@ -2981,7 +2981,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Temu,Temu,Temu,Temu&hl=en"
             },
             {
@@ -3039,7 +3039,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Amazon,Amazon,Amazon,Amazon&hl=en"
             },
             {
@@ -3097,7 +3097,7 @@ export const REPORT_DATA: ReportData = {
                   value: -10
                 }
               ],
-              decemberGrowth: -10,
+              latestGrowth: -10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Groupon,Groupon,Groupon,Groupon&hl=en"
             },
             {
@@ -3155,7 +3155,7 @@ export const REPORT_DATA: ReportData = {
                   value: -11
                 }
               ],
-              decemberGrowth: -11,
+              latestGrowth: -11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Zalando,Zalando,Zalando,Zalando&hl=en"
             },
             {
@@ -3213,7 +3213,7 @@ export const REPORT_DATA: ReportData = {
                   value: -11
                 }
               ],
-              decemberGrowth: -11,
+              latestGrowth: -11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Trendyol,Trendyol,Trendyol,Trendyol&hl=en"
             },
             {
@@ -3271,7 +3271,7 @@ export const REPORT_DATA: ReportData = {
                   value: -12
                 }
               ],
-              decemberGrowth: -12,
+              latestGrowth: -12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=eBay,eBay,eBay,eBay&hl=en"
             },
             {
@@ -3329,7 +3329,7 @@ export const REPORT_DATA: ReportData = {
                   value: -22
                 }
               ],
-              decemberGrowth: -22,
+              latestGrowth: -22,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=AliExpress%20%2B%20Ali%20Express,AliExpress%20%2B%20Ali%20Express,AliExpress%20%2B%20Ali%20Express,AliExpress%20%2B%20Ali%20Express&hl=en"
             }
           ]
@@ -3392,7 +3392,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1078
                 }
               ],
-              decemberGrowth: 1078,
+              latestGrowth: 1078,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Hers,Hers,Hers,Hers&hl=en"
             },
             {
@@ -3450,7 +3450,7 @@ export const REPORT_DATA: ReportData = {
                   value: 50
                 }
               ],
-              decemberGrowth: 50,
+              latestGrowth: 50,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=LifeMD,LifeMD,LifeMD,LifeMD&hl=en"
             },
             {
@@ -3508,7 +3508,7 @@ export const REPORT_DATA: ReportData = {
                   value: 22
                 }
               ],
-              decemberGrowth: 22,
+              latestGrowth: 22,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Talkspace,Talkspace,Talkspace,Talkspace&hl=en"
             },
             {
@@ -3566,7 +3566,7 @@ export const REPORT_DATA: ReportData = {
                   value: 16
                 }
               ],
-              decemberGrowth: 16,
+              latestGrowth: 16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F010fk1dv,%2Fm%2F010fk1dv,%2Fm%2F010fk1dv,%2Fm%2F010fk1dv&hl=en"
             },
             {
@@ -3624,7 +3624,7 @@ export const REPORT_DATA: ReportData = {
                   value: 9
                 }
               ],
-              decemberGrowth: 9,
+              latestGrowth: 9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Hims,Hims,Hims,Hims&hl=en"
             },
             {
@@ -3682,7 +3682,7 @@ export const REPORT_DATA: ReportData = {
                   value: 7
                 }
               ],
-              decemberGrowth: 7,
+              latestGrowth: 7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=GoodRx%20%2B%20Good%20Rx,GoodRx%20%2B%20Good%20Rx,GoodRx%20%2B%20Good%20Rx,GoodRx%20%2B%20Good%20Rx&hl=en"
             },
             {
@@ -3740,7 +3740,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1
                 }
               ],
-              decemberGrowth: 1,
+              latestGrowth: 1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Teladoc%20%2B%20Teledoc,Teladoc%20%2B%20Teledoc,Teladoc%20%2B%20Teledoc,Teladoc%20%2B%20Teledoc&hl=en"
             }
           ]
@@ -3803,7 +3803,7 @@ export const REPORT_DATA: ReportData = {
                   value: 39
                 }
               ],
-              decemberGrowth: 39,
+              latestGrowth: 39,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=SelectQuote%20%2B%20Select%20Quote,SelectQuote%20%2B%20Select%20Quote,SelectQuote%20%2B%20Select%20Quote,SelectQuote%20%2B%20Select%20Quote&hl=en"
             },
             {
@@ -3861,7 +3861,7 @@ export const REPORT_DATA: ReportData = {
                   value: 37
                 }
               ],
-              decemberGrowth: 37,
+              latestGrowth: 37,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=EverQuote,EverQuote,EverQuote,EverQuote&hl=en"
             },
             {
@@ -3919,7 +3919,7 @@ export const REPORT_DATA: ReportData = {
                   value: 21
                 }
               ],
-              decemberGrowth: 21,
+              latestGrowth: 21,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Angi%20%2B%20Angie%27s%20List%20%2B%20Angies%20List,Angi%20%2B%20Angie%27s%20List%20%2B%20Angies%20List,Angi%20%2B%20Angie%27s%20List%20%2B%20Angies%20List,Angi%20%2B%20Angie%27s%20List%20%2B%20Angies%20List&hl=en"
             },
             {
@@ -3977,7 +3977,7 @@ export const REPORT_DATA: ReportData = {
                   value: 19
                 }
               ],
-              decemberGrowth: 19,
+              latestGrowth: 19,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=US,US,US,US&q=K12%20Online,K12%20Online,K12%20Online,K12%20Online&hl=en"
             },
             {
@@ -4035,7 +4035,7 @@ export const REPORT_DATA: ReportData = {
                   value: 16
                 }
               ],
-              decemberGrowth: 16,
+              latestGrowth: 16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=LegalZoom%20%2B%20Legal%20Zoom,LegalZoom%20%2B%20Legal%20Zoom,LegalZoom%20%2B%20Legal%20Zoom,LegalZoom%20%2B%20Legal%20Zoom&hl=en"
             },
             {
@@ -4093,7 +4093,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Trustpilot%20%2B%20Trust%20Pilot,Trustpilot%20%2B%20Trust%20Pilot,Trustpilot%20%2B%20Trust%20Pilot,Trustpilot%20%2B%20Trust%20Pilot&hl=en"
             },
             {
@@ -4151,7 +4151,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=ZipRecruiter%20%2B%20Zip%20Recruiter,ZipRecruiter%20%2B%20Zip%20Recruiter,ZipRecruiter%20%2B%20Zip%20Recruiter,ZipRecruiter%20%2B%20Zip%20Recruiter&hl=en"
             },
             {
@@ -4209,7 +4209,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0d0vx1,%2Fm%2F0d0vx1,%2Fm%2F0d0vx1,%2Fm%2F0d0vx1&hl=en"
             },
             {
@@ -4267,7 +4267,7 @@ export const REPORT_DATA: ReportData = {
                   value: 5
                 }
               ],
-              decemberGrowth: 5,
+              latestGrowth: 5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=LendingTree%20%2B%20Lending%20Tree,LendingTree%20%2B%20Lending%20Tree,LendingTree%20%2B%20Lending%20Tree,LendingTree%20%2B%20Lending%20Tree&hl=en"
             },
             {
@@ -4325,7 +4325,7 @@ export const REPORT_DATA: ReportData = {
                   value: 2
                 }
               ],
-              decemberGrowth: 2,
+              latestGrowth: 2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=NerdWallet%20%2B%20Nerd%20Wallet,NerdWallet%20%2B%20Nerd%20Wallet,NerdWallet%20%2B%20Nerd%20Wallet,NerdWallet%20%2B%20Nerd%20Wallet&hl=en"
             },
             {
@@ -4383,7 +4383,7 @@ export const REPORT_DATA: ReportData = {
                   value: -1
                 }
               ],
-              decemberGrowth: -1,
+              latestGrowth: -1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Getty%20Images,Getty%20Images,Getty%20Images,Getty%20Images&hl=en"
             },
             {
@@ -4441,7 +4441,7 @@ export const REPORT_DATA: ReportData = {
                   value: -2
                 }
               ],
-              decemberGrowth: -2,
+              latestGrowth: -2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Upwork,Upwork,Upwork,Upwork&hl=en"
             },
             {
@@ -4499,7 +4499,7 @@ export const REPORT_DATA: ReportData = {
                   value: -2
                 }
               ],
-              decemberGrowth: -2,
+              latestGrowth: -2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=MoneySupermarket%20%2B%20Money%20Supermarket,MoneySupermarket%20%2B%20Money%20Supermarket,MoneySupermarket%20%2B%20Money%20Supermarket,MoneySupermarket%20%2B%20Money%20Supermarket&hl=en"
             },
             {
@@ -4557,7 +4557,7 @@ export const REPORT_DATA: ReportData = {
                   value: -2
                 }
               ],
-              decemberGrowth: -2,
+              latestGrowth: -2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Yelp,Yelp,Yelp,Yelp&hl=en"
             },
             {
@@ -4615,7 +4615,7 @@ export const REPORT_DATA: ReportData = {
                   value: -11
                 }
               ],
-              decemberGrowth: -11,
+              latestGrowth: -11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Duolingo,Duolingo,Duolingo,Duolingo&hl=en"
             },
             {
@@ -4673,7 +4673,7 @@ export const REPORT_DATA: ReportData = {
                   value: -13
                 }
               ],
-              decemberGrowth: -13,
+              latestGrowth: -13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Fiverr%20%2B%20Fiver,Fiverr%20%2B%20Fiver,Fiverr%20%2B%20Fiver,Fiverr%20%2B%20Fiver&hl=en"
             },
             {
@@ -4731,7 +4731,7 @@ export const REPORT_DATA: ReportData = {
                   value: -16
                 }
               ],
-              decemberGrowth: -16,
+              latestGrowth: -16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Indeed,Indeed,Indeed,Indeed&hl=en"
             },
             {
@@ -4789,7 +4789,7 @@ export const REPORT_DATA: ReportData = {
                   value: -27
                 }
               ],
-              decemberGrowth: -27,
+              latestGrowth: -27,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Newegg%20%2B%20%22New%20Egg%22,Newegg%20%2B%20%22New%20Egg%22,Newegg%20%2B%20%22New%20Egg%22,Newegg%20%2B%20%22New%20Egg%22&hl=en"
             },
             {
@@ -4847,7 +4847,7 @@ export const REPORT_DATA: ReportData = {
                   value: -27
                 }
               ],
-              decemberGrowth: -27,
+              latestGrowth: -27,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Credit%20Karma,Credit%20Karma,Credit%20Karma,Credit%20Karma&hl=en"
             },
             {
@@ -4905,7 +4905,7 @@ export const REPORT_DATA: ReportData = {
                   value: -31
                 }
               ],
-              decemberGrowth: -31,
+              latestGrowth: -31,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Shutterstock,Shutterstock,Shutterstock,Shutterstock&hl=en"
             },
             {
@@ -4963,7 +4963,7 @@ export const REPORT_DATA: ReportData = {
                   value: -53
                 }
               ],
-              decemberGrowth: -53,
+              latestGrowth: -53,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Chegg,Chegg,Chegg,Chegg&hl=en"
             }
           ]
@@ -5026,7 +5026,7 @@ export const REPORT_DATA: ReportData = {
                   value: 63
                 }
               ],
-              decemberGrowth: 63,
+              latestGrowth: 63,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Homes.com,Homes.com,Homes.com,Homes.com&hl=en"
             },
             {
@@ -5084,7 +5084,7 @@ export const REPORT_DATA: ReportData = {
                   value: 61
                 }
               ],
-              decemberGrowth: 61,
+              latestGrowth: 61,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Apartments.com,Apartments.com,Apartments.com,Apartments.com&hl=en"
             },
             {
@@ -5142,7 +5142,7 @@ export const REPORT_DATA: ReportData = {
                   value: 58
                 }
               ],
-              decemberGrowth: 58,
+              latestGrowth: 58,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Sell%20Home,Sell%20Home,Sell%20Home,Sell%20Home&hl=en"
             },
             {
@@ -5200,7 +5200,7 @@ export const REPORT_DATA: ReportData = {
                   value: 40
                 }
               ],
-              decemberGrowth: 40,
+              latestGrowth: 40,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Compass%20Realty%20%2B%20Compass%20Real%20Estate,Compass%20Realty%20%2B%20Compass%20Real%20Estate,Compass%20Realty%20%2B%20Compass%20Real%20Estate,Compass%20Realty%20%2B%20Compass%20Real%20Estate&hl=en"
             },
             {
@@ -5258,7 +5258,7 @@ export const REPORT_DATA: ReportData = {
                   value: 33
                 }
               ],
-              decemberGrowth: 33,
+              latestGrowth: 33,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0cfzgk,%2Fm%2F0cfzgk,%2Fm%2F0cfzgk,%2Fm%2F0cfzgk&hl=en"
             },
             {
@@ -5316,7 +5316,7 @@ export const REPORT_DATA: ReportData = {
                   value: 32
                 }
               ],
-              decemberGrowth: 32,
+              latestGrowth: 32,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Booli,Booli,Booli,Booli&hl=en"
             },
             {
@@ -5374,7 +5374,7 @@ export const REPORT_DATA: ReportData = {
                   value: 21
                 }
               ],
-              decemberGrowth: 21,
+              latestGrowth: 21,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11byd2fzrj,%2Fg%2F11byd2fzrj,%2Fg%2F11byd2fzrj,%2Fg%2F11byd2fzrj&hl=en"
             },
             {
@@ -5432,7 +5432,7 @@ export const REPORT_DATA: ReportData = {
                   value: 13
                 }
               ],
-              decemberGrowth: 13,
+              latestGrowth: 13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Realtor.com,Realtor.com,Realtor.com,Realtor.com&hl=en"
             },
             {
@@ -5490,7 +5490,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Realestate.com.au%20%2B%20Realestate.com,Realestate.com.au%20%2B%20Realestate.com,Realestate.com.au%20%2B%20Realestate.com,Realestate.com.au%20%2B%20Realestate.com&hl=en"
             },
             {
@@ -5548,7 +5548,7 @@ export const REPORT_DATA: ReportData = {
                   value: 0
                 }
               ],
-              decemberGrowth: 0,
+              latestGrowth: 0,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Redfin,Redfin,Redfin,Redfin&hl=en"
             },
             {
@@ -5606,7 +5606,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Zillow,Zillow,Zillow,Zillow&hl=en"
             },
             {
@@ -5664,7 +5664,7 @@ export const REPORT_DATA: ReportData = {
                   value: -12
                 }
               ],
-              decemberGrowth: -12,
+              latestGrowth: -12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=ImmoScout24%20%2B%20ImmoScout,ImmoScout24%20%2B%20ImmoScout,ImmoScout24%20%2B%20ImmoScout,ImmoScout24%20%2B%20ImmoScout&hl=en"
             },
             {
@@ -5722,7 +5722,7 @@ export const REPORT_DATA: ReportData = {
                   value: -13
                 }
               ],
-              decemberGrowth: -13,
+              latestGrowth: -13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Rightmove,Rightmove,Rightmove,Rightmove&hl=en"
             },
             {
@@ -5780,7 +5780,7 @@ export const REPORT_DATA: ReportData = {
                   value: -18
                 }
               ],
-              decemberGrowth: -18,
+              latestGrowth: -18,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Hemnet,Hemnet,Hemnet,Hemnet&hl=en"
             }
           ]
@@ -5843,7 +5843,7 @@ export const REPORT_DATA: ReportData = {
                   value: 18
                 }
               ],
-              decemberGrowth: 18,
+              latestGrowth: 18,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Paramount,Paramount,Paramount,Paramount&hl=en"
             },
             {
@@ -5901,7 +5901,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11h582cpmh,%2Fg%2F11h582cpmh,%2Fg%2F11h582cpmh,%2Fg%2F11h582cpmh&hl=en"
             },
             {
@@ -5959,7 +5959,7 @@ export const REPORT_DATA: ReportData = {
                   value: 5
                 }
               ],
-              decemberGrowth: 5,
+              latestGrowth: 5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=YouTube%20Music,YouTube%20Music,YouTube%20Music,YouTube%20Music&hl=en"
             },
             {
@@ -6017,7 +6017,7 @@ export const REPORT_DATA: ReportData = {
                   value: 4
                 }
               ],
-              decemberGrowth: 4,
+              latestGrowth: 4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11jfddf113,%2Fg%2F11jfddf113,%2Fg%2F11jfddf113,%2Fg%2F11jfddf113&hl=en"
             },
             {
@@ -6075,7 +6075,7 @@ export const REPORT_DATA: ReportData = {
                   value: 4
                 }
               ],
-              decemberGrowth: 4,
+              latestGrowth: 4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=YouTube,YouTube,YouTube,YouTube&hl=en"
             },
             {
@@ -6133,7 +6133,7 @@ export const REPORT_DATA: ReportData = {
                   value: -3
                 }
               ],
-              decemberGrowth: -3,
+              latestGrowth: -3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Spotify,Spotify,Spotify,Spotify&hl=en"
             },
             {
@@ -6191,7 +6191,7 @@ export const REPORT_DATA: ReportData = {
                   value: -12
                 }
               ],
-              decemberGrowth: -12,
+              latestGrowth: -12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Netflix,Netflix,Netflix,Netflix&hl=en"
             },
             {
@@ -6249,7 +6249,7 @@ export const REPORT_DATA: ReportData = {
                   value: -14
                 }
               ],
-              decemberGrowth: -14,
+              latestGrowth: -14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Prime%20Video,Prime%20Video,Prime%20Video,Prime%20Video&hl=en"
             },
             {
@@ -6307,7 +6307,7 @@ export const REPORT_DATA: ReportData = {
                   value: -18
                 }
               ],
-              decemberGrowth: -18,
+              latestGrowth: -18,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Disney%20Plus,Disney%20Plus,Disney%20Plus,Disney%20Plus&hl=en"
             },
             {
@@ -6365,7 +6365,7 @@ export const REPORT_DATA: ReportData = {
                   value: -19
                 }
               ],
-              decemberGrowth: -19,
+              latestGrowth: -19,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Hulu,Hulu,Hulu,Hulu&hl=en"
             },
             {
@@ -6423,7 +6423,7 @@ export const REPORT_DATA: ReportData = {
                   value: -20
                 }
               ],
-              decemberGrowth: -20,
+              latestGrowth: -20,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Apple%20TV,Apple%20TV,Apple%20TV,Apple%20TV&hl=en"
             }
           ]
@@ -6486,7 +6486,7 @@ export const REPORT_DATA: ReportData = {
                   value: 14
                 }
               ],
-              decemberGrowth: 14,
+              latestGrowth: 14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11hd1s2dbb,%2Fg%2F11hd1s2dbb,%2Fg%2F11hd1s2dbb,%2Fg%2F11hd1s2dbb&hl=en"
             },
             {
@@ -6544,7 +6544,7 @@ export const REPORT_DATA: ReportData = {
                   value: 2
                 }
               ],
-              decemberGrowth: 2,
+              latestGrowth: 2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Grindr,Grindr,Grindr,Grindr&hl=en"
             },
             {
@@ -6602,7 +6602,7 @@ export const REPORT_DATA: ReportData = {
                   value: -8
                 }
               ],
-              decemberGrowth: -8,
+              latestGrowth: -8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Bumble%20-bee,Bumble%20-bee,Bumble%20-bee,Bumble%20-bee&hl=en"
             },
             {
@@ -6660,7 +6660,7 @@ export const REPORT_DATA: ReportData = {
                   value: -14
                 }
               ],
-              decemberGrowth: -14,
+              latestGrowth: -14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Tinder,Tinder,Tinder,Tinder&hl=en"
             },
             {
@@ -6718,7 +6718,7 @@ export const REPORT_DATA: ReportData = {
                   value: -27
                 }
               ],
-              decemberGrowth: -27,
+              latestGrowth: -27,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Badoo,Badoo,Badoo,Badoo&hl=en"
             }
           ]
@@ -6781,7 +6781,7 @@ export const REPORT_DATA: ReportData = {
                   value: 42
                 }
               ],
-              decemberGrowth: 42,
+              latestGrowth: 42,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=BetMGM%20%2B%20Bet%20MGM,BetMGM%20%2B%20Bet%20MGM,BetMGM%20%2B%20Bet%20MGM,BetMGM%20%2B%20Bet%20MGM&hl=en"
             },
             {
@@ -6839,7 +6839,7 @@ export const REPORT_DATA: ReportData = {
                   value: 17
                 }
               ],
-              decemberGrowth: 17,
+              latestGrowth: 17,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=DraftKings%20%2B%20Draft%20Kings,DraftKings%20%2B%20Draft%20Kings,DraftKings%20%2B%20Draft%20Kings,DraftKings%20%2B%20Draft%20Kings&hl=en"
             },
             {
@@ -6897,7 +6897,7 @@ export const REPORT_DATA: ReportData = {
                   value: 3
                 }
               ],
-              decemberGrowth: 3,
+              latestGrowth: 3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=TwinSpires%20%2B%20Twin%20Spires,TwinSpires%20%2B%20Twin%20Spires,TwinSpires%20%2B%20Twin%20Spires,TwinSpires%20%2B%20Twin%20Spires&hl=en"
             },
             {
@@ -6955,7 +6955,7 @@ export const REPORT_DATA: ReportData = {
                   value: -1
                 }
               ],
-              decemberGrowth: -1,
+              latestGrowth: -1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=FanDuel,FanDuel,FanDuel,FanDuel&hl=en"
             }
           ]
@@ -7018,7 +7018,7 @@ export const REPORT_DATA: ReportData = {
                   value: 539
                 }
               ],
-              decemberGrowth: 539,
+              latestGrowth: 539,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Gemini,Gemini,Gemini,Gemini&hl=en"
             },
             {
@@ -7076,7 +7076,7 @@ export const REPORT_DATA: ReportData = {
                   value: 91
                 }
               ],
-              decemberGrowth: 91,
+              latestGrowth: 91,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=OpenAI%20%2B%20Open%20AI,OpenAI%20%2B%20Open%20AI,OpenAI%20%2B%20Open%20AI,OpenAI%20%2B%20Open%20AI&hl=en"
             },
             {
@@ -7134,7 +7134,7 @@ export const REPORT_DATA: ReportData = {
                   value: 65
                 }
               ],
-              decemberGrowth: 65,
+              latestGrowth: 65,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=ChatGPT%20%2B%20Chat%20GPT,ChatGPT%20%2B%20Chat%20GPT,ChatGPT%20%2B%20Chat%20GPT,ChatGPT%20%2B%20Chat%20GPT&hl=en"
             },
             {
@@ -7192,7 +7192,7 @@ export const REPORT_DATA: ReportData = {
                   value: 29
                 }
               ],
-              decemberGrowth: 29,
+              latestGrowth: 29,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0168s_,%2Fm%2F0168s_,%2Fm%2F0168s_,%2Fm%2F0168s_&hl=en"
             },
             {
@@ -7250,7 +7250,7 @@ export const REPORT_DATA: ReportData = {
                   value: 10
                 }
               ],
-              decemberGrowth: 10,
+              latestGrowth: 10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Wikipedia,Wikipedia,Wikipedia,Wikipedia&hl=en"
             },
             {
@@ -7308,7 +7308,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F012kxdw8,%2Fm%2F012kxdw8,%2Fm%2F012kxdw8,%2Fm%2F012kxdw8&hl=en"
             },
             {
@@ -7366,7 +7366,7 @@ export const REPORT_DATA: ReportData = {
                   value: 5
                 }
               ],
-              decemberGrowth: 5,
+              latestGrowth: 5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0dd0pv,%2Fm%2F0dd0pv,%2Fm%2F0dd0pv,%2Fm%2F0dd0pv&hl=en"
             },
             {
@@ -7424,7 +7424,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1
                 }
               ],
-              decemberGrowth: 1,
+              latestGrowth: 1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Chrome,Chrome,Chrome,Chrome&hl=en"
             },
             {
@@ -7482,7 +7482,7 @@ export const REPORT_DATA: ReportData = {
                   value: -1
                 }
               ],
-              decemberGrowth: -1,
+              latestGrowth: -1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Google,Google,Google,Google&hl=en"
             },
             {
@@ -7540,7 +7540,7 @@ export const REPORT_DATA: ReportData = {
                   value: -11
                 }
               ],
-              decemberGrowth: -11,
+              latestGrowth: -11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=DuckDuckGo,DuckDuckGo,DuckDuckGo,DuckDuckGo&hl=en"
             },
             {
@@ -7598,7 +7598,7 @@ export const REPORT_DATA: ReportData = {
                   value: -12
                 }
               ],
-              decemberGrowth: -12,
+              latestGrowth: -12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Yahoo,Yahoo,Yahoo,Yahoo&hl=en"
             },
             {
@@ -7656,7 +7656,7 @@ export const REPORT_DATA: ReportData = {
                   value: -13
                 }
               ],
-              decemberGrowth: -13,
+              latestGrowth: -13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F01z7gs,%2Fm%2F01z7gs,%2Fm%2F01z7gs,%2Fm%2F01z7gs&hl=en"
             },
             {
@@ -7714,7 +7714,7 @@ export const REPORT_DATA: ReportData = {
                   value: -26
                 }
               ],
-              decemberGrowth: -26,
+              latestGrowth: -26,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Opera%20GX,Opera%20GX,Opera%20GX,Opera%20GX&hl=en"
             },
             {
@@ -7772,7 +7772,7 @@ export const REPORT_DATA: ReportData = {
                   value: -29
                 }
               ],
-              decemberGrowth: -29,
+              latestGrowth: -29,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0bx7rw,%2Fm%2F0bx7rw,%2Fm%2F0bx7rw,%2Fm%2F0bx7rw&hl=en"
             }
           ]
@@ -7835,7 +7835,7 @@ export const REPORT_DATA: ReportData = {
                   value: 46
                 }
               ],
-              decemberGrowth: 46,
+              latestGrowth: 46,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11v19b38sz,%2Fg%2F11v19b38sz,%2Fg%2F11v19b38sz,%2Fg%2F11v19b38sz&hl=en"
             },
             {
@@ -7893,7 +7893,7 @@ export const REPORT_DATA: ReportData = {
                   value: 31
                 }
               ],
-              decemberGrowth: 31,
+              latestGrowth: 31,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Life360%20%2B%20Life%20360,Life360%20%2B%20Life%20360,Life360%20%2B%20Life%20360,Life360%20%2B%20Life%20360&hl=en"
             },
             {
@@ -7951,7 +7951,7 @@ export const REPORT_DATA: ReportData = {
                   value: 26
                 }
               ],
-              decemberGrowth: 26,
+              latestGrowth: 26,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=LinkedIn%20%2B%20Linked%20In,LinkedIn%20%2B%20Linked%20In,LinkedIn%20%2B%20Linked%20In,LinkedIn%20%2B%20Linked%20In&hl=en"
             },
             {
@@ -8009,7 +8009,7 @@ export const REPORT_DATA: ReportData = {
                   value: 9
                 }
               ],
-              decemberGrowth: 9,
+              latestGrowth: 9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Pinterest,Pinterest,Pinterest,Pinterest&hl=en"
             },
             {
@@ -8067,7 +8067,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Instagram,Instagram,Instagram,Instagram&hl=en"
             },
             {
@@ -8125,7 +8125,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Nextdoor,Nextdoor,Nextdoor,Nextdoor&hl=en"
             },
             {
@@ -8183,7 +8183,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=WhatsApp,WhatsApp,WhatsApp,WhatsApp&hl=en"
             },
             {
@@ -8241,7 +8241,7 @@ export const REPORT_DATA: ReportData = {
                   value: -9
                 }
               ],
-              decemberGrowth: -9,
+              latestGrowth: -9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Snapchat%20Plus%20%2B%20Snap%20Plus,Snapchat%20Plus%20%2B%20Snap%20Plus,Snapchat%20Plus%20%2B%20Snap%20Plus,Snapchat%20Plus%20%2B%20Snap%20Plus&hl=en"
             },
             {
@@ -8299,7 +8299,7 @@ export const REPORT_DATA: ReportData = {
                   value: -11
                 }
               ],
-              decemberGrowth: -11,
+              latestGrowth: -11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=TikTok%20%2B%20Tik%20Tok,TikTok%20%2B%20Tik%20Tok,TikTok%20%2B%20Tik%20Tok,TikTok%20%2B%20Tik%20Tok&hl=en"
             },
             {
@@ -8357,7 +8357,7 @@ export const REPORT_DATA: ReportData = {
                   value: -14
                 }
               ],
-              decemberGrowth: -14,
+              latestGrowth: -14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Facebook%20%2B%20Face%20Book,Facebook%20%2B%20Face%20Book,Facebook%20%2B%20Face%20Book,Facebook%20%2B%20Face%20Book&hl=en"
             },
             {
@@ -8415,7 +8415,7 @@ export const REPORT_DATA: ReportData = {
                   value: -16
                 }
               ],
-              decemberGrowth: -16,
+              latestGrowth: -16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Reddit,Reddit,Reddit,Reddit&hl=en"
             },
             {
@@ -8473,7 +8473,7 @@ export const REPORT_DATA: ReportData = {
                   value: -56
                 }
               ],
-              decemberGrowth: -56,
+              latestGrowth: -56,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Bluesky,Bluesky,Bluesky,Bluesky&hl=en"
             }
           ]
@@ -8536,7 +8536,7 @@ export const REPORT_DATA: ReportData = {
                   value: 83
                 }
               ],
-              decemberGrowth: 83,
+              latestGrowth: 83,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Waymo,Waymo,Waymo,Waymo&hl=en"
             },
             {
@@ -8594,7 +8594,7 @@ export const REPORT_DATA: ReportData = {
                   value: 15
                 }
               ],
-              decemberGrowth: 15,
+              latestGrowth: 15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=DoorDash%20%2B%20Door%20Dash,DoorDash%20%2B%20Door%20Dash,DoorDash%20%2B%20Door%20Dash,DoorDash%20%2B%20Door%20Dash&hl=en"
             },
             {
@@ -8652,7 +8652,7 @@ export const REPORT_DATA: ReportData = {
                   value: 9
                 }
               ],
-              decemberGrowth: 9,
+              latestGrowth: 9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Instacart,Instacart,Instacart,Instacart&hl=en"
             },
             {
@@ -8710,7 +8710,7 @@ export const REPORT_DATA: ReportData = {
                   value: 7
                 }
               ],
-              decemberGrowth: 7,
+              latestGrowth: 7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Uber,Uber,Uber,Uber&hl=en"
             },
             {
@@ -8768,7 +8768,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Lyft,Lyft,Lyft,Lyft&hl=en"
             },
             {
@@ -8826,7 +8826,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1
                 }
               ],
-              decemberGrowth: 1,
+              latestGrowth: 1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Grubhub%20%2B%20Grub%20Hub,Grubhub%20%2B%20Grub%20Hub,Grubhub%20%2B%20Grub%20Hub,Grubhub%20%2B%20Grub%20Hub&hl=en"
             },
             {
@@ -8884,7 +8884,7 @@ export const REPORT_DATA: ReportData = {
                   value: -3
                 }
               ],
-              decemberGrowth: -3,
+              latestGrowth: -3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Uber%20Eats%20%2B%20Uber%20Eat%20%2B%20Ubereats,Uber%20Eats%20%2B%20Uber%20Eat%20%2B%20Ubereats,Uber%20Eats%20%2B%20Uber%20Eat%20%2B%20Ubereats,Uber%20Eats%20%2B%20Uber%20Eat%20%2B%20Ubereats&hl=en"
             },
             {
@@ -8942,7 +8942,7 @@ export const REPORT_DATA: ReportData = {
                   value: -7
                 }
               ],
-              decemberGrowth: -7,
+              latestGrowth: -7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Deliveroo,Deliveroo,Deliveroo,Deliveroo&hl=en"
             },
             {
@@ -9000,7 +9000,7 @@ export const REPORT_DATA: ReportData = {
                   value: -16
                 }
               ],
-              decemberGrowth: -16,
+              latestGrowth: -16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=HelloFresh%20%2B%20Hello%20Fresh,HelloFresh%20%2B%20Hello%20Fresh,HelloFresh%20%2B%20Hello%20Fresh,HelloFresh%20%2B%20Hello%20Fresh&hl=en"
             },
             {
@@ -9058,7 +9058,7 @@ export const REPORT_DATA: ReportData = {
                   value: -34
                 }
               ],
-              decemberGrowth: -34,
+              latestGrowth: -34,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Factor%20Meals%20%2B%20Factor%20Meal,Factor%20Meals%20%2B%20Factor%20Meal,Factor%20Meals%20%2B%20Factor%20Meal,Factor%20Meals%20%2B%20Factor%20Meal&hl=en"
             }
           ]
@@ -9121,7 +9121,7 @@ export const REPORT_DATA: ReportData = {
                   value: 27
                 }
               ],
-              decemberGrowth: 27,
+              latestGrowth: 27,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Nuuly,Nuuly,Nuuly,Nuuly&hl=en"
             },
             {
@@ -9179,7 +9179,7 @@ export const REPORT_DATA: ReportData = {
                   value: 23
                 }
               ],
-              decemberGrowth: 23,
+              latestGrowth: 23,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=ThredUp%20%2B%20ThreadUp%20%2B%20Thred%20Up%20%2B%20%22Thread%20Up%22,ThredUp%20%2B%20ThreadUp%20%2B%20Thred%20Up%20%2B%20%22Thread%20Up%22,ThredUp%20%2B%20ThreadUp%20%2B%20Thred%20Up%20%2B%20%22Thread%20Up%22,ThredUp%20%2B%20ThreadUp%20%2B%20Thred%20Up%20%2B%20%22Thread%20Up%22&hl=en"
             },
             {
@@ -9237,7 +9237,7 @@ export const REPORT_DATA: ReportData = {
                   value: 17
                 }
               ],
-              decemberGrowth: 17,
+              latestGrowth: 17,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%22Real%20Real%22%20%2B%20RealReal,%22Real%20Real%22%20%2B%20RealReal,%22Real%20Real%22%20%2B%20RealReal,%22Real%20Real%22%20%2B%20RealReal&hl=en"
             },
             {
@@ -9295,7 +9295,7 @@ export const REPORT_DATA: ReportData = {
                   value: 3
                 }
               ],
-              decemberGrowth: 3,
+              latestGrowth: 3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Farfetch,Farfetch,Farfetch,Farfetch&hl=en"
             },
             {
@@ -9353,7 +9353,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1
                 }
               ],
-              decemberGrowth: 1,
+              latestGrowth: 1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Rent%20the%20Runway,Rent%20the%20Runway,Rent%20the%20Runway,Rent%20the%20Runway&hl=en"
             },
             {
@@ -9411,7 +9411,7 @@ export const REPORT_DATA: ReportData = {
                   value: -2
                 }
               ],
-              decemberGrowth: -2,
+              latestGrowth: -2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Stitch%20Fix%20%2B%20StitchFix,Stitch%20Fix%20%2B%20StitchFix,Stitch%20Fix%20%2B%20StitchFix,Stitch%20Fix%20%2B%20StitchFix&hl=en"
             },
             {
@@ -9469,7 +9469,7 @@ export const REPORT_DATA: ReportData = {
                   value: -13
                 }
               ],
-              decemberGrowth: -13,
+              latestGrowth: -13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Mytheresa%20%2B%20My%20Theresa,Mytheresa%20%2B%20My%20Theresa,Mytheresa%20%2B%20My%20Theresa,Mytheresa%20%2B%20My%20Theresa&hl=en"
             },
             {
@@ -9527,7 +9527,7 @@ export const REPORT_DATA: ReportData = {
                   value: -24
                 }
               ],
-              decemberGrowth: -24,
+              latestGrowth: -24,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Shein,Shein,Shein,Shein&hl=en"
             }
           ]
@@ -9595,7 +9595,7 @@ export const REPORT_DATA: ReportData = {
                   value: 46
                 }
               ],
-              decemberGrowth: 46,
+              latestGrowth: 46,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Twilio,Twilio,Twilio,Twilio&hl=en"
             },
             {
@@ -9653,7 +9653,7 @@ export const REPORT_DATA: ReportData = {
                   value: 26
                 }
               ],
-              decemberGrowth: 26,
+              latestGrowth: 26,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Teams,Teams,Teams,Teams&hl=en"
             },
             {
@@ -9711,7 +9711,7 @@ export const REPORT_DATA: ReportData = {
                   value: 13
                 }
               ],
-              decemberGrowth: 13,
+              latestGrowth: 13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Five9,Five9,Five9,Five9&hl=en"
             },
             {
@@ -9769,7 +9769,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1
                 }
               ],
-              decemberGrowth: 1,
+              latestGrowth: 1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=RingCentral%20%2B%20Ring%20Central,RingCentral%20%2B%20Ring%20Central,RingCentral%20%2B%20Ring%20Central,RingCentral%20%2B%20Ring%20Central&hl=en"
             },
             {
@@ -9827,7 +9827,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1
                 }
               ],
-              decemberGrowth: 1,
+              latestGrowth: 1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F06c7xh,%2Fm%2F06c7xh,%2Fm%2F06c7xh,%2Fm%2F06c7xh&hl=en"
             },
             {
@@ -9885,7 +9885,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1
                 }
               ],
-              decemberGrowth: 1,
+              latestGrowth: 1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Zoom%20-nike,Zoom%20-nike,Zoom%20-nike,Zoom%20-nike&hl=en"
             },
             {
@@ -9943,7 +9943,7 @@ export const REPORT_DATA: ReportData = {
                   value: -2
                 }
               ],
-              decemberGrowth: -2,
+              latestGrowth: -2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Zenvia,Zenvia,Zenvia,Zenvia&hl=en"
             },
             {
@@ -10001,7 +10001,7 @@ export const REPORT_DATA: ReportData = {
                   value: -15
                 }
               ],
-              decemberGrowth: -15,
+              latestGrowth: -15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Slack,Slack,Slack,Slack&hl=en"
             },
             {
@@ -10059,7 +10059,7 @@ export const REPORT_DATA: ReportData = {
                   value: -38
                 }
               ],
-              decemberGrowth: -38,
+              latestGrowth: -38,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F03p2kjq,%2Fm%2F03p2kjq,%2Fm%2F03p2kjq,%2Fm%2F03p2kjq&hl=en"
             }
           ]
@@ -10122,7 +10122,7 @@ export const REPORT_DATA: ReportData = {
                   value: 145
                 }
               ],
-              decemberGrowth: 145,
+              latestGrowth: 145,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Cancel%20Adobe,Cancel%20Adobe,Cancel%20Adobe,Cancel%20Adobe&hl=en"
             },
             {
@@ -10180,7 +10180,7 @@ export const REPORT_DATA: ReportData = {
                   value: 67
                 }
               ],
-              decemberGrowth: 67,
+              latestGrowth: 67,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Statsig,Statsig,Statsig,Statsig&hl=en"
             },
             {
@@ -10238,7 +10238,7 @@ export const REPORT_DATA: ReportData = {
                   value: 56
                 }
               ],
-              decemberGrowth: 56,
+              latestGrowth: 56,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Synopsys,Synopsys,Synopsys,Synopsys&hl=en"
             },
             {
@@ -10296,7 +10296,7 @@ export const REPORT_DATA: ReportData = {
                   value: 23
                 }
               ],
-              decemberGrowth: 23,
+              latestGrowth: 23,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F01zb9v,%2Fm%2F01zb9v,%2Fm%2F01zb9v,%2Fm%2F01zb9v&hl=en"
             },
             {
@@ -10354,7 +10354,7 @@ export const REPORT_DATA: ReportData = {
                   value: 19
                 }
               ],
-              decemberGrowth: 19,
+              latestGrowth: 19,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Ansys,Ansys,Ansys,Ansys&hl=en"
             },
             {
@@ -10412,7 +10412,7 @@ export const REPORT_DATA: ReportData = {
                   value: 19
                 }
               ],
-              decemberGrowth: 19,
+              latestGrowth: 19,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Autodesk,Autodesk,Autodesk,Autodesk&hl=en"
             },
             {
@@ -10470,7 +10470,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Figma,Figma,Figma,Figma&hl=en"
             },
             {
@@ -10528,7 +10528,7 @@ export const REPORT_DATA: ReportData = {
                   value: 7
                 }
               ],
-              decemberGrowth: 7,
+              latestGrowth: 7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Canva,Canva,Canva,Canva&hl=en"
             },
             {
@@ -10586,7 +10586,7 @@ export const REPORT_DATA: ReportData = {
                   value: 3
                 }
               ],
-              decemberGrowth: 3,
+              latestGrowth: 3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0wjd1gh,%2Fm%2F0wjd1gh,%2Fm%2F0wjd1gh,%2Fm%2F0wjd1gh&hl=en"
             },
             {
@@ -10644,7 +10644,7 @@ export const REPORT_DATA: ReportData = {
                   value: 3
                 }
               ],
-              decemberGrowth: 3,
+              latestGrowth: 3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Adobe%20Express,Adobe%20Express,Adobe%20Express,Adobe%20Express&hl=en"
             },
             {
@@ -10702,7 +10702,7 @@ export const REPORT_DATA: ReportData = {
                   value: 2
                 }
               ],
-              decemberGrowth: 2,
+              latestGrowth: 2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=PDF,PDF,PDF,PDF&hl=en"
             },
             {
@@ -10760,7 +10760,7 @@ export const REPORT_DATA: ReportData = {
                   value: -2
                 }
               ],
-              decemberGrowth: -2,
+              latestGrowth: -2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Adobe%20Acrobat%20%2B%20Adobe%20Reader,Adobe%20Acrobat%20%2B%20Adobe%20Reader,Adobe%20Acrobat%20%2B%20Adobe%20Reader,Adobe%20Acrobat%20%2B%20Adobe%20Reader&hl=en"
             },
             {
@@ -10818,7 +10818,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Adobe,Adobe,Adobe,Adobe&hl=en"
             },
             {
@@ -10876,7 +10876,7 @@ export const REPORT_DATA: ReportData = {
                   value: -10
                 }
               ],
-              decemberGrowth: -10,
+              latestGrowth: -10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=AutoCAD,AutoCAD,AutoCAD,AutoCAD&hl=en"
             },
             {
@@ -10934,7 +10934,7 @@ export const REPORT_DATA: ReportData = {
                   value: -15
                 }
               ],
-              decemberGrowth: -15,
+              latestGrowth: -15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F043dqq,%2Fm%2F043dqq,%2Fm%2F043dqq,%2Fm%2F043dqq&hl=en"
             },
             {
@@ -10992,7 +10992,7 @@ export const REPORT_DATA: ReportData = {
                   value: -21
                 }
               ],
-              decemberGrowth: -21,
+              latestGrowth: -21,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Photoshop,Photoshop,Photoshop,Photoshop&hl=en"
             },
             {
@@ -11050,7 +11050,7 @@ export const REPORT_DATA: ReportData = {
                   value: -21
                 }
               ],
-              decemberGrowth: -21,
+              latestGrowth: -21,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0142qs,%2Fm%2F0142qs,%2Fm%2F0142qs,%2Fm%2F0142qs&hl=en"
             }
           ]
@@ -11113,7 +11113,7 @@ export const REPORT_DATA: ReportData = {
                   value: 15
                 }
               ],
-              decemberGrowth: 15,
+              latestGrowth: 15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F02rf_68,%2Fm%2F02rf_68,%2Fm%2F02rf_68,%2Fm%2F02rf_68&hl=en"
             },
             {
@@ -11171,7 +11171,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1
                 }
               ],
-              decemberGrowth: 1,
+              latestGrowth: 1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Paylocity,Paylocity,Paylocity,Paylocity&hl=en"
             },
             {
@@ -11229,7 +11229,7 @@ export const REPORT_DATA: ReportData = {
                   value: -2
                 }
               ],
-              decemberGrowth: -2,
+              latestGrowth: -2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Dayforce,Dayforce,Dayforce,Dayforce&hl=en"
             },
             {
@@ -11287,7 +11287,7 @@ export const REPORT_DATA: ReportData = {
                   value: -3
                 }
               ],
-              decemberGrowth: -3,
+              latestGrowth: -3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Paychex,Paychex,Paychex,Paychex&hl=en"
             },
             {
@@ -11345,7 +11345,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Paycom,Paycom,Paycom,Paycom&hl=en"
             },
             {
@@ -11403,7 +11403,7 @@ export const REPORT_DATA: ReportData = {
                   value: -10
                 }
               ],
-              decemberGrowth: -10,
+              latestGrowth: -10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Edenred,Edenred,Edenred,Edenred&hl=en"
             },
             {
@@ -11461,7 +11461,7 @@ export const REPORT_DATA: ReportData = {
                   value: -11
                 }
               ],
-              decemberGrowth: -11,
+              latestGrowth: -11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F1q5zqwh03,%2Fg%2F1q5zqwh03,%2Fg%2F1q5zqwh03,%2Fg%2F1q5zqwh03&hl=en"
             },
             {
@@ -11519,7 +11519,7 @@ export const REPORT_DATA: ReportData = {
                   value: -11
                 }
               ],
-              decemberGrowth: -11,
+              latestGrowth: -11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=ADP,ADP,ADP,ADP&hl=en"
             }
           ]
@@ -11582,7 +11582,7 @@ export const REPORT_DATA: ReportData = {
                   value: 91
                 }
               ],
-              decemberGrowth: 91,
+              latestGrowth: 91,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=WiseTech,WiseTech,WiseTech,WiseTech&hl=en"
             },
             {
@@ -11640,7 +11640,7 @@ export const REPORT_DATA: ReportData = {
                   value: 86
                 }
               ],
-              decemberGrowth: 86,
+              latestGrowth: 86,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=DealCloud,DealCloud,DealCloud,DealCloud&hl=en"
             },
             {
@@ -11698,7 +11698,7 @@ export const REPORT_DATA: ReportData = {
                   value: 85
                 }
               ],
-              decemberGrowth: 85,
+              latestGrowth: 85,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=MeridianLink%20%2B%20Meridian%20Link,MeridianLink%20%2B%20Meridian%20Link,MeridianLink%20%2B%20Meridian%20Link,MeridianLink%20%2B%20Meridian%20Link&hl=en"
             },
             {
@@ -11756,7 +11756,7 @@ export const REPORT_DATA: ReportData = {
                   value: 78
                 }
               ],
-              decemberGrowth: 78,
+              latestGrowth: 78,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Body%20Camera,Body%20Camera,Body%20Camera,Body%20Camera&hl=en"
             },
             {
@@ -11814,7 +11814,7 @@ export const REPORT_DATA: ReportData = {
                   value: 72
                 }
               ],
-              decemberGrowth: 72,
+              latestGrowth: 72,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11g0n9s3qq,%2Fg%2F11g0n9s3qq,%2Fg%2F11g0n9s3qq,%2Fg%2F11g0n9s3qq&hl=en"
             },
             {
@@ -11872,7 +11872,7 @@ export const REPORT_DATA: ReportData = {
                   value: 58
                 }
               ],
-              decemberGrowth: 58,
+              latestGrowth: 58,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Nemetschek,Nemetschek,Nemetschek,Nemetschek&hl=en"
             },
             {
@@ -11930,7 +11930,7 @@ export const REPORT_DATA: ReportData = {
                   value: 54
                 }
               ],
-              decemberGrowth: 54,
+              latestGrowth: 54,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=nCino,nCino,nCino,nCino&hl=en"
             },
             {
@@ -11988,7 +11988,7 @@ export const REPORT_DATA: ReportData = {
                   value: 54
                 }
               ],
-              decemberGrowth: 54,
+              latestGrowth: 54,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Verisk,Verisk,Verisk,Verisk&hl=en"
             },
             {
@@ -12046,7 +12046,7 @@ export const REPORT_DATA: ReportData = {
                   value: 53
                 }
               ],
-              decemberGrowth: 53,
+              latestGrowth: 53,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Guidewire,Guidewire,Guidewire,Guidewire&hl=en"
             },
             {
@@ -12104,7 +12104,7 @@ export const REPORT_DATA: ReportData = {
                   value: 50
                 }
               ],
-              decemberGrowth: 50,
+              latestGrowth: 50,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=ServiceTitan%20%2B%20Service%20Titan,ServiceTitan%20%2B%20Service%20Titan,ServiceTitan%20%2B%20Service%20Titan,ServiceTitan%20%2B%20Service%20Titan&hl=en"
             },
             {
@@ -12162,7 +12162,7 @@ export const REPORT_DATA: ReportData = {
                   value: 50
                 }
               ],
-              decemberGrowth: 50,
+              latestGrowth: 50,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Intapp,Intapp,Intapp,Intapp&hl=en"
             },
             {
@@ -12220,7 +12220,7 @@ export const REPORT_DATA: ReportData = {
                   value: 47
                 }
               ],
-              decemberGrowth: 47,
+              latestGrowth: 47,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Doximity,Doximity,Doximity,Doximity&hl=en"
             },
             {
@@ -12278,7 +12278,7 @@ export const REPORT_DATA: ReportData = {
                   value: 41
                 }
               ],
-              decemberGrowth: 41,
+              latestGrowth: 41,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11g702340r,%2Fg%2F11g702340r,%2Fg%2F11g702340r,%2Fg%2F11g702340r&hl=en"
             },
             {
@@ -12336,7 +12336,7 @@ export const REPORT_DATA: ReportData = {
                   value: 39
                 }
               ],
-              decemberGrowth: 39,
+              latestGrowth: 39,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Alkami,Alkami,Alkami,Alkami&hl=en"
             },
             {
@@ -12394,7 +12394,7 @@ export const REPORT_DATA: ReportData = {
                   value: 37
                 }
               ],
-              decemberGrowth: 37,
+              latestGrowth: 37,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=IQVIA,IQVIA,IQVIA,IQVIA&hl=en"
             },
             {
@@ -12452,7 +12452,7 @@ export const REPORT_DATA: ReportData = {
                   value: 32
                 }
               ],
-              decemberGrowth: 32,
+              latestGrowth: 32,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Calix,Calix,Calix,Calix&hl=en"
             },
             {
@@ -12510,7 +12510,7 @@ export const REPORT_DATA: ReportData = {
                   value: 29
                 }
               ],
-              decemberGrowth: 29,
+              latestGrowth: 29,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=AppFolio%20%2B%20App%20Folio,AppFolio%20%2B%20App%20Folio,AppFolio%20%2B%20App%20Folio,AppFolio%20%2B%20App%20Folio&hl=en"
             },
             {
@@ -12568,7 +12568,7 @@ export const REPORT_DATA: ReportData = {
                   value: 20
                 }
               ],
-              decemberGrowth: 20,
+              latestGrowth: 20,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Blackbaud,Blackbaud,Blackbaud,Blackbaud&hl=en"
             },
             {
@@ -12626,7 +12626,7 @@ export const REPORT_DATA: ReportData = {
                   value: 20
                 }
               ],
-              decemberGrowth: 20,
+              latestGrowth: 20,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Procore,Procore,Procore,Procore&hl=en"
             },
             {
@@ -12684,7 +12684,7 @@ export const REPORT_DATA: ReportData = {
                   value: 16
                 }
               ],
-              decemberGrowth: 16,
+              latestGrowth: 16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Veeva,Veeva,Veeva,Veeva&hl=en"
             },
             {
@@ -12742,7 +12742,7 @@ export const REPORT_DATA: ReportData = {
                   value: 13
                 }
               ],
-              decemberGrowth: 13,
+              latestGrowth: 13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Agilysys,Agilysys,Agilysys,Agilysys&hl=en"
             },
             {
@@ -12800,7 +12800,7 @@ export const REPORT_DATA: ReportData = {
                   value: 13
                 }
               ],
-              decemberGrowth: 13,
+              latestGrowth: 13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=E2open,E2open,E2open,E2open&hl=en"
             },
             {
@@ -12858,7 +12858,7 @@ export const REPORT_DATA: ReportData = {
                   value: 9
                 }
               ],
-              decemberGrowth: 9,
+              latestGrowth: 9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Xperi,Xperi,Xperi,Xperi&hl=en"
             },
             {
@@ -12916,7 +12916,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F027sl4s,%2Fm%2F027sl4s,%2Fm%2F027sl4s,%2Fm%2F027sl4s&hl=en"
             },
             {
@@ -12974,7 +12974,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Amdocs,Amdocs,Amdocs,Amdocs&hl=en"
             },
             {
@@ -13032,7 +13032,7 @@ export const REPORT_DATA: ReportData = {
                   value: -14
                 }
               ],
-              decemberGrowth: -14,
+              latestGrowth: -14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11p55_611y,%2Fg%2F11p55_611y,%2Fg%2F11p55_611y,%2Fg%2F11p55_611y&hl=en"
             },
             {
@@ -13090,7 +13090,7 @@ export const REPORT_DATA: ReportData = {
                   value: -14
                 }
               ],
-              decemberGrowth: -14,
+              latestGrowth: -14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0br01y,%2Fm%2F0br01y,%2Fm%2F0br01y,%2Fm%2F0br01y&hl=en"
             },
             {
@@ -13148,7 +13148,7 @@ export const REPORT_DATA: ReportData = {
                   value: -76
                 }
               ],
-              decemberGrowth: -76,
+              latestGrowth: -76,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Cerence,Cerence,Cerence,Cerence&hl=en"
             }
           ]
@@ -13211,7 +13211,7 @@ export const REPORT_DATA: ReportData = {
                   value: 109
                 }
               ],
-              decemberGrowth: 109,
+              latestGrowth: 109,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Apollo.io,Apollo.io,Apollo.io,Apollo.io&hl=en"
             },
             {
@@ -13269,7 +13269,7 @@ export const REPORT_DATA: ReportData = {
                   value: 88
                 }
               ],
-              decemberGrowth: 88,
+              latestGrowth: 88,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=LiveRamp%20%2B%20Live%20Ramp,LiveRamp%20%2B%20Live%20Ramp,LiveRamp%20%2B%20Live%20Ramp,LiveRamp%20%2B%20Live%20Ramp&hl=en"
             },
             {
@@ -13327,7 +13327,7 @@ export const REPORT_DATA: ReportData = {
                   value: 52
                 }
               ],
-              decemberGrowth: 52,
+              latestGrowth: 52,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=ON24,ON24,ON24,ON24&hl=en"
             },
             {
@@ -13385,7 +13385,7 @@ export const REPORT_DATA: ReportData = {
                   value: 51
                 }
               ],
-              decemberGrowth: 51,
+              latestGrowth: 51,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Similarweb%20%2B%20Similar%20Web,Similarweb%20%2B%20Similar%20Web,Similarweb%20%2B%20Similar%20Web,Similarweb%20%2B%20Similar%20Web&hl=en"
             },
             {
@@ -13443,7 +13443,7 @@ export const REPORT_DATA: ReportData = {
                   value: 50
                 }
               ],
-              decemberGrowth: 50,
+              latestGrowth: 50,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Sprout%20Social,Sprout%20Social,Sprout%20Social,Sprout%20Social&hl=en"
             },
             {
@@ -13501,7 +13501,7 @@ export const REPORT_DATA: ReportData = {
                   value: 31
                 }
               ],
-              decemberGrowth: 31,
+              latestGrowth: 31,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=ZoomInfo%20%2B%20Zoom%20Info,ZoomInfo%20%2B%20Zoom%20Info,ZoomInfo%20%2B%20Zoom%20Info,ZoomInfo%20%2B%20Zoom%20Info&hl=en"
             },
             {
@@ -13559,7 +13559,7 @@ export const REPORT_DATA: ReportData = {
                   value: 27
                 }
               ],
-              decemberGrowth: 27,
+              latestGrowth: 27,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Sprinklr,Sprinklr,Sprinklr,Sprinklr&hl=en"
             },
             {
@@ -13617,7 +13617,7 @@ export const REPORT_DATA: ReportData = {
                   value: 18
                 }
               ],
-              decemberGrowth: 18,
+              latestGrowth: 18,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Braze,Braze,Braze,Braze&hl=en"
             },
             {
@@ -13675,7 +13675,7 @@ export const REPORT_DATA: ReportData = {
                   value: 10
                 }
               ],
-              decemberGrowth: 10,
+              latestGrowth: 10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Freshworks,Freshworks,Freshworks,Freshworks&hl=en"
             },
             {
@@ -13733,7 +13733,7 @@ export const REPORT_DATA: ReportData = {
                   value: 9
                 }
               ],
-              decemberGrowth: 9,
+              latestGrowth: 9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Semrush,Semrush,Semrush,Semrush&hl=en"
             },
             {
@@ -13791,7 +13791,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=HubSpot,HubSpot,HubSpot,HubSpot&hl=en"
             },
             {
@@ -13849,7 +13849,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1
                 }
               ],
-              decemberGrowth: 1,
+              latestGrowth: 1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Kaltura,Kaltura,Kaltura,Kaltura&hl=en"
             },
             {
@@ -13907,7 +13907,7 @@ export const REPORT_DATA: ReportData = {
                   value: -1
                 }
               ],
-              decemberGrowth: -1,
+              latestGrowth: -1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Verint,Verint,Verint,Verint&hl=en"
             },
             {
@@ -13965,7 +13965,7 @@ export const REPORT_DATA: ReportData = {
                   value: -4
                 }
               ],
-              decemberGrowth: -4,
+              latestGrowth: -4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Yext,Yext,Yext,Yext&hl=en"
             },
             {
@@ -14023,7 +14023,7 @@ export const REPORT_DATA: ReportData = {
                   value: -10
                 }
               ],
-              decemberGrowth: -10,
+              latestGrowth: -10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Salesforce,Salesforce,Salesforce,Salesforce&hl=en"
             },
             {
@@ -14081,7 +14081,7 @@ export const REPORT_DATA: ReportData = {
                   value: -10
                 }
               ],
-              decemberGrowth: -10,
+              latestGrowth: -10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Vimeo,Vimeo,Vimeo,Vimeo&hl=en"
             },
             {
@@ -14139,7 +14139,7 @@ export const REPORT_DATA: ReportData = {
                   value: -19
                 }
               ],
-              decemberGrowth: -19,
+              latestGrowth: -19,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=MailChimp%20%2B%20Mail%20Chimp,MailChimp%20%2B%20Mail%20Chimp,MailChimp%20%2B%20Mail%20Chimp,MailChimp%20%2B%20Mail%20Chimp&hl=en"
             },
             {
@@ -14197,7 +14197,7 @@ export const REPORT_DATA: ReportData = {
                   value: -27
                 }
               ],
-              decemberGrowth: -27,
+              latestGrowth: -27,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Klayvio,Klayvio,Klayvio,Klayvio&hl=en"
             }
           ]
@@ -14260,7 +14260,7 @@ export const REPORT_DATA: ReportData = {
                   value: 93
                 }
               ],
-              decemberGrowth: 93,
+              latestGrowth: 93,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11fxd_l9yj,%2Fg%2F11fxd_l9yj,%2Fg%2F11fxd_l9yj,%2Fg%2F11fxd_l9yj&hl=en"
             },
             {
@@ -14318,7 +14318,7 @@ export const REPORT_DATA: ReportData = {
                   value: 78
                 }
               ],
-              decemberGrowth: 78,
+              latestGrowth: 78,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=CoPilot,CoPilot,CoPilot,CoPilot&hl=en"
             },
             {
@@ -14376,7 +14376,7 @@ export const REPORT_DATA: ReportData = {
                   value: 32
                 }
               ],
-              decemberGrowth: 32,
+              latestGrowth: 32,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=ServiceNow%20%2B%20Service%20Now,ServiceNow%20%2B%20Service%20Now,ServiceNow%20%2B%20Service%20Now,ServiceNow%20%2B%20Service%20Now&hl=en"
             },
             {
@@ -14434,7 +14434,7 @@ export const REPORT_DATA: ReportData = {
                   value: 15
                 }
               ],
-              decemberGrowth: 15,
+              latestGrowth: 15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Smartsheet%20%2B%20Smart%20Sheet%20%2B%20Smartsheets%20%2B%20Smart%20Sheets,Smartsheet%20%2B%20Smart%20Sheet%20%2B%20Smartsheets%20%2B%20Smart%20Sheets,Smartsheet%20%2B%20Smart%20Sheet%20%2B%20Smartsheets%20%2B%20Smart%20Sheets,Smartsheet%20%2B%20Smart%20Sheet%20%2B%20Smartsheets%20%2B%20Smart%20Sheets&hl=en"
             },
             {
@@ -14492,7 +14492,7 @@ export const REPORT_DATA: ReportData = {
                   value: 13
                 }
               ],
-              decemberGrowth: 13,
+              latestGrowth: 13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Manhattan%20Associates,Manhattan%20Associates,Manhattan%20Associates,Manhattan%20Associates&hl=en"
             },
             {
@@ -14550,7 +14550,7 @@ export const REPORT_DATA: ReportData = {
                   value: 13
                 }
               ],
-              decemberGrowth: 13,
+              latestGrowth: 13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Appian,Appian,Appian,Appian&hl=en"
             },
             {
@@ -14608,7 +14608,7 @@ export const REPORT_DATA: ReportData = {
                   value: 11
                 }
               ],
-              decemberGrowth: 11,
+              latestGrowth: 11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=SPS%20Commerce,SPS%20Commerce,SPS%20Commerce,SPS%20Commerce&hl=en"
             },
             {
@@ -14666,7 +14666,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F01pf4l,%2Fm%2F01pf4l,%2Fm%2F01pf4l,%2Fm%2F01pf4l&hl=en"
             },
             {
@@ -14724,7 +14724,7 @@ export const REPORT_DATA: ReportData = {
                   value: 7
                 }
               ],
-              decemberGrowth: 7,
+              latestGrowth: 7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Microsoft,Microsoft,Microsoft,Microsoft&hl=en"
             },
             {
@@ -14782,7 +14782,7 @@ export const REPORT_DATA: ReportData = {
                   value: 4
                 }
               ],
-              decemberGrowth: 4,
+              latestGrowth: 4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11fd7dbddz,%2Fg%2F11fd7dbddz,%2Fg%2F11fd7dbddz,%2Fg%2F11fd7dbddz&hl=en"
             },
             {
@@ -14840,7 +14840,7 @@ export const REPORT_DATA: ReportData = {
                   value: -2
                 }
               ],
-              decemberGrowth: -2,
+              latestGrowth: -2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F05nyz0,%2Fm%2F05nyz0,%2Fm%2F05nyz0,%2Fm%2F05nyz0&hl=en"
             },
             {
@@ -14898,7 +14898,7 @@ export const REPORT_DATA: ReportData = {
                   value: -9
                 }
               ],
-              decemberGrowth: -9,
+              latestGrowth: -9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F052tr,%2Fm%2F052tr,%2Fm%2F052tr,%2Fm%2F052tr&hl=en"
             },
             {
@@ -14956,7 +14956,7 @@ export const REPORT_DATA: ReportData = {
                   value: -10
                 }
               ],
-              decemberGrowth: -10,
+              latestGrowth: -10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Jira,Jira,Jira,Jira&hl=en"
             },
             {
@@ -15014,7 +15014,7 @@ export const REPORT_DATA: ReportData = {
                   value: -11
                 }
               ],
-              decemberGrowth: -11,
+              latestGrowth: -11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=DocuSign%20%2B%20Docu%20Sign,DocuSign%20%2B%20Docu%20Sign,DocuSign%20%2B%20Docu%20Sign,DocuSign%20%2B%20Docu%20Sign&hl=en"
             },
             {
@@ -15072,7 +15072,7 @@ export const REPORT_DATA: ReportData = {
                   value: -11
                 }
               ],
-              decemberGrowth: -11,
+              latestGrowth: -11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0c3z_p8,%2Fm%2F0c3z_p8,%2Fm%2F0c3z_p8,%2Fm%2F0c3z_p8&hl=en"
             },
             {
@@ -15130,7 +15130,7 @@ export const REPORT_DATA: ReportData = {
                   value: -11
                 }
               ],
-              decemberGrowth: -11,
+              latestGrowth: -11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Trello,Trello,Trello,Trello&hl=en"
             },
             {
@@ -15188,7 +15188,7 @@ export const REPORT_DATA: ReportData = {
                   value: -14
                 }
               ],
-              decemberGrowth: -14,
+              latestGrowth: -14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Dropbox,Dropbox,Dropbox,Dropbox&hl=en"
             },
             {
@@ -15246,7 +15246,7 @@ export const REPORT_DATA: ReportData = {
                   value: -20
                 }
               ],
-              decemberGrowth: -20,
+              latestGrowth: -20,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0drzplk,%2Fm%2F0drzplk,%2Fm%2F0drzplk,%2Fm%2F0drzplk&hl=en"
             },
             {
@@ -15304,7 +15304,7 @@ export const REPORT_DATA: ReportData = {
                   value: -26
                 }
               ],
-              decemberGrowth: -26,
+              latestGrowth: -26,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11sbm9k1r4,%2Fg%2F11sbm9k1r4,%2Fg%2F11sbm9k1r4,%2Fg%2F11sbm9k1r4&hl=en"
             }
           ]
@@ -15367,7 +15367,7 @@ export const REPORT_DATA: ReportData = {
                   value: 206
                 }
               ],
-              decemberGrowth: 206,
+              latestGrowth: 206,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Zeta%20Global,Zeta%20Global,Zeta%20Global,Zeta%20Global&hl=en"
             },
             {
@@ -15425,7 +15425,7 @@ export const REPORT_DATA: ReportData = {
                   value: 134
                 }
               ],
-              decemberGrowth: 134,
+              latestGrowth: 134,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Trade%20Desk,Trade%20Desk,Trade%20Desk,Trade%20Desk&hl=en"
             },
             {
@@ -15483,7 +15483,7 @@ export const REPORT_DATA: ReportData = {
                   value: 88
                 }
               ],
-              decemberGrowth: 88,
+              latestGrowth: 88,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Digital%20Turbine,Digital%20Turbine,Digital%20Turbine,Digital%20Turbine&hl=en"
             },
             {
@@ -15541,7 +15541,7 @@ export const REPORT_DATA: ReportData = {
                   value: 49
                 }
               ],
-              decemberGrowth: 49,
+              latestGrowth: 49,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0131j96s,%2Fm%2F0131j96s,%2Fm%2F0131j96s,%2Fm%2F0131j96s&hl=en"
             },
             {
@@ -15599,7 +15599,7 @@ export const REPORT_DATA: ReportData = {
                   value: 47
                 }
               ],
-              decemberGrowth: 47,
+              latestGrowth: 47,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=AppLovin,AppLovin,AppLovin,AppLovin&hl=en"
             },
             {
@@ -15657,7 +15657,7 @@ export const REPORT_DATA: ReportData = {
                   value: 19
                 }
               ],
-              decemberGrowth: 19,
+              latestGrowth: 19,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F113pg5d6_r,%2Fg%2F113pg5d6_r,%2Fg%2F113pg5d6_r,%2Fg%2F113pg5d6_r&hl=en"
             },
             {
@@ -15715,7 +15715,7 @@ export const REPORT_DATA: ReportData = {
                   value: 16
                 }
               ],
-              decemberGrowth: 16,
+              latestGrowth: 16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11n19tbztd,%2Fg%2F11n19tbztd,%2Fg%2F11n19tbztd,%2Fg%2F11n19tbztd&hl=en"
             },
             {
@@ -15773,7 +15773,7 @@ export const REPORT_DATA: ReportData = {
                   value: 10
                 }
               ],
-              decemberGrowth: 10,
+              latestGrowth: 10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Criteo,Criteo,Criteo,Criteo&hl=en"
             }
           ]
@@ -15836,7 +15836,7 @@ export const REPORT_DATA: ReportData = {
                   value: 79
                 }
               ],
-              decemberGrowth: 79,
+              latestGrowth: 79,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Pure%20Storage,Pure%20Storage,Pure%20Storage,Pure%20Storage&hl=en"
             },
             {
@@ -15894,7 +15894,7 @@ export const REPORT_DATA: ReportData = {
                   value: 55
                 }
               ],
-              decemberGrowth: 55,
+              latestGrowth: 55,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Databricks%20%2B%20Data%20Bricks,Databricks%20%2B%20Data%20Bricks,Databricks%20%2B%20Data%20Bricks,Databricks%20%2B%20Data%20Bricks&hl=en"
             },
             {
@@ -15952,7 +15952,7 @@ export const REPORT_DATA: ReportData = {
                   value: 45
                 }
               ],
-              decemberGrowth: 45,
+              latestGrowth: 45,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=AvePoint,AvePoint,AvePoint,AvePoint&hl=en"
             },
             {
@@ -16010,7 +16010,7 @@ export const REPORT_DATA: ReportData = {
                   value: 34
                 }
               ],
-              decemberGrowth: 34,
+              latestGrowth: 34,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=OpenText%20%2B%20%22Open%20Text%22,OpenText%20%2B%20%22Open%20Text%22,OpenText%20%2B%20%22Open%20Text%22,OpenText%20%2B%20%22Open%20Text%22&hl=en"
             },
             {
@@ -16068,7 +16068,7 @@ export const REPORT_DATA: ReportData = {
                   value: 24
                 }
               ],
-              decemberGrowth: 24,
+              latestGrowth: 24,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Commvault,Commvault,Commvault,Commvault&hl=en"
             },
             {
@@ -16126,7 +16126,7 @@ export const REPORT_DATA: ReportData = {
                   value: 17
                 }
               ],
-              decemberGrowth: 17,
+              latestGrowth: 17,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11b8krtt2g,%2Fg%2F11b8krtt2g,%2Fg%2F11b8krtt2g,%2Fg%2F11b8krtt2g&hl=en"
             },
             {
@@ -16184,7 +16184,7 @@ export const REPORT_DATA: ReportData = {
                   value: 15
                 }
               ],
-              decemberGrowth: 15,
+              latestGrowth: 15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Fastly,Fastly,Fastly,Fastly&hl=en"
             },
             {
@@ -16242,7 +16242,7 @@ export const REPORT_DATA: ReportData = {
                   value: 14
                 }
               ],
-              decemberGrowth: 14,
+              latestGrowth: 14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Nutanix,Nutanix,Nutanix,Nutanix&hl=en"
             },
             {
@@ -16300,7 +16300,7 @@ export const REPORT_DATA: ReportData = {
                   value: 11
                 }
               ],
-              decemberGrowth: 11,
+              latestGrowth: 11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Dynatrace,Dynatrace,Dynatrace,Dynatrace&hl=en"
             },
             {
@@ -16358,7 +16358,7 @@ export const REPORT_DATA: ReportData = {
                   value: 11
                 }
               ],
-              decemberGrowth: 11,
+              latestGrowth: 11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=NetApp,NetApp,NetApp,NetApp&hl=en"
             },
             {
@@ -16416,7 +16416,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Confluent,Confluent,Confluent,Confluent&hl=en"
             },
             {
@@ -16474,7 +16474,7 @@ export const REPORT_DATA: ReportData = {
                   value: 0
                 }
               ],
-              decemberGrowth: 0,
+              latestGrowth: 0,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=PagerDuty%20%2B%20Pager%20Duty,PagerDuty%20%2B%20Pager%20Duty,PagerDuty%20%2B%20Pager%20Duty,PagerDuty%20%2B%20Pager%20Duty&hl=en"
             },
             {
@@ -16532,7 +16532,7 @@ export const REPORT_DATA: ReportData = {
                   value: -1
                 }
               ],
-              decemberGrowth: -1,
+              latestGrowth: -1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Jfrog,Jfrog,Jfrog,Jfrog&hl=en"
             },
             {
@@ -16590,7 +16590,7 @@ export const REPORT_DATA: ReportData = {
                   value: -3
                 }
               ],
-              decemberGrowth: -3,
+              latestGrowth: -3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=GitLab,GitLab,GitLab,GitLab&hl=en"
             },
             {
@@ -16648,7 +16648,7 @@ export const REPORT_DATA: ReportData = {
                   value: -3
                 }
               ],
-              decemberGrowth: -3,
+              latestGrowth: -3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F03p2ycm,%2Fm%2F03p2ycm,%2Fm%2F03p2ycm,%2Fm%2F03p2ycm&hl=en"
             },
             {
@@ -16706,7 +16706,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Jamf,Jamf,Jamf,Jamf&hl=en"
             },
             {
@@ -16764,7 +16764,7 @@ export const REPORT_DATA: ReportData = {
                   value: -8
                 }
               ],
-              decemberGrowth: -8,
+              latestGrowth: -8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Informatica,Informatica,Informatica,Informatica&hl=en"
             },
             {
@@ -16822,7 +16822,7 @@ export const REPORT_DATA: ReportData = {
                   value: -10
                 }
               ],
-              decemberGrowth: -10,
+              latestGrowth: -10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Elasticsearch%20%2B%20Elastic%20Search,Elasticsearch%20%2B%20Elastic%20Search,Elasticsearch%20%2B%20Elastic%20Search,Elasticsearch%20%2B%20Elastic%20Search&hl=en"
             },
             {
@@ -16880,7 +16880,7 @@ export const REPORT_DATA: ReportData = {
                   value: -12
                 }
               ],
-              decemberGrowth: -12,
+              latestGrowth: -12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=MongoDB%20%2B%20Mongo%20DB,MongoDB%20%2B%20Mongo%20DB,MongoDB%20%2B%20Mongo%20DB,MongoDB%20%2B%20Mongo%20DB&hl=en"
             },
             {
@@ -16938,7 +16938,7 @@ export const REPORT_DATA: ReportData = {
                   value: -13
                 }
               ],
-              decemberGrowth: -13,
+              latestGrowth: -13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Teradata,Teradata,Teradata,Teradata&hl=en"
             },
             {
@@ -16996,7 +16996,7 @@ export const REPORT_DATA: ReportData = {
                   value: -15
                 }
               ],
-              decemberGrowth: -15,
+              latestGrowth: -15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Couchbase,Couchbase,Couchbase,Couchbase&hl=en"
             }
           ]
@@ -17059,7 +17059,7 @@ export const REPORT_DATA: ReportData = {
                   value: 24
                 }
               ],
-              decemberGrowth: 24,
+              latestGrowth: 24,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=DigitalOcean%20%2B%20Digital%20Ocean,DigitalOcean%20%2B%20Digital%20Ocean,DigitalOcean%20%2B%20Digital%20Ocean,DigitalOcean%20%2B%20Digital%20Ocean&hl=en"
             },
             {
@@ -17117,7 +17117,7 @@ export const REPORT_DATA: ReportData = {
                   value: 18
                 }
               ],
-              decemberGrowth: 18,
+              latestGrowth: 18,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0105pbj4,%2Fm%2F0105pbj4,%2Fm%2F0105pbj4,%2Fm%2F0105pbj4&hl=en"
             },
             {
@@ -17175,7 +17175,7 @@ export const REPORT_DATA: ReportData = {
                   value: 7
                 }
               ],
-              decemberGrowth: 7,
+              latestGrowth: 7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Azure,Azure,Azure,Azure&hl=en"
             },
             {
@@ -17233,7 +17233,7 @@ export const REPORT_DATA: ReportData = {
                   value: 7
                 }
               ],
-              decemberGrowth: 7,
+              latestGrowth: 7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Oracle,Oracle,Oracle,Oracle&hl=en"
             },
             {
@@ -17291,7 +17291,7 @@ export const REPORT_DATA: ReportData = {
                   value: 4
                 }
               ],
-              decemberGrowth: 4,
+              latestGrowth: 4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=AWS,AWS,AWS,AWS&hl=en"
             }
           ]
@@ -17354,7 +17354,7 @@ export const REPORT_DATA: ReportData = {
                   value: 4063
                 }
               ],
-              decemberGrowth: 4063,
+              latestGrowth: 4063,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Base44%20%2B%20Base%2044,Base44%20%2B%20Base%2044,Base44%20%2B%20Base%2044,Base44%20%2B%20Base%2044&hl=en"
             },
             {
@@ -17412,7 +17412,7 @@ export const REPORT_DATA: ReportData = {
                   value: 145
                 }
               ],
-              decemberGrowth: 145,
+              latestGrowth: 145,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=EverCommerce,EverCommerce,EverCommerce,EverCommerce&hl=en"
             },
             {
@@ -17470,7 +17470,7 @@ export const REPORT_DATA: ReportData = {
                   value: 35
                 }
               ],
-              decemberGrowth: 35,
+              latestGrowth: 35,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=BigCommerce%20%2B%20Big%20Commerce,BigCommerce%20%2B%20Big%20Commerce,BigCommerce%20%2B%20Big%20Commerce,BigCommerce%20%2B%20Big%20Commerce&hl=en"
             },
             {
@@ -17528,7 +17528,7 @@ export const REPORT_DATA: ReportData = {
                   value: 25
                 }
               ],
-              decemberGrowth: 25,
+              latestGrowth: 25,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Squarespace%20%2B%20Square%20Space,Squarespace%20%2B%20Square%20Space,Squarespace%20%2B%20Square%20Space,Squarespace%20%2B%20Square%20Space&hl=en"
             },
             {
@@ -17586,7 +17586,7 @@ export const REPORT_DATA: ReportData = {
                   value: 11
                 }
               ],
-              decemberGrowth: 11,
+              latestGrowth: 11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Shopify,Shopify,Shopify,Shopify&hl=en"
             },
             {
@@ -17644,7 +17644,7 @@ export const REPORT_DATA: ReportData = {
                   value: -10
                 }
               ],
-              decemberGrowth: -10,
+              latestGrowth: -10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Wix,Wix,Wix,Wix&hl=en"
             },
             {
@@ -17702,7 +17702,7 @@ export const REPORT_DATA: ReportData = {
                   value: -11
                 }
               ],
-              decemberGrowth: -11,
+              latestGrowth: -11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=WordPress,WordPress,WordPress,WordPress&hl=en"
             },
             {
@@ -17760,7 +17760,7 @@ export const REPORT_DATA: ReportData = {
                   value: -12
                 }
               ],
-              decemberGrowth: -12,
+              latestGrowth: -12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=GoDaddy%20%2B%20Go%20Daddy,GoDaddy%20%2B%20Go%20Daddy,GoDaddy%20%2B%20Go%20Daddy,GoDaddy%20%2B%20Go%20Daddy&hl=en"
             }
           ]
@@ -17823,7 +17823,7 @@ export const REPORT_DATA: ReportData = {
                   value: 124
                 }
               ],
-              decemberGrowth: 124,
+              latestGrowth: 124,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=OneStream%20Software,OneStream%20Software,OneStream%20Software,OneStream%20Software&hl=en"
             },
             {
@@ -17881,7 +17881,7 @@ export const REPORT_DATA: ReportData = {
                   value: 44
                 }
               ],
-              decemberGrowth: 44,
+              latestGrowth: 44,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11c5rmrd61,%2Fg%2F11c5rmrd61,%2Fg%2F11c5rmrd61,%2Fg%2F11c5rmrd61&hl=en"
             },
             {
@@ -17939,7 +17939,7 @@ export const REPORT_DATA: ReportData = {
                   value: 24
                 }
               ],
-              decemberGrowth: 24,
+              latestGrowth: 24,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Expensify,Expensify,Expensify,Expensify&hl=en"
             },
             {
@@ -17997,7 +17997,7 @@ export const REPORT_DATA: ReportData = {
                   value: 12
                 }
               ],
-              decemberGrowth: 12,
+              latestGrowth: 12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Xero,Xero,Xero,Xero&hl=en"
             },
             {
@@ -18055,7 +18055,7 @@ export const REPORT_DATA: ReportData = {
                   value: 11
                 }
               ],
-              decemberGrowth: 11,
+              latestGrowth: 11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Workiva,Workiva,Workiva,Workiva&hl=en"
             },
             {
@@ -18113,7 +18113,7 @@ export const REPORT_DATA: ReportData = {
                   value: 10
                 }
               ],
-              decemberGrowth: 10,
+              latestGrowth: 10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=TurboTax%20%2B%20Turbo%20Tax,TurboTax%20%2B%20Turbo%20Tax,TurboTax%20%2B%20Turbo%20Tax,TurboTax%20%2B%20Turbo%20Tax&hl=en"
             },
             {
@@ -18171,7 +18171,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=NetSuite,NetSuite,NetSuite,NetSuite&hl=en"
             },
             {
@@ -18229,7 +18229,7 @@ export const REPORT_DATA: ReportData = {
                   value: -1
                 }
               ],
-              decemberGrowth: -1,
+              latestGrowth: -1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=QuickBooks%20%2B%20Quick%20Books,QuickBooks%20%2B%20Quick%20Books,QuickBooks%20%2B%20Quick%20Books,QuickBooks%20%2B%20Quick%20Books&hl=en"
             },
             {
@@ -18287,7 +18287,7 @@ export const REPORT_DATA: ReportData = {
                   value: -14
                 }
               ],
-              decemberGrowth: -14,
+              latestGrowth: -14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F02rdct,%2Fm%2F02rdct,%2Fm%2F02rdct,%2Fm%2F02rdct&hl=en"
             },
             {
@@ -18345,7 +18345,7 @@ export const REPORT_DATA: ReportData = {
                   value: -15
                 }
               ],
-              decemberGrowth: -15,
+              latestGrowth: -15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Zuora,Zuora,Zuora,Zuora&hl=en"
             }
           ]
@@ -18408,7 +18408,7 @@ export const REPORT_DATA: ReportData = {
                   value: 95
                 }
               ],
-              decemberGrowth: 95,
+              latestGrowth: 95,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Cloudflare,Cloudflare,Cloudflare,Cloudflare&hl=en"
             },
             {
@@ -18466,7 +18466,7 @@ export const REPORT_DATA: ReportData = {
                   value: 83
                 }
               ],
-              decemberGrowth: 83,
+              latestGrowth: 83,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Rapid7,Rapid7,Rapid7,Rapid7&hl=en"
             },
             {
@@ -18524,7 +18524,7 @@ export const REPORT_DATA: ReportData = {
                   value: 56
                 }
               ],
-              decemberGrowth: 56,
+              latestGrowth: 56,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Cognyte,Cognyte,Cognyte,Cognyte&hl=en"
             },
             {
@@ -18582,7 +18582,7 @@ export const REPORT_DATA: ReportData = {
                   value: 30
                 }
               ],
-              decemberGrowth: 30,
+              latestGrowth: 30,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=SailPoint,SailPoint,SailPoint,SailPoint&hl=en"
             },
             {
@@ -18640,7 +18640,7 @@ export const REPORT_DATA: ReportData = {
                   value: 28
                 }
               ],
-              decemberGrowth: 28,
+              latestGrowth: 28,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Zscaler,Zscaler,Zscaler,Zscaler&hl=en"
             },
             {
@@ -18698,7 +18698,7 @@ export const REPORT_DATA: ReportData = {
                   value: 25
                 }
               ],
-              decemberGrowth: 25,
+              latestGrowth: 25,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=CrowdStrike,CrowdStrike,CrowdStrike,CrowdStrike&hl=en"
             },
             {
@@ -18756,7 +18756,7 @@ export const REPORT_DATA: ReportData = {
                   value: 24
                 }
               ],
-              decemberGrowth: 24,
+              latestGrowth: 24,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Fortinet,Fortinet,Fortinet,Fortinet&hl=en"
             },
             {
@@ -18814,7 +18814,7 @@ export const REPORT_DATA: ReportData = {
                   value: 22
                 }
               ],
-              decemberGrowth: 22,
+              latestGrowth: 22,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=SentinelOne%20%2B%20Sentinel%20One,SentinelOne%20%2B%20Sentinel%20One,SentinelOne%20%2B%20Sentinel%20One,SentinelOne%20%2B%20Sentinel%20One&hl=en"
             },
             {
@@ -18872,7 +18872,7 @@ export const REPORT_DATA: ReportData = {
                   value: 13
                 }
               ],
-              decemberGrowth: 13,
+              latestGrowth: 13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Qualys,Qualys,Qualys,Qualys&hl=en"
             },
             {
@@ -18930,7 +18930,7 @@ export const REPORT_DATA: ReportData = {
                   value: 9
                 }
               ],
-              decemberGrowth: 9,
+              latestGrowth: 9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=NetScout,NetScout,NetScout,NetScout&hl=en"
             },
             {
@@ -18988,7 +18988,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F02n9v53,%2Fm%2F02n9v53,%2Fm%2F02n9v53,%2Fm%2F02n9v53&hl=en"
             },
             {
@@ -19046,7 +19046,7 @@ export const REPORT_DATA: ReportData = {
                   value: 7
                 }
               ],
-              decemberGrowth: 7,
+              latestGrowth: 7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11bc5d_5b0,%2Fg%2F11bc5d_5b0,%2Fg%2F11bc5d_5b0,%2Fg%2F11bc5d_5b0&hl=en"
             },
             {
@@ -19104,7 +19104,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Cellebrite,Cellebrite,Cellebrite,Cellebrite&hl=en"
             }
           ]
@@ -19167,7 +19167,7 @@ export const REPORT_DATA: ReportData = {
                   value: 188
                 }
               ],
-              decemberGrowth: 188,
+              latestGrowth: 188,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=PitchBook,PitchBook,PitchBook,PitchBook&hl=en"
             },
             {
@@ -19225,7 +19225,7 @@ export const REPORT_DATA: ReportData = {
                   value: 81
                 }
               ],
-              decemberGrowth: 81,
+              latestGrowth: 81,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Clarivate,Clarivate,Clarivate,Clarivate&hl=en"
             },
             {
@@ -19283,7 +19283,7 @@ export const REPORT_DATA: ReportData = {
                   value: 61
                 }
               ],
-              decemberGrowth: 61,
+              latestGrowth: 61,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Gartner,Gartner,Gartner,Gartner&hl=en"
             },
             {
@@ -19341,7 +19341,7 @@ export const REPORT_DATA: ReportData = {
                   value: 40
                 }
               ],
-              decemberGrowth: 40,
+              latestGrowth: 40,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Forrester,Forrester,Forrester,Forrester&hl=en"
             },
             {
@@ -19399,7 +19399,7 @@ export const REPORT_DATA: ReportData = {
                   value: 32
                 }
               ],
-              decemberGrowth: 32,
+              latestGrowth: 32,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Morningstar,Morningstar,Morningstar,Morningstar&hl=en"
             },
             {
@@ -19457,7 +19457,7 @@ export const REPORT_DATA: ReportData = {
                   value: 27
                 }
               ],
-              decemberGrowth: 27,
+              latestGrowth: 27,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Palantir,Palantir,Palantir,Palantir&hl=en"
             },
             {
@@ -19515,7 +19515,7 @@ export const REPORT_DATA: ReportData = {
                   value: 22
                 }
               ],
-              decemberGrowth: 22,
+              latestGrowth: 22,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F02cgrf,%2Fm%2F02cgrf,%2Fm%2F02cgrf,%2Fm%2F02cgrf&hl=en"
             },
             {
@@ -19573,7 +19573,7 @@ export const REPORT_DATA: ReportData = {
                   value: 4
                 }
               ],
-              decemberGrowth: 4,
+              latestGrowth: 4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Equifax,Equifax,Equifax,Equifax&hl=en"
             }
           ]
@@ -19641,7 +19641,7 @@ export const REPORT_DATA: ReportData = {
                   value: 79
                 }
               ],
-              decemberGrowth: 79,
+              latestGrowth: 79,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11vm5dv0d,%2Fg%2F11vm5dv0d,%2Fg%2F11vm5dv0d,%2Fg%2F11vm5dv0d&hl=en"
             },
             {
@@ -19699,7 +19699,7 @@ export const REPORT_DATA: ReportData = {
                   value: 42
                 }
               ],
-              decemberGrowth: 42,
+              latestGrowth: 42,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=EssilorLuxottica%20%2B%20Essilor%20Luxottica,EssilorLuxottica%20%2B%20Essilor%20Luxottica,EssilorLuxottica%20%2B%20Essilor%20Luxottica,EssilorLuxottica%20%2B%20Essilor%20Luxottica&hl=en"
             },
             {
@@ -19757,7 +19757,7 @@ export const REPORT_DATA: ReportData = {
                   value: 38
                 }
               ],
-              decemberGrowth: 38,
+              latestGrowth: 38,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Wilson%20Tennis,Wilson%20Tennis,Wilson%20Tennis,Wilson%20Tennis&hl=en"
             },
             {
@@ -19815,7 +19815,7 @@ export const REPORT_DATA: ReportData = {
                   value: 32
                 }
               ],
-              decemberGrowth: 32,
+              latestGrowth: 32,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11g9mw5lfz,%2Fg%2F11g9mw5lfz,%2Fg%2F11g9mw5lfz,%2Fg%2F11g9mw5lfz&hl=en"
             },
             {
@@ -19873,7 +19873,7 @@ export const REPORT_DATA: ReportData = {
                   value: 28
                 }
               ],
-              decemberGrowth: 28,
+              latestGrowth: 28,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0s9mxly,%2Fm%2F0s9mxly,%2Fm%2F0s9mxly,%2Fm%2F0s9mxly&hl=en"
             },
             {
@@ -19931,7 +19931,7 @@ export const REPORT_DATA: ReportData = {
                   value: 14
                 }
               ],
-              decemberGrowth: 14,
+              latestGrowth: 14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Arcteryx%20%2B%20Arc%27teryx,Arcteryx%20%2B%20Arc%27teryx,Arcteryx%20%2B%20Arc%27teryx,Arcteryx%20%2B%20Arc%27teryx&hl=en"
             },
             {
@@ -19989,7 +19989,7 @@ export const REPORT_DATA: ReportData = {
                   value: 12
                 }
               ],
-              decemberGrowth: 12,
+              latestGrowth: 12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Victoria%27s%20Secret%20%2B%20Victorias%20Secret,Victoria%27s%20Secret%20%2B%20Victorias%20Secret,Victoria%27s%20Secret%20%2B%20Victorias%20Secret,Victoria%27s%20Secret%20%2B%20Victorias%20Secret&hl=en"
             },
             {
@@ -20047,7 +20047,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Aritzia,Aritzia,Aritzia,Aritzia&hl=en"
             },
             {
@@ -20105,7 +20105,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F01yfp7,%2Fm%2F01yfp7,%2Fm%2F01yfp7,%2Fm%2F01yfp7&hl=en"
             },
             {
@@ -20163,7 +20163,7 @@ export const REPORT_DATA: ReportData = {
                   value: 5
                 }
               ],
-              decemberGrowth: 5,
+              latestGrowth: 5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Levi%27s%20%2B%20Levis,Levi%27s%20%2B%20Levis,Levi%27s%20%2B%20Levis,Levi%27s%20%2B%20Levis&hl=en"
             },
             {
@@ -20221,7 +20221,7 @@ export const REPORT_DATA: ReportData = {
                   value: 4
                 }
               ],
-              decemberGrowth: 4,
+              latestGrowth: 4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Vuori,Vuori,Vuori,Vuori&hl=en"
             },
             {
@@ -20279,7 +20279,7 @@ export const REPORT_DATA: ReportData = {
                   value: 3
                 }
               ],
-              decemberGrowth: 3,
+              latestGrowth: 3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Aerie,Aerie,Aerie,Aerie&hl=en"
             },
             {
@@ -20337,7 +20337,7 @@ export const REPORT_DATA: ReportData = {
                   value: -2
                 }
               ],
-              decemberGrowth: -2,
+              latestGrowth: -2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F09jh8w,%2Fm%2F09jh8w,%2Fm%2F09jh8w,%2Fm%2F09jh8w&hl=en"
             },
             {
@@ -20395,7 +20395,7 @@ export const REPORT_DATA: ReportData = {
                   value: -3
                 }
               ],
-              decemberGrowth: -3,
+              latestGrowth: -3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Anthropologie,Anthropologie,Anthropologie,Anthropologie&hl=en"
             },
             {
@@ -20453,7 +20453,7 @@ export const REPORT_DATA: ReportData = {
                   value: -3
                 }
               ],
-              decemberGrowth: -3,
+              latestGrowth: -3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=North%20Face,North%20Face,North%20Face,North%20Face&hl=en"
             },
             {
@@ -20511,7 +20511,7 @@ export const REPORT_DATA: ReportData = {
                   value: -4
                 }
               ],
-              decemberGrowth: -4,
+              latestGrowth: -4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%22Free%20People%22,%22Free%20People%22,%22Free%20People%22,%22Free%20People%22&hl=en"
             },
             {
@@ -20569,7 +20569,7 @@ export const REPORT_DATA: ReportData = {
                   value: -4
                 }
               ],
-              decemberGrowth: -4,
+              latestGrowth: -4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Dockers,Dockers,Dockers,Dockers&hl=en"
             },
             {
@@ -20627,7 +20627,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Ralph%20Lauren,Ralph%20Lauren,Ralph%20Lauren,Ralph%20Lauren&hl=en"
             },
             {
@@ -20685,7 +20685,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Hollister,Hollister,Hollister,Hollister&hl=en"
             },
             {
@@ -20743,7 +20743,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Guess%20-who%20-what%20-paper%20-game%20-meaning%20-song%20-the,Guess%20-who%20-what%20-paper%20-game%20-meaning%20-song%20-the,Guess%20-who%20-what%20-paper%20-game%20-meaning%20-song%20-the,Guess%20-who%20-what%20-paper%20-game%20-meaning%20-song%20-the&hl=en"
             },
             {
@@ -20801,7 +20801,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Gymboree,Gymboree,Gymboree,Gymboree&hl=en"
             },
             {
@@ -20859,7 +20859,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Urban%20Outfitters,Urban%20Outfitters,Urban%20Outfitters,Urban%20Outfitters&hl=en"
             },
             {
@@ -20917,7 +20917,7 @@ export const REPORT_DATA: ReportData = {
                   value: -7
                 }
               ],
-              decemberGrowth: -7,
+              latestGrowth: -7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=American%20Eagle,American%20Eagle,American%20Eagle,American%20Eagle&hl=en"
             },
             {
@@ -20975,7 +20975,7 @@ export const REPORT_DATA: ReportData = {
                   value: -8
                 }
               ],
-              decemberGrowth: -8,
+              latestGrowth: -8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Lululemon,Lululemon,Lululemon,Lululemon&hl=en"
             },
             {
@@ -21033,7 +21033,7 @@ export const REPORT_DATA: ReportData = {
                   value: -8
                 }
               ],
-              decemberGrowth: -8,
+              latestGrowth: -8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Old%20Navy,Old%20Navy,Old%20Navy,Old%20Navy&hl=en"
             },
             {
@@ -21091,7 +21091,7 @@ export const REPORT_DATA: ReportData = {
                   value: -8
                 }
               ],
-              decemberGrowth: -8,
+              latestGrowth: -8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Zara,Zara,Zara,Zara&hl=en"
             },
             {
@@ -21149,7 +21149,7 @@ export const REPORT_DATA: ReportData = {
                   value: -9
                 }
               ],
-              decemberGrowth: -9,
+              latestGrowth: -9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=H%26M%20%2B%20HM%20%2B%20%22H%20M%22%20%2B%20%22H%20and%20M%22,H%26M%20%2B%20HM%20%2B%20%22H%20M%22%20%2B%20%22H%20and%20M%22,H%26M%20%2B%20HM%20%2B%20%22H%20M%22%20%2B%20%22H%20and%20M%22,H%26M%20%2B%20HM%20%2B%20%22H%20M%22%20%2B%20%22H%20and%20M%22&hl=en"
             },
             {
@@ -21207,7 +21207,7 @@ export const REPORT_DATA: ReportData = {
                   value: -9
                 }
               ],
-              decemberGrowth: -9,
+              latestGrowth: -9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Children%27s%20Place%20%2B%20Childrens%20Place,Children%27s%20Place%20%2B%20Childrens%20Place,Children%27s%20Place%20%2B%20Childrens%20Place,Children%27s%20Place%20%2B%20Childrens%20Place&hl=en"
             },
             {
@@ -21265,7 +21265,7 @@ export const REPORT_DATA: ReportData = {
                   value: -10
                 }
               ],
-              decemberGrowth: -10,
+              latestGrowth: -10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Calvin%20Klein,Calvin%20Klein,Calvin%20Klein,Calvin%20Klein&hl=en"
             },
             {
@@ -21323,7 +21323,7 @@ export const REPORT_DATA: ReportData = {
                   value: -10
                 }
               ],
-              decemberGrowth: -10,
+              latestGrowth: -10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Carhartt,Carhartt,Carhartt,Carhartt&hl=en"
             },
             {
@@ -21381,7 +21381,7 @@ export const REPORT_DATA: ReportData = {
                   value: -11
                 }
               ],
-              decemberGrowth: -11,
+              latestGrowth: -11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Banana%20Republic,Banana%20Republic,Banana%20Republic,Banana%20Republic&hl=en"
             },
             {
@@ -21439,7 +21439,7 @@ export const REPORT_DATA: ReportData = {
                   value: -11
                 }
               ],
-              decemberGrowth: -11,
+              latestGrowth: -11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Tommy%20Hilfiger,Tommy%20Hilfiger,Tommy%20Hilfiger,Tommy%20Hilfiger&hl=en"
             },
             {
@@ -21497,7 +21497,7 @@ export const REPORT_DATA: ReportData = {
                   value: -11
                 }
               ],
-              decemberGrowth: -11,
+              latestGrowth: -11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Torrid,Torrid,Torrid,Torrid&hl=en"
             },
             {
@@ -21555,7 +21555,7 @@ export const REPORT_DATA: ReportData = {
                   value: -13
                 }
               ],
-              decemberGrowth: -13,
+              latestGrowth: -13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=J%20Jill%20%2B%20Jjill,J%20Jill%20%2B%20Jjill,J%20Jill%20%2B%20Jjill,J%20Jill%20%2B%20Jjill&hl=en"
             },
             {
@@ -21613,7 +21613,7 @@ export const REPORT_DATA: ReportData = {
                   value: -13
                 }
               ],
-              decemberGrowth: -13,
+              latestGrowth: -13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Abercrombie,Abercrombie,Abercrombie,Abercrombie&hl=en"
             },
             {
@@ -21671,7 +21671,7 @@ export const REPORT_DATA: ReportData = {
                   value: -14
                 }
               ],
-              decemberGrowth: -14,
+              latestGrowth: -14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Stuart%20Weitzman,Stuart%20Weitzman,Stuart%20Weitzman,Stuart%20Weitzman&hl=en"
             },
             {
@@ -21729,7 +21729,7 @@ export const REPORT_DATA: ReportData = {
                   value: -14
                 }
               ],
-              decemberGrowth: -14,
+              latestGrowth: -14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Hugo%20Boss,Hugo%20Boss,Hugo%20Boss,Hugo%20Boss&hl=en"
             },
             {
@@ -21787,7 +21787,7 @@ export const REPORT_DATA: ReportData = {
                   value: -15
                 }
               ],
-              decemberGrowth: -15,
+              latestGrowth: -15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Athleta,Athleta,Athleta,Athleta&hl=en"
             },
             {
@@ -21845,7 +21845,7 @@ export const REPORT_DATA: ReportData = {
                   value: -15
                 }
               ],
-              decemberGrowth: -15,
+              latestGrowth: -15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Michael%20Kors,Michael%20Kors,Michael%20Kors,Michael%20Kors&hl=en"
             },
             {
@@ -21903,7 +21903,7 @@ export const REPORT_DATA: ReportData = {
                   value: -20
                 }
               ],
-              decemberGrowth: -20,
+              latestGrowth: -20,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Kate%20Spade,Kate%20Spade,Kate%20Spade,Kate%20Spade&hl=en"
             }
           ]
@@ -21966,7 +21966,7 @@ export const REPORT_DATA: ReportData = {
                   value: 32
                 }
               ],
-              decemberGrowth: 32,
+              latestGrowth: 32,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=On%20Running%20%2B%20On%20Cloud%20%2B%20On%20Shoes%20%2B%20Cloud%20Shoes,On%20Running%20%2B%20On%20Cloud%20%2B%20On%20Shoes%20%2B%20Cloud%20Shoes,On%20Running%20%2B%20On%20Cloud%20%2B%20On%20Shoes%20%2B%20Cloud%20Shoes,On%20Running%20%2B%20On%20Cloud%20%2B%20On%20Shoes%20%2B%20Cloud%20Shoes&hl=en"
             },
             {
@@ -22024,7 +22024,7 @@ export const REPORT_DATA: ReportData = {
                   value: 26
                 }
               ],
-              decemberGrowth: 26,
+              latestGrowth: 26,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Salomon,Salomon,Salomon,Salomon&hl=en"
             },
             {
@@ -22082,7 +22082,7 @@ export const REPORT_DATA: ReportData = {
                   value: 14
                 }
               ],
-              decemberGrowth: 14,
+              latestGrowth: 14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Allbirds%20%2B%20%22All%20Birds%22,Allbirds%20%2B%20%22All%20Birds%22,Allbirds%20%2B%20%22All%20Birds%22,Allbirds%20%2B%20%22All%20Birds%22&hl=en"
             },
             {
@@ -22140,7 +22140,7 @@ export const REPORT_DATA: ReportData = {
                   value: 9
                 }
               ],
-              decemberGrowth: 9,
+              latestGrowth: 9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=ASICS,ASICS,ASICS,ASICS&hl=en"
             },
             {
@@ -22198,7 +22198,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Steve%20Madden,Steve%20Madden,Steve%20Madden,Steve%20Madden&hl=en"
             },
             {
@@ -22256,7 +22256,7 @@ export const REPORT_DATA: ReportData = {
                   value: 2
                 }
               ],
-              decemberGrowth: 2,
+              latestGrowth: 2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Adidas,Adidas,Adidas,Adidas&hl=en"
             },
             {
@@ -22314,7 +22314,7 @@ export const REPORT_DATA: ReportData = {
                   value: 2
                 }
               ],
-              decemberGrowth: 2,
+              latestGrowth: 2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Hey%20Dude%20%2B%20HeyDude,Hey%20Dude%20%2B%20HeyDude,Hey%20Dude%20%2B%20HeyDude,Hey%20Dude%20%2B%20HeyDude&hl=en"
             },
             {
@@ -22372,7 +22372,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1
                 }
               ],
-              decemberGrowth: 1,
+              latestGrowth: 1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Hoka,Hoka,Hoka,Hoka&hl=en"
             },
             {
@@ -22430,7 +22430,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1
                 }
               ],
-              decemberGrowth: 1,
+              latestGrowth: 1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Crocs,Crocs,Crocs,Crocs&hl=en"
             },
             {
@@ -22488,7 +22488,7 @@ export const REPORT_DATA: ReportData = {
                   value: -1
                 }
               ],
-              decemberGrowth: -1,
+              latestGrowth: -1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Skechers,Skechers,Skechers,Skechers&hl=en"
             },
             {
@@ -22546,7 +22546,7 @@ export const REPORT_DATA: ReportData = {
                   value: -1
                 }
               ],
-              decemberGrowth: -1,
+              latestGrowth: -1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Timberland,Timberland,Timberland,Timberland&hl=en"
             },
             {
@@ -22604,7 +22604,7 @@ export const REPORT_DATA: ReportData = {
                   value: -2
                 }
               ],
-              decemberGrowth: -2,
+              latestGrowth: -2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=FootJoy%20%2B%20Foot%20Joy,FootJoy%20%2B%20Foot%20Joy,FootJoy%20%2B%20Foot%20Joy,FootJoy%20%2B%20Foot%20Joy&hl=en"
             },
             {
@@ -22662,7 +22662,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Birkenstock,Birkenstock,Birkenstock,Birkenstock&hl=en"
             },
             {
@@ -22720,7 +22720,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Vans,Vans,Vans,Vans&hl=en"
             },
             {
@@ -22778,7 +22778,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Nike,Nike,Nike,Nike&hl=en"
             },
             {
@@ -22836,7 +22836,7 @@ export const REPORT_DATA: ReportData = {
                   value: -8
                 }
               ],
-              decemberGrowth: -8,
+              latestGrowth: -8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Jimmy%20Choo,Jimmy%20Choo,Jimmy%20Choo,Jimmy%20Choo&hl=en"
             },
             {
@@ -22894,7 +22894,7 @@ export const REPORT_DATA: ReportData = {
                   value: -12
                 }
               ],
-              decemberGrowth: -12,
+              latestGrowth: -12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Martens,Martens,Martens,Martens&hl=en"
             },
             {
@@ -22952,7 +22952,7 @@ export const REPORT_DATA: ReportData = {
                   value: -22
                 }
               ],
-              decemberGrowth: -22,
+              latestGrowth: -22,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Ugg%20%2B%20Uggs,Ugg%20%2B%20Uggs,Ugg%20%2B%20Uggs,Ugg%20%2B%20Uggs&hl=en"
             }
           ]
@@ -23015,7 +23015,7 @@ export const REPORT_DATA: ReportData = {
                   value: 135
                 }
               ],
-              decemberGrowth: 135,
+              latestGrowth: 135,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Vital%20Farms,Vital%20Farms,Vital%20Farms,Vital%20Farms&hl=en"
             },
             {
@@ -23073,7 +23073,7 @@ export const REPORT_DATA: ReportData = {
                   value: 113
                 }
               ],
-              decemberGrowth: 113,
+              latestGrowth: 113,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=US,US,US,US&q=Alani,Alani,Alani,Alani&hl=en"
             },
             {
@@ -23131,7 +23131,7 @@ export const REPORT_DATA: ReportData = {
                   value: 92
                 }
               ],
-              decemberGrowth: 92,
+              latestGrowth: 92,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Lifeway%20Kefir,Lifeway%20Kefir,Lifeway%20Kefir,Lifeway%20Kefir&hl=en"
             },
             {
@@ -23189,7 +23189,7 @@ export const REPORT_DATA: ReportData = {
                   value: 50
                 }
               ],
-              decemberGrowth: 50,
+              latestGrowth: 50,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Dymatize,Dymatize,Dymatize,Dymatize&hl=en"
             },
             {
@@ -23247,7 +23247,7 @@ export const REPORT_DATA: ReportData = {
                   value: 49
                 }
               ],
-              decemberGrowth: 49,
+              latestGrowth: 49,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F061dl5,%2Fm%2F061dl5,%2Fm%2F061dl5,%2Fm%2F061dl5&hl=en"
             },
             {
@@ -23305,7 +23305,7 @@ export const REPORT_DATA: ReportData = {
                   value: 25
                 }
               ],
-              decemberGrowth: 25,
+              latestGrowth: 25,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Beyond%20Meat,Beyond%20Meat,Beyond%20Meat,Beyond%20Meat&hl=en"
             },
             {
@@ -23363,7 +23363,7 @@ export const REPORT_DATA: ReportData = {
                   value: 23
                 }
               ],
-              decemberGrowth: 23,
+              latestGrowth: 23,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F014l8n,%2Fm%2F014l8n,%2Fm%2F014l8n,%2Fm%2F014l8n&hl=en"
             },
             {
@@ -23421,7 +23421,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Coke,Coke,Coke,Coke&hl=en"
             },
             {
@@ -23479,7 +23479,7 @@ export const REPORT_DATA: ReportData = {
                   value: 7
                 }
               ],
-              decemberGrowth: 7,
+              latestGrowth: 7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Premier%20Protein,Premier%20Protein,Premier%20Protein,Premier%20Protein&hl=en"
             },
             {
@@ -23537,7 +23537,7 @@ export const REPORT_DATA: ReportData = {
                   value: 5
                 }
               ],
-              decemberGrowth: 5,
+              latestGrowth: 5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F1jcsn7cc3,%2Fg%2F1jcsn7cc3,%2Fg%2F1jcsn7cc3,%2Fg%2F1jcsn7cc3&hl=en"
             },
             {
@@ -23595,7 +23595,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1
                 }
               ],
-              decemberGrowth: 1,
+              latestGrowth: 1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Oatly,Oatly,Oatly,Oatly&hl=en"
             },
             {
@@ -23653,7 +23653,7 @@ export const REPORT_DATA: ReportData = {
                   value: 0
                 }
               ],
-              decemberGrowth: 0,
+              latestGrowth: 0,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=US,US,US,US&q=Utz,Utz,Utz,Utz&hl=en"
             },
             {
@@ -23711,7 +23711,7 @@ export const REPORT_DATA: ReportData = {
                   value: 0
                 }
               ],
-              decemberGrowth: 0,
+              latestGrowth: 0,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F09gm6vv,%2Fm%2F09gm6vv,%2Fm%2F09gm6vv,%2Fm%2F09gm6vv&hl=en"
             },
             {
@@ -23769,7 +23769,7 @@ export const REPORT_DATA: ReportData = {
                   value: -3
                 }
               ],
-              decemberGrowth: -3,
+              latestGrowth: -3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Zevia,Zevia,Zevia,Zevia&hl=en"
             },
             {
@@ -23827,7 +23827,7 @@ export const REPORT_DATA: ReportData = {
                   value: -4
                 }
               ],
-              decemberGrowth: -4,
+              latestGrowth: -4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Fever%20Tree,Fever%20Tree,Fever%20Tree,Fever%20Tree&hl=en"
             },
             {
@@ -23885,7 +23885,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Pepsi%20-paloma,Pepsi%20-paloma,Pepsi%20-paloma,Pepsi%20-paloma&hl=en"
             },
             {
@@ -23943,7 +23943,7 @@ export const REPORT_DATA: ReportData = {
                   value: -14
                 }
               ],
-              decemberGrowth: -14,
+              latestGrowth: -14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=US,US,US,US&q=Zapp%27s%20%2B%20Zapps,Zapp%27s%20%2B%20Zapps,Zapp%27s%20%2B%20Zapps,Zapp%27s%20%2B%20Zapps&hl=en"
             }
           ]
@@ -24006,7 +24006,7 @@ export const REPORT_DATA: ReportData = {
                   value: 55
                 }
               ],
-              decemberGrowth: 55,
+              latestGrowth: 55,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Nicotine%20Pouches%20%2B%20Nicotine%20Pouch,Nicotine%20Pouches%20%2B%20Nicotine%20Pouch,Nicotine%20Pouches%20%2B%20Nicotine%20Pouch,Nicotine%20Pouches%20%2B%20Nicotine%20Pouch&hl=en"
             },
             {
@@ -24064,7 +24064,7 @@ export const REPORT_DATA: ReportData = {
                   value: 43
                 }
               ],
-              decemberGrowth: 43,
+              latestGrowth: 43,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Velo%20Nicotine%20%2B%20Velo%20Pouches,Velo%20Nicotine%20%2B%20Velo%20Pouches,Velo%20Nicotine%20%2B%20Velo%20Pouches,Velo%20Nicotine%20%2B%20Velo%20Pouches&hl=en"
             },
             {
@@ -24122,7 +24122,7 @@ export const REPORT_DATA: ReportData = {
                   value: 42
                 }
               ],
-              decemberGrowth: 42,
+              latestGrowth: 42,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Guinness,Guinness,Guinness,Guinness&hl=en"
             },
             {
@@ -24180,7 +24180,7 @@ export const REPORT_DATA: ReportData = {
                   value: 41
                 }
               ],
-              decemberGrowth: 41,
+              latestGrowth: 41,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Fre%20Pouches%20%2B%20Fre%20Nicotine,Fre%20Pouches%20%2B%20Fre%20Nicotine,Fre%20Pouches%20%2B%20Fre%20Nicotine,Fre%20Pouches%20%2B%20Fre%20Nicotine&hl=en"
             },
             {
@@ -24238,7 +24238,7 @@ export const REPORT_DATA: ReportData = {
                   value: 28
                 }
               ],
-              decemberGrowth: 28,
+              latestGrowth: 28,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11cp7jb45d,%2Fg%2F11cp7jb45d,%2Fg%2F11cp7jb45d,%2Fg%2F11cp7jb45d&hl=en"
             },
             {
@@ -24296,7 +24296,7 @@ export const REPORT_DATA: ReportData = {
                   value: 25
                 }
               ],
-              decemberGrowth: 25,
+              latestGrowth: 25,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Alp%20Pouches%20%2B%20Alp%20Nicotine,Alp%20Pouches%20%2B%20Alp%20Nicotine,Alp%20Pouches%20%2B%20Alp%20Nicotine,Alp%20Pouches%20%2B%20Alp%20Nicotine&hl=en"
             },
             {
@@ -24354,7 +24354,7 @@ export const REPORT_DATA: ReportData = {
                   value: 23
                 }
               ],
-              decemberGrowth: 23,
+              latestGrowth: 23,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F013b9wbz,%2Fm%2F013b9wbz,%2Fm%2F013b9wbz,%2Fm%2F013b9wbz&hl=en"
             },
             {
@@ -24412,7 +24412,7 @@ export const REPORT_DATA: ReportData = {
                   value: 0
                 }
               ],
-              decemberGrowth: 0,
+              latestGrowth: 0,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F02y_4q2,%2Fm%2F02y_4q2,%2Fm%2F02y_4q2,%2Fm%2F02y_4q2&hl=en"
             },
             {
@@ -24470,7 +24470,7 @@ export const REPORT_DATA: ReportData = {
                   value: -1
                 }
               ],
-              decemberGrowth: -1,
+              latestGrowth: -1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Espolon%20Tequila,Espolon%20Tequila,Espolon%20Tequila,Espolon%20Tequila&hl=en"
             },
             {
@@ -24528,7 +24528,7 @@ export const REPORT_DATA: ReportData = {
                   value: -4
                 }
               ],
-              decemberGrowth: -4,
+              latestGrowth: -4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Zyn,Zyn,Zyn,Zyn&hl=en"
             },
             {
@@ -24586,7 +24586,7 @@ export const REPORT_DATA: ReportData = {
                   value: -10
                 }
               ],
-              decemberGrowth: -10,
+              latestGrowth: -10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Pacifico%20Beer,Pacifico%20Beer,Pacifico%20Beer,Pacifico%20Beer&hl=en"
             },
             {
@@ -24644,7 +24644,7 @@ export const REPORT_DATA: ReportData = {
                   value: -13
                 }
               ],
-              decemberGrowth: -13,
+              latestGrowth: -13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F08127,%2Fm%2F08127,%2Fm%2F08127,%2Fm%2F08127&hl=en"
             },
             {
@@ -24702,7 +24702,7 @@ export const REPORT_DATA: ReportData = {
                   value: -14
                 }
               ],
-              decemberGrowth: -14,
+              latestGrowth: -14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Whiskey%20%2B%20Whisky,Whiskey%20%2B%20Whisky,Whiskey%20%2B%20Whisky,Whiskey%20%2B%20Whisky&hl=en"
             },
             {
@@ -24760,7 +24760,7 @@ export const REPORT_DATA: ReportData = {
                   value: -14
                 }
               ],
-              decemberGrowth: -14,
+              latestGrowth: -14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Campari,Campari,Campari,Campari&hl=en"
             },
             {
@@ -24818,7 +24818,7 @@ export const REPORT_DATA: ReportData = {
                   value: -15
                 }
               ],
-              decemberGrowth: -15,
+              latestGrowth: -15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Gin,Gin,Gin,Gin&hl=en"
             },
             {
@@ -24876,7 +24876,7 @@ export const REPORT_DATA: ReportData = {
                   value: -15
                 }
               ],
-              decemberGrowth: -15,
+              latestGrowth: -15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Tequila,Tequila,Tequila,Tequila&hl=en"
             },
             {
@@ -24934,7 +24934,7 @@ export const REPORT_DATA: ReportData = {
                   value: -17
                 }
               ],
-              decemberGrowth: -17,
+              latestGrowth: -17,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Aperol,Aperol,Aperol,Aperol&hl=en"
             },
             {
@@ -24992,7 +24992,7 @@ export const REPORT_DATA: ReportData = {
                   value: -18
                 }
               ],
-              decemberGrowth: -18,
+              latestGrowth: -18,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Bourbon,Bourbon,Bourbon,Bourbon&hl=en"
             },
             {
@@ -25050,7 +25050,7 @@ export const REPORT_DATA: ReportData = {
                   value: -18
                 }
               ],
-              decemberGrowth: -18,
+              latestGrowth: -18,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Woodford%20Reserve,Woodford%20Reserve,Woodford%20Reserve,Woodford%20Reserve&hl=en"
             },
             {
@@ -25108,7 +25108,7 @@ export const REPORT_DATA: ReportData = {
                   value: -23
                 }
               ],
-              decemberGrowth: -23,
+              latestGrowth: -23,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Jack%20Daniel%27s%20%2B%20Jack%20Daniels,Jack%20Daniel%27s%20%2B%20Jack%20Daniels,Jack%20Daniel%27s%20%2B%20Jack%20Daniels,Jack%20Daniel%27s%20%2B%20Jack%20Daniels&hl=en"
             }
           ]
@@ -25171,7 +25171,7 @@ export const REPORT_DATA: ReportData = {
                   value: 75
                 }
               ],
-              decemberGrowth: 75,
+              latestGrowth: 75,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Whoop,Whoop,Whoop,Whoop&hl=en"
             },
             {
@@ -25229,7 +25229,7 @@ export const REPORT_DATA: ReportData = {
                   value: 60
                 }
               ],
-              decemberGrowth: 60,
+              latestGrowth: 60,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Oura%20Ring,Oura%20Ring,Oura%20Ring,Oura%20Ring&hl=en"
             },
             {
@@ -25287,7 +25287,7 @@ export const REPORT_DATA: ReportData = {
                   value: 41
                 }
               ],
-              decemberGrowth: 41,
+              latestGrowth: 41,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=iPhone,iPhone,iPhone,iPhone&hl=en"
             },
             {
@@ -25345,7 +25345,7 @@ export const REPORT_DATA: ReportData = {
                   value: 30
                 }
               ],
-              decemberGrowth: 30,
+              latestGrowth: 30,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Ubiquiti,Ubiquiti,Ubiquiti,Ubiquiti&hl=en"
             },
             {
@@ -25403,7 +25403,7 @@ export const REPORT_DATA: ReportData = {
                   value: 21
                 }
               ],
-              decemberGrowth: 21,
+              latestGrowth: 21,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Qualcomm,Qualcomm,Qualcomm,Qualcomm&hl=en"
             },
             {
@@ -25461,7 +25461,7 @@ export const REPORT_DATA: ReportData = {
                   value: 9
                 }
               ],
-              decemberGrowth: 9,
+              latestGrowth: 9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Apple%20-cider%20-pie,Apple%20-cider%20-pie,Apple%20-cider%20-pie,Apple%20-cider%20-pie&hl=en"
             },
             {
@@ -25519,7 +25519,7 @@ export const REPORT_DATA: ReportData = {
                   value: 7
                 }
               ],
-              decemberGrowth: 7,
+              latestGrowth: 7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Intel,Intel,Intel,Intel&hl=en"
             },
             {
@@ -25577,7 +25577,7 @@ export const REPORT_DATA: ReportData = {
                   value: 7
                 }
               ],
-              decemberGrowth: 7,
+              latestGrowth: 7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Corsair,Corsair,Corsair,Corsair&hl=en"
             },
             {
@@ -25635,7 +25635,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Lenovo,Lenovo,Lenovo,Lenovo&hl=en"
             },
             {
@@ -25693,7 +25693,7 @@ export const REPORT_DATA: ReportData = {
                   value: 4
                 }
               ],
-              decemberGrowth: 4,
+              latestGrowth: 4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Nikon,Nikon,Nikon,Nikon&hl=en"
             },
             {
@@ -25751,7 +25751,7 @@ export const REPORT_DATA: ReportData = {
                   value: 3
                 }
               ],
-              decemberGrowth: 3,
+              latestGrowth: 3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Garmin,Garmin,Garmin,Garmin&hl=en"
             },
             {
@@ -25809,7 +25809,7 @@ export const REPORT_DATA: ReportData = {
                   value: 3
                 }
               ],
-              decemberGrowth: 3,
+              latestGrowth: 3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Panasonic,Panasonic,Panasonic,Panasonic&hl=en"
             },
             {
@@ -25867,7 +25867,7 @@ export const REPORT_DATA: ReportData = {
                   value: 3
                 }
               ],
-              decemberGrowth: 3,
+              latestGrowth: 3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=AMD,AMD,AMD,AMD&hl=en"
             },
             {
@@ -25925,7 +25925,7 @@ export const REPORT_DATA: ReportData = {
                   value: 0
                 }
               ],
-              decemberGrowth: 0,
+              latestGrowth: 0,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=LG,LG,LG,LG&hl=en"
             },
             {
@@ -25983,7 +25983,7 @@ export const REPORT_DATA: ReportData = {
                   value: -4
                 }
               ],
-              decemberGrowth: -4,
+              latestGrowth: -4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=US,US,US,US&q=Roku,Roku,Roku,Roku&hl=en"
             },
             {
@@ -26041,7 +26041,7 @@ export const REPORT_DATA: ReportData = {
                   value: -4
                 }
               ],
-              decemberGrowth: -4,
+              latestGrowth: -4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Samsung,Samsung,Samsung,Samsung&hl=en"
             },
             {
@@ -26099,7 +26099,7 @@ export const REPORT_DATA: ReportData = {
                   value: -4
                 }
               ],
-              decemberGrowth: -4,
+              latestGrowth: -4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Sony,Sony,Sony,Sony&hl=en"
             },
             {
@@ -26157,7 +26157,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Logitech,Logitech,Logitech,Logitech&hl=en"
             },
             {
@@ -26215,7 +26215,7 @@ export const REPORT_DATA: ReportData = {
                   value: -8
                 }
               ],
-              decemberGrowth: -8,
+              latestGrowth: -8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=NETGEAR,NETGEAR,NETGEAR,NETGEAR&hl=en"
             },
             {
@@ -26273,7 +26273,7 @@ export const REPORT_DATA: ReportData = {
                   value: -12
                 }
               ],
-              decemberGrowth: -12,
+              latestGrowth: -12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=GoPro%20%2B%20%22Go%20Pro%22,GoPro%20%2B%20%22Go%20Pro%22,GoPro%20%2B%20%22Go%20Pro%22,GoPro%20%2B%20%22Go%20Pro%22&hl=en"
             },
             {
@@ -26331,7 +26331,7 @@ export const REPORT_DATA: ReportData = {
                   value: -15
                 }
               ],
-              decemberGrowth: -15,
+              latestGrowth: -15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Peloton,Peloton,Peloton,Peloton&hl=en"
             },
             {
@@ -26389,7 +26389,7 @@ export const REPORT_DATA: ReportData = {
                   value: -18
                 }
               ],
-              decemberGrowth: -18,
+              latestGrowth: -18,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Sonos,Sonos,Sonos,Sonos&hl=en"
             },
             {
@@ -26447,7 +26447,7 @@ export const REPORT_DATA: ReportData = {
                   value: -30
                 }
               ],
-              decemberGrowth: -30,
+              latestGrowth: -30,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Nvidia,Nvidia,Nvidia,Nvidia&hl=en"
             }
           ]
@@ -26510,7 +26510,7 @@ export const REPORT_DATA: ReportData = {
                   value: 23
                 }
               ],
-              decemberGrowth: 23,
+              latestGrowth: 23,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Titleist,Titleist,Titleist,Titleist&hl=en"
             },
             {
@@ -26568,7 +26568,7 @@ export const REPORT_DATA: ReportData = {
                   value: 16
                 }
               ],
-              decemberGrowth: 16,
+              latestGrowth: 16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Tonie%20%2B%20Tonies%20%2B%20Toniebox,Tonie%20%2B%20Tonies%20%2B%20Toniebox,Tonie%20%2B%20Tonies%20%2B%20Toniebox,Tonie%20%2B%20Tonies%20%2B%20Toniebox&hl=en"
             },
             {
@@ -26626,7 +26626,7 @@ export const REPORT_DATA: ReportData = {
                   value: 15
                 }
               ],
-              decemberGrowth: 15,
+              latestGrowth: 15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Callaway,Callaway,Callaway,Callaway&hl=en"
             },
             {
@@ -26684,7 +26684,7 @@ export const REPORT_DATA: ReportData = {
                   value: 15
                 }
               ],
-              decemberGrowth: 15,
+              latestGrowth: 15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F113lpmjx_,%2Fg%2F113lpmjx_,%2Fg%2F113lpmjx_,%2Fg%2F113lpmjx_&hl=en"
             },
             {
@@ -26742,7 +26742,7 @@ export const REPORT_DATA: ReportData = {
                   value: 11
                 }
               ],
-              decemberGrowth: 11,
+              latestGrowth: 11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F09q9ql,%2Fm%2F09q9ql,%2Fm%2F09q9ql,%2Fm%2F09q9ql&hl=en"
             },
             {
@@ -26800,7 +26800,7 @@ export const REPORT_DATA: ReportData = {
                   value: 10
                 }
               ],
-              decemberGrowth: 10,
+              latestGrowth: 10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F113nr3vz7,%2Fg%2F113nr3vz7,%2Fg%2F113nr3vz7,%2Fg%2F113nr3vz7&hl=en"
             },
             {
@@ -26858,7 +26858,7 @@ export const REPORT_DATA: ReportData = {
                   value: 10
                 }
               ],
-              decemberGrowth: 10,
+              latestGrowth: 10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Ryobi,Ryobi,Ryobi,Ryobi&hl=en"
             },
             {
@@ -26916,7 +26916,7 @@ export const REPORT_DATA: ReportData = {
                   value: 5
                 }
               ],
-              decemberGrowth: 5,
+              latestGrowth: 5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F09c88l,%2Fm%2F09c88l,%2Fm%2F09c88l,%2Fm%2F09c88l&hl=en"
             },
             {
@@ -26974,7 +26974,7 @@ export const REPORT_DATA: ReportData = {
                   value: 2
                 }
               ],
-              decemberGrowth: 2,
+              latestGrowth: 2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Hot%20Wheels%20%2B%20HotWheels%20%2B%20Hot%20Wheel,Hot%20Wheels%20%2B%20HotWheels%20%2B%20Hot%20Wheel,Hot%20Wheels%20%2B%20HotWheels%20%2B%20Hot%20Wheel,Hot%20Wheels%20%2B%20HotWheels%20%2B%20Hot%20Wheel&hl=en"
             },
             {
@@ -27032,7 +27032,7 @@ export const REPORT_DATA: ReportData = {
                   value: 2
                 }
               ],
-              decemberGrowth: 2,
+              latestGrowth: 2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Hot%20Tub%20%2B%20Jacuzzi,Hot%20Tub%20%2B%20Jacuzzi,Hot%20Tub%20%2B%20Jacuzzi,Hot%20Tub%20%2B%20Jacuzzi&hl=en"
             },
             {
@@ -27090,7 +27090,7 @@ export const REPORT_DATA: ReportData = {
                   value: 0
                 }
               ],
-              decemberGrowth: 0,
+              latestGrowth: 0,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Whirlpool,Whirlpool,Whirlpool,Whirlpool&hl=en"
             },
             {
@@ -27148,7 +27148,7 @@ export const REPORT_DATA: ReportData = {
                   value: -1
                 }
               ],
-              decemberGrowth: -1,
+              latestGrowth: -1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Warby%20Parker,Warby%20Parker,Warby%20Parker,Warby%20Parker&hl=en"
             },
             {
@@ -27206,7 +27206,7 @@ export const REPORT_DATA: ReportData = {
                   value: -4
                 }
               ],
-              decemberGrowth: -4,
+              latestGrowth: -4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11bx9mb52d,%2Fg%2F11bx9mb52d,%2Fg%2F11bx9mb52d,%2Fg%2F11bx9mb52d&hl=en"
             },
             {
@@ -27264,7 +27264,7 @@ export const REPORT_DATA: ReportData = {
                   value: -7
                 }
               ],
-              decemberGrowth: -7,
+              latestGrowth: -7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Samsonite,Samsonite,Samsonite,Samsonite&hl=en"
             },
             {
@@ -27322,7 +27322,7 @@ export const REPORT_DATA: ReportData = {
                   value: -9
                 }
               ],
-              decemberGrowth: -9,
+              latestGrowth: -9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0b1vl1,%2Fm%2F0b1vl1,%2Fm%2F0b1vl1,%2Fm%2F0b1vl1&hl=en"
             },
             {
@@ -27380,7 +27380,7 @@ export const REPORT_DATA: ReportData = {
                   value: -9
                 }
               ],
-              decemberGrowth: -9,
+              latestGrowth: -9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Ethan%20Allen,Ethan%20Allen,Ethan%20Allen,Ethan%20Allen&hl=en"
             },
             {
@@ -27438,7 +27438,7 @@ export const REPORT_DATA: ReportData = {
                   value: -13
                 }
               ],
-              decemberGrowth: -13,
+              latestGrowth: -13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Barbie,Barbie,Barbie,Barbie&hl=en"
             },
             {
@@ -27496,7 +27496,7 @@ export const REPORT_DATA: ReportData = {
                   value: -15
                 }
               ],
-              decemberGrowth: -15,
+              latestGrowth: -15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Arhaus,Arhaus,Arhaus,Arhaus&hl=en"
             },
             {
@@ -27554,7 +27554,7 @@ export const REPORT_DATA: ReportData = {
                   value: -15
                 }
               ],
-              decemberGrowth: -15,
+              latestGrowth: -15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Pottery%20Barn,Pottery%20Barn,Pottery%20Barn,Pottery%20Barn&hl=en"
             },
             {
@@ -27612,7 +27612,7 @@ export const REPORT_DATA: ReportData = {
                   value: -16
                 }
               ],
-              decemberGrowth: -16,
+              latestGrowth: -16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Pop%20Mart%20%2B%20PopMart,Pop%20Mart%20%2B%20PopMart,Pop%20Mart%20%2B%20PopMart,Pop%20Mart%20%2B%20PopMart&hl=en"
             },
             {
@@ -27670,7 +27670,7 @@ export const REPORT_DATA: ReportData = {
                   value: -17
                 }
               ],
-              decemberGrowth: -17,
+              latestGrowth: -17,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=West%20Elm,West%20Elm,West%20Elm,West%20Elm&hl=en"
             }
           ]
@@ -27733,7 +27733,7 @@ export const REPORT_DATA: ReportData = {
                   value: 98
                 }
               ],
-              decemberGrowth: 98,
+              latestGrowth: 98,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F03mdhzf,%2Fm%2F03mdhzf,%2Fm%2F03mdhzf,%2Fm%2F03mdhzf&hl=en"
             },
             {
@@ -27791,7 +27791,7 @@ export const REPORT_DATA: ReportData = {
                   value: 12
                 }
               ],
-              decemberGrowth: 12,
+              latestGrowth: 12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Omega%20Watch,Omega%20Watch,Omega%20Watch,Omega%20Watch&hl=en"
             },
             {
@@ -27849,7 +27849,7 @@ export const REPORT_DATA: ReportData = {
                   value: 10
                 }
               ],
-              decemberGrowth: 10,
+              latestGrowth: 10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Rolex,Rolex,Rolex,Rolex&hl=en"
             },
             {
@@ -27907,7 +27907,7 @@ export const REPORT_DATA: ReportData = {
                   value: 9
                 }
               ],
-              decemberGrowth: 9,
+              latestGrowth: 9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Patek,Patek,Patek,Patek&hl=en"
             },
             {
@@ -27965,7 +27965,7 @@ export const REPORT_DATA: ReportData = {
                   value: 7
                 }
               ],
-              decemberGrowth: 7,
+              latestGrowth: 7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Audemars%20Piguet,Audemars%20Piguet,Audemars%20Piguet,Audemars%20Piguet&hl=en"
             },
             {
@@ -28023,7 +28023,7 @@ export const REPORT_DATA: ReportData = {
                   value: -1
                 }
               ],
-              decemberGrowth: -1,
+              latestGrowth: -1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Cartier,Cartier,Cartier,Cartier&hl=en"
             },
             {
@@ -28081,7 +28081,7 @@ export const REPORT_DATA: ReportData = {
                   value: -4
                 }
               ],
-              decemberGrowth: -4,
+              latestGrowth: -4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Swatch,Swatch,Swatch,Swatch&hl=en"
             },
             {
@@ -28139,7 +28139,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Tiffany,Tiffany,Tiffany,Tiffany&hl=en"
             },
             {
@@ -28197,7 +28197,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Lovisa,Lovisa,Lovisa,Lovisa&hl=en"
             },
             {
@@ -28255,7 +28255,7 @@ export const REPORT_DATA: ReportData = {
                   value: -27
                 }
               ],
-              decemberGrowth: -27,
+              latestGrowth: -27,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Van%20Cleef,Van%20Cleef,Van%20Cleef,Van%20Cleef&hl=en"
             }
           ]
@@ -28318,7 +28318,7 @@ export const REPORT_DATA: ReportData = {
                   value: 45
                 }
               ],
-              decemberGrowth: 45,
+              latestGrowth: 45,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=BYD,BYD,BYD,BYD&hl=en"
             },
             {
@@ -28376,7 +28376,7 @@ export const REPORT_DATA: ReportData = {
                   value: 12
                 }
               ],
-              decemberGrowth: 12,
+              latestGrowth: 12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Hyundai,Hyundai,Hyundai,Hyundai&hl=en"
             },
             {
@@ -28434,7 +28434,7 @@ export const REPORT_DATA: ReportData = {
                   value: 12
                 }
               ],
-              decemberGrowth: 12,
+              latestGrowth: 12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Kia,Kia,Kia,Kia&hl=en"
             },
             {
@@ -28492,7 +28492,7 @@ export const REPORT_DATA: ReportData = {
                   value: 11
                 }
               ],
-              decemberGrowth: 11,
+              latestGrowth: 11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Audi,Audi,Audi,Audi&hl=en"
             },
             {
@@ -28550,7 +28550,7 @@ export const REPORT_DATA: ReportData = {
                   value: 11
                 }
               ],
-              decemberGrowth: 11,
+              latestGrowth: 11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Volkswagen%20%2B%20vw,Volkswagen%20%2B%20vw,Volkswagen%20%2B%20vw,Volkswagen%20%2B%20vw&hl=en"
             },
             {
@@ -28608,7 +28608,7 @@ export const REPORT_DATA: ReportData = {
                   value: 11
                 }
               ],
-              decemberGrowth: 11,
+              latestGrowth: 11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Nissan,Nissan,Nissan,Nissan&hl=en"
             },
             {
@@ -28666,7 +28666,7 @@ export const REPORT_DATA: ReportData = {
                   value: 10
                 }
               ],
-              decemberGrowth: 10,
+              latestGrowth: 10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Toyota,Toyota,Toyota,Toyota&hl=en"
             },
             {
@@ -28724,7 +28724,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Ferrari,Ferrari,Ferrari,Ferrari&hl=en"
             },
             {
@@ -28782,7 +28782,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=BMW,BMW,BMW,BMW&hl=en"
             },
             {
@@ -28840,7 +28840,7 @@ export const REPORT_DATA: ReportData = {
                   value: 7
                 }
               ],
-              decemberGrowth: 7,
+              latestGrowth: 7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Mercedes,Mercedes,Mercedes,Mercedes&hl=en"
             },
             {
@@ -28898,7 +28898,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Lexus,Lexus,Lexus,Lexus&hl=en"
             },
             {
@@ -28956,7 +28956,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Honda,Honda,Honda,Honda&hl=en"
             },
             {
@@ -29014,7 +29014,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Ford,Ford,Ford,Ford&hl=en"
             },
             {
@@ -29072,7 +29072,7 @@ export const REPORT_DATA: ReportData = {
                   value: 2
                 }
               ],
-              decemberGrowth: 2,
+              latestGrowth: 2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Porsche,Porsche,Porsche,Porsche&hl=en"
             },
             {
@@ -29130,7 +29130,7 @@ export const REPORT_DATA: ReportData = {
                   value: -22
                 }
               ],
-              decemberGrowth: -22,
+              latestGrowth: -22,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Tesla,Tesla,Tesla,Tesla&hl=en"
             }
           ]
@@ -29193,7 +29193,7 @@ export const REPORT_DATA: ReportData = {
                   value: 41
                 }
               ],
-              decemberGrowth: 41,
+              latestGrowth: 41,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Brunello%20Cucinelli,Brunello%20Cucinelli,Brunello%20Cucinelli,Brunello%20Cucinelli&hl=en"
             },
             {
@@ -29251,7 +29251,7 @@ export const REPORT_DATA: ReportData = {
                   value: 24
                 }
               ],
-              decemberGrowth: 24,
+              latestGrowth: 24,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Zegna,Zegna,Zegna,Zegna&hl=en"
             },
             {
@@ -29309,7 +29309,7 @@ export const REPORT_DATA: ReportData = {
                   value: 15
                 }
               ],
-              decemberGrowth: 15,
+              latestGrowth: 15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Chanel,Chanel,Chanel,Chanel&hl=en"
             },
             {
@@ -29367,7 +29367,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Loro%20Piana,Loro%20Piana,Loro%20Piana,Loro%20Piana&hl=en"
             },
             {
@@ -29425,7 +29425,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11bc5yrmt3,%2Fg%2F11bc5yrmt3,%2Fg%2F11bc5yrmt3,%2Fg%2F11bc5yrmt3&hl=en"
             },
             {
@@ -29483,7 +29483,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Prada,Prada,Prada,Prada&hl=en"
             },
             {
@@ -29541,7 +29541,7 @@ export const REPORT_DATA: ReportData = {
                   value: 4
                 }
               ],
-              decemberGrowth: 4,
+              latestGrowth: 4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Bottega%20Veneta,Bottega%20Veneta,Bottega%20Veneta,Bottega%20Veneta&hl=en"
             },
             {
@@ -29599,7 +29599,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1
                 }
               ],
-              decemberGrowth: 1,
+              latestGrowth: 1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Saint%20Laurent%20%2B%20YSL,Saint%20Laurent%20%2B%20YSL,Saint%20Laurent%20%2B%20YSL,Saint%20Laurent%20%2B%20YSL&hl=en"
             },
             {
@@ -29657,7 +29657,7 @@ export const REPORT_DATA: ReportData = {
                   value: 0
                 }
               ],
-              decemberGrowth: 0,
+              latestGrowth: 0,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Ferragamo,Ferragamo,Ferragamo,Ferragamo&hl=en"
             },
             {
@@ -29715,7 +29715,7 @@ export const REPORT_DATA: ReportData = {
                   value: -3
                 }
               ],
-              decemberGrowth: -3,
+              latestGrowth: -3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Fendi,Fendi,Fendi,Fendi&hl=en"
             },
             {
@@ -29773,7 +29773,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Hermes,Hermes,Hermes,Hermes&hl=en"
             },
             {
@@ -29831,7 +29831,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Canada%20Goose,Canada%20Goose,Canada%20Goose,Canada%20Goose&hl=en"
             },
             {
@@ -29889,7 +29889,7 @@ export const REPORT_DATA: ReportData = {
                   value: -7
                 }
               ],
-              decemberGrowth: -7,
+              latestGrowth: -7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Dior,Dior,Dior,Dior&hl=en"
             },
             {
@@ -29947,7 +29947,7 @@ export const REPORT_DATA: ReportData = {
                   value: -9
                 }
               ],
-              decemberGrowth: -9,
+              latestGrowth: -9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Burberry,Burberry,Burberry,Burberry&hl=en"
             },
             {
@@ -30005,7 +30005,7 @@ export const REPORT_DATA: ReportData = {
                   value: -10
                 }
               ],
-              decemberGrowth: -10,
+              latestGrowth: -10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Thom%20Browne,Thom%20Browne,Thom%20Browne,Thom%20Browne&hl=en"
             },
             {
@@ -30063,7 +30063,7 @@ export const REPORT_DATA: ReportData = {
                   value: -10
                 }
               ],
-              decemberGrowth: -10,
+              latestGrowth: -10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Louis%20Vuitton%20%2B%20LV,Louis%20Vuitton%20%2B%20LV,Louis%20Vuitton%20%2B%20LV,Louis%20Vuitton%20%2B%20LV&hl=en"
             },
             {
@@ -30121,7 +30121,7 @@ export const REPORT_DATA: ReportData = {
                   value: -12
                 }
               ],
-              decemberGrowth: -12,
+              latestGrowth: -12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Celine%20-dion,Celine%20-dion,Celine%20-dion,Celine%20-dion&hl=en"
             },
             {
@@ -30179,7 +30179,7 @@ export const REPORT_DATA: ReportData = {
                   value: -12
                 }
               ],
-              decemberGrowth: -12,
+              latestGrowth: -12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Balenciaga,Balenciaga,Balenciaga,Balenciaga&hl=en"
             },
             {
@@ -30237,7 +30237,7 @@ export const REPORT_DATA: ReportData = {
                   value: -12
                 }
               ],
-              decemberGrowth: -12,
+              latestGrowth: -12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Moncler,Moncler,Moncler,Moncler&hl=en"
             },
             {
@@ -30295,7 +30295,7 @@ export const REPORT_DATA: ReportData = {
                   value: -13
                 }
               ],
-              decemberGrowth: -13,
+              latestGrowth: -13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Gucci,Gucci,Gucci,Gucci&hl=en"
             },
             {
@@ -30353,7 +30353,7 @@ export const REPORT_DATA: ReportData = {
                   value: -16
                 }
               ],
-              decemberGrowth: -16,
+              latestGrowth: -16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Givenchy,Givenchy,Givenchy,Givenchy&hl=en"
             },
             {
@@ -30411,7 +30411,7 @@ export const REPORT_DATA: ReportData = {
                   value: -16
                 }
               ],
-              decemberGrowth: -16,
+              latestGrowth: -16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Loewe,Loewe,Loewe,Loewe&hl=en"
             },
             {
@@ -30469,7 +30469,7 @@ export const REPORT_DATA: ReportData = {
                   value: -17
                 }
               ],
-              decemberGrowth: -17,
+              latestGrowth: -17,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Versace,Versace,Versace,Versace&hl=en"
             }
           ]
@@ -30532,7 +30532,7 @@ export const REPORT_DATA: ReportData = {
                   value: 20
                 }
               ],
-              decemberGrowth: 20,
+              latestGrowth: 20,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=L%27Or%C3%A9al%20%2B%20L%27Oreal%20%2B%20LOreal,L%27Or%C3%A9al%20%2B%20L%27Oreal%20%2B%20LOreal,L%27Or%C3%A9al%20%2B%20L%27Oreal%20%2B%20LOreal,L%27Or%C3%A9al%20%2B%20L%27Oreal%20%2B%20LOreal&hl=en"
             },
             {
@@ -30590,7 +30590,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=L%27Occitane%20%2B%20LOccitane,L%27Occitane%20%2B%20LOccitane,L%27Occitane%20%2B%20LOccitane,L%27Occitane%20%2B%20LOccitane&hl=en"
             },
             {
@@ -30648,7 +30648,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Est%C3%A9e%20Lauder%20%2B%20Estee%20Lauder,Est%C3%A9e%20Lauder%20%2B%20Estee%20Lauder,Est%C3%A9e%20Lauder%20%2B%20Estee%20Lauder,Est%C3%A9e%20Lauder%20%2B%20Estee%20Lauder&hl=en"
             },
             {
@@ -30706,7 +30706,7 @@ export const REPORT_DATA: ReportData = {
                   value: 4
                 }
               ],
-              decemberGrowth: 4,
+              latestGrowth: 4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=SpoiledChild%20%2B%20%22Spoiled%20Child%22,SpoiledChild%20%2B%20%22Spoiled%20Child%22,SpoiledChild%20%2B%20%22Spoiled%20Child%22,SpoiledChild%20%2B%20%22Spoiled%20Child%22&hl=en"
             },
             {
@@ -30764,7 +30764,7 @@ export const REPORT_DATA: ReportData = {
                   value: 0
                 }
               ],
-              decemberGrowth: 0,
+              latestGrowth: 0,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Olaplex,Olaplex,Olaplex,Olaplex&hl=en"
             },
             {
@@ -30822,7 +30822,7 @@ export const REPORT_DATA: ReportData = {
                   value: -12
                 }
               ],
-              decemberGrowth: -12,
+              latestGrowth: -12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11c4bg54hx,%2Fg%2F11c4bg54hx,%2Fg%2F11c4bg54hx,%2Fg%2F11c4bg54hx&hl=en"
             },
             {
@@ -30880,7 +30880,7 @@ export const REPORT_DATA: ReportData = {
                   value: -25
                 }
               ],
-              decemberGrowth: -25,
+              latestGrowth: -25,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Sol%20de%20Janeiro,Sol%20de%20Janeiro,Sol%20de%20Janeiro,Sol%20de%20Janeiro&hl=en"
             },
             {
@@ -30938,7 +30938,7 @@ export const REPORT_DATA: ReportData = {
                   value: -32
                 }
               ],
-              decemberGrowth: -32,
+              latestGrowth: -32,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11tr_h52wq,%2Fg%2F11tr_h52wq,%2Fg%2F11tr_h52wq,%2Fg%2F11tr_h52wq&hl=en"
             },
             {
@@ -30996,7 +30996,7 @@ export const REPORT_DATA: ReportData = {
                   value: -40
                 }
               ],
-              decemberGrowth: -40,
+              latestGrowth: -40,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=IL%20MAKIAGE,IL%20MAKIAGE,IL%20MAKIAGE,IL%20MAKIAGE&hl=en"
             }
           ]
@@ -31064,7 +31064,7 @@ export const REPORT_DATA: ReportData = {
                   value: 34
                 }
               ],
-              decemberGrowth: 34,
+              latestGrowth: 34,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Five%20Below%20%2B%205%20Below,Five%20Below%20%2B%205%20Below,Five%20Below%20%2B%205%20Below,Five%20Below%20%2B%205%20Below&hl=en"
             },
             {
@@ -31122,7 +31122,7 @@ export const REPORT_DATA: ReportData = {
                   value: 20
                 }
               ],
-              decemberGrowth: 20,
+              latestGrowth: 20,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Watches%20of%20Switzerland,Watches%20of%20Switzerland,Watches%20of%20Switzerland,Watches%20of%20Switzerland&hl=en"
             },
             {
@@ -31180,7 +31180,7 @@ export const REPORT_DATA: ReportData = {
                   value: 19
                 }
               ],
-              decemberGrowth: 19,
+              latestGrowth: 19,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Best%20Buy,Best%20Buy,Best%20Buy,Best%20Buy&hl=en"
             },
             {
@@ -31238,7 +31238,7 @@ export const REPORT_DATA: ReportData = {
                   value: 16
                 }
               ],
-              decemberGrowth: 16,
+              latestGrowth: 16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Ulta,Ulta,Ulta,Ulta&hl=en"
             },
             {
@@ -31296,7 +31296,7 @@ export const REPORT_DATA: ReportData = {
                   value: 15
                 }
               ],
-              decemberGrowth: 15,
+              latestGrowth: 15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Academy%20Sports,Academy%20Sports,Academy%20Sports,Academy%20Sports&hl=en"
             },
             {
@@ -31354,7 +31354,7 @@ export const REPORT_DATA: ReportData = {
                   value: 13
                 }
               ],
-              decemberGrowth: 13,
+              latestGrowth: 13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Ollie%27s%20%2B%20Ollies,Ollie%27s%20%2B%20Ollies,Ollie%27s%20%2B%20Ollies,Ollie%27s%20%2B%20Ollies&hl=en"
             },
             {
@@ -31412,7 +31412,7 @@ export const REPORT_DATA: ReportData = {
                   value: 11
                 }
               ],
-              decemberGrowth: 11,
+              latestGrowth: 11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Tractor%20Supply,Tractor%20Supply,Tractor%20Supply,Tractor%20Supply&hl=en"
             },
             {
@@ -31470,7 +31470,7 @@ export const REPORT_DATA: ReportData = {
                   value: 7
                 }
               ],
-              decemberGrowth: 7,
+              latestGrowth: 7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Boot%20Barn,Boot%20Barn,Boot%20Barn,Boot%20Barn&hl=en"
             },
             {
@@ -31528,7 +31528,7 @@ export const REPORT_DATA: ReportData = {
                   value: 2
                 }
               ],
-              decemberGrowth: 2,
+              latestGrowth: 2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Foot%20Locker%20%2B%20FootLocker,Foot%20Locker%20%2B%20FootLocker,Foot%20Locker%20%2B%20FootLocker,Foot%20Locker%20%2B%20FootLocker&hl=en"
             },
             {
@@ -31586,7 +31586,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1
                 }
               ],
-              decemberGrowth: 1,
+              latestGrowth: 1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F06fgv_,%2Fm%2F06fgv_,%2Fm%2F06fgv_,%2Fm%2F06fgv_&hl=en"
             },
             {
@@ -31644,7 +31644,7 @@ export const REPORT_DATA: ReportData = {
                   value: 0
                 }
               ],
-              decemberGrowth: 0,
+              latestGrowth: 0,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Zumiez,Zumiez,Zumiez,Zumiez&hl=en"
             },
             {
@@ -31702,7 +31702,7 @@ export const REPORT_DATA: ReportData = {
                   value: 0
                 }
               ],
-              decemberGrowth: 0,
+              latestGrowth: 0,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Dollar%20General,Dollar%20General,Dollar%20General,Dollar%20General&hl=en"
             },
             {
@@ -31760,7 +31760,7 @@ export const REPORT_DATA: ReportData = {
                   value: 0
                 }
               ],
-              decemberGrowth: 0,
+              latestGrowth: 0,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F03p5mm,%2Fm%2F03p5mm,%2Fm%2F03p5mm,%2Fm%2F03p5mm&hl=en"
             },
             {
@@ -31818,7 +31818,7 @@ export const REPORT_DATA: ReportData = {
                   value: -1
                 }
               ],
-              decemberGrowth: -1,
+              latestGrowth: -1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Lowe%27s%20%2B%20Lowes,Lowe%27s%20%2B%20Lowes,Lowe%27s%20%2B%20Lowes,Lowe%27s%20%2B%20Lowes&hl=en"
             },
             {
@@ -31876,7 +31876,7 @@ export const REPORT_DATA: ReportData = {
                   value: -2
                 }
               ],
-              decemberGrowth: -2,
+              latestGrowth: -2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Costco,Costco,Costco,Costco&hl=en"
             },
             {
@@ -31934,7 +31934,7 @@ export const REPORT_DATA: ReportData = {
                   value: -2
                 }
               ],
-              decemberGrowth: -2,
+              latestGrowth: -2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Kroger,Kroger,Kroger,Kroger&hl=en"
             },
             {
@@ -31992,7 +31992,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Walmart,Walmart,Walmart,Walmart&hl=en"
             },
             {
@@ -32050,7 +32050,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F02prfxl,%2Fm%2F02prfxl,%2Fm%2F02prfxl,%2Fm%2F02prfxl&hl=en"
             },
             {
@@ -32108,7 +32108,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Sam%27s%20Club%20%2B%20Sams%20Club,Sam%27s%20Club%20%2B%20Sams%20Club,Sam%27s%20Club%20%2B%20Sams%20Club,Sam%27s%20Club%20%2B%20Sams%20Club&hl=en"
             },
             {
@@ -32166,7 +32166,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Target,Target,Target,Target&hl=en"
             },
             {
@@ -32224,7 +32224,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=CVS,CVS,CVS,CVS&hl=en"
             },
             {
@@ -32282,7 +32282,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Bath%20Body%20Works,Bath%20Body%20Works,Bath%20Body%20Works,Bath%20Body%20Works&hl=en"
             },
             {
@@ -32340,7 +32340,7 @@ export const REPORT_DATA: ReportData = {
                   value: -7
                 }
               ],
-              decemberGrowth: -7,
+              latestGrowth: -7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Home%20Depot,Home%20Depot,Home%20Depot,Home%20Depot&hl=en"
             },
             {
@@ -32398,7 +32398,7 @@ export const REPORT_DATA: ReportData = {
                   value: -7
                 }
               ],
-              decemberGrowth: -7,
+              latestGrowth: -7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Dollar%20Tree,Dollar%20Tree,Dollar%20Tree,Dollar%20Tree&hl=en"
             },
             {
@@ -32456,7 +32456,7 @@ export const REPORT_DATA: ReportData = {
                   value: -7
                 }
               ],
-              decemberGrowth: -7,
+              latestGrowth: -7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Grocery%20Outlet,Grocery%20Outlet,Grocery%20Outlet,Grocery%20Outlet&hl=en"
             },
             {
@@ -32514,7 +32514,7 @@ export const REPORT_DATA: ReportData = {
                   value: -8
                 }
               ],
-              decemberGrowth: -8,
+              latestGrowth: -8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Albertsons,Albertsons,Albertsons,Albertsons&hl=en"
             },
             {
@@ -32572,7 +32572,7 @@ export const REPORT_DATA: ReportData = {
                   value: -9
                 }
               ],
-              decemberGrowth: -9,
+              latestGrowth: -9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Safeway,Safeway,Safeway,Safeway&hl=en"
             },
             {
@@ -32630,7 +32630,7 @@ export const REPORT_DATA: ReportData = {
                   value: -9
                 }
               ],
-              decemberGrowth: -9,
+              latestGrowth: -9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Petco,Petco,Petco,Petco&hl=en"
             },
             {
@@ -32688,7 +32688,7 @@ export const REPORT_DATA: ReportData = {
                   value: -9
                 }
               ],
-              decemberGrowth: -9,
+              latestGrowth: -9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=HomeGoods%20%2B%20Home%20Goods,HomeGoods%20%2B%20Home%20Goods,HomeGoods%20%2B%20Home%20Goods,HomeGoods%20%2B%20Home%20Goods&hl=en"
             },
             {
@@ -32746,7 +32746,7 @@ export const REPORT_DATA: ReportData = {
                   value: -10
                 }
               ],
-              decemberGrowth: -10,
+              latestGrowth: -10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Nordstrom,Nordstrom,Nordstrom,Nordstrom&hl=en"
             },
             {
@@ -32804,7 +32804,7 @@ export const REPORT_DATA: ReportData = {
                   value: -10
                 }
               ],
-              decemberGrowth: -10,
+              latestGrowth: -10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Walgreens,Walgreens,Walgreens,Walgreens&hl=en"
             },
             {
@@ -32862,7 +32862,7 @@ export const REPORT_DATA: ReportData = {
                   value: -11
                 }
               ],
-              decemberGrowth: -11,
+              latestGrowth: -11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Marshalls,Marshalls,Marshalls,Marshalls&hl=en"
             },
             {
@@ -32920,7 +32920,7 @@ export const REPORT_DATA: ReportData = {
                   value: -12
                 }
               ],
-              decemberGrowth: -12,
+              latestGrowth: -12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Floor%20Decor,Floor%20Decor,Floor%20Decor,Floor%20Decor&hl=en"
             },
             {
@@ -32978,7 +32978,7 @@ export const REPORT_DATA: ReportData = {
                   value: -12
                 }
               ],
-              decemberGrowth: -12,
+              latestGrowth: -12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F04lg1sk,%2Fm%2F04lg1sk,%2Fm%2F04lg1sk,%2Fm%2F04lg1sk&hl=en"
             },
             {
@@ -33036,7 +33036,7 @@ export const REPORT_DATA: ReportData = {
                   value: -13
                 }
               ],
-              decemberGrowth: -13,
+              latestGrowth: -13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F06cjb_,%2Fm%2F06cjb_,%2Fm%2F06cjb_,%2Fm%2F06cjb_&hl=en"
             },
             {
@@ -33094,7 +33094,7 @@ export const REPORT_DATA: ReportData = {
                   value: -14
                 }
               ],
-              decemberGrowth: -14,
+              latestGrowth: -14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F05hk2g,%2Fm%2F05hk2g,%2Fm%2F05hk2g,%2Fm%2F05hk2g&hl=en"
             },
             {
@@ -33152,7 +33152,7 @@ export const REPORT_DATA: ReportData = {
                   value: -15
                 }
               ],
-              decemberGrowth: -15,
+              latestGrowth: -15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Dillards%20%2B%20Dillard%27s,Dillards%20%2B%20Dillard%27s,Dillards%20%2B%20Dillard%27s,Dillards%20%2B%20Dillard%27s&hl=en"
             },
             {
@@ -33210,7 +33210,7 @@ export const REPORT_DATA: ReportData = {
                   value: -17
                 }
               ],
-              decemberGrowth: -17,
+              latestGrowth: -17,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F08950y,%2Fm%2F08950y,%2Fm%2F08950y,%2Fm%2F08950y&hl=en"
             },
             {
@@ -33268,7 +33268,7 @@ export const REPORT_DATA: ReportData = {
                   value: -18
                 }
               ],
-              decemberGrowth: -18,
+              latestGrowth: -18,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Williams%20Sonoma%20%2B%20William%20Sonoma,Williams%20Sonoma%20%2B%20William%20Sonoma,Williams%20Sonoma%20%2B%20William%20Sonoma,Williams%20Sonoma%20%2B%20William%20Sonoma&hl=en"
             },
             {
@@ -33326,7 +33326,7 @@ export const REPORT_DATA: ReportData = {
                   value: -18
                 }
               ],
-              decemberGrowth: -18,
+              latestGrowth: -18,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Macy%27s%20%2B%20Macys,Macy%27s%20%2B%20Macys,Macy%27s%20%2B%20Macys,Macy%27s%20%2B%20Macys&hl=en"
             },
             {
@@ -33384,7 +33384,7 @@ export const REPORT_DATA: ReportData = {
                   value: -19
                 }
               ],
-              decemberGrowth: -19,
+              latestGrowth: -19,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Currys,Currys,Currys,Currys&hl=en"
             },
             {
@@ -33442,7 +33442,7 @@ export const REPORT_DATA: ReportData = {
                   value: -24
                 }
               ],
-              decemberGrowth: -24,
+              latestGrowth: -24,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Shoe%20Carnival,Shoe%20Carnival,Shoe%20Carnival,Shoe%20Carnival&hl=en"
             },
             {
@@ -33500,7 +33500,7 @@ export const REPORT_DATA: ReportData = {
                   value: -25
                 }
               ],
-              decemberGrowth: -25,
+              latestGrowth: -25,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Build%20a%20Bear,Build%20a%20Bear,Build%20a%20Bear,Build%20a%20Bear&hl=en"
             },
             {
@@ -33558,7 +33558,7 @@ export const REPORT_DATA: ReportData = {
                   value: -26
                 }
               ],
-              decemberGrowth: -26,
+              latestGrowth: -26,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Kohl%27s%20%2B%20Kohls,Kohl%27s%20%2B%20Kohls,Kohl%27s%20%2B%20Kohls,Kohl%27s%20%2B%20Kohls&hl=en"
             },
             {
@@ -33616,7 +33616,7 @@ export const REPORT_DATA: ReportData = {
                   value: -28
                 }
               ],
-              decemberGrowth: -28,
+              latestGrowth: -28,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F097b3s,%2Fm%2F097b3s,%2Fm%2F097b3s,%2Fm%2F097b3s&hl=en"
             }
           ]
@@ -33679,7 +33679,7 @@ export const REPORT_DATA: ReportData = {
                   value: 17
                 }
               ],
-              decemberGrowth: 17,
+              latestGrowth: 17,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Dutch%20Bros,Dutch%20Bros,Dutch%20Bros,Dutch%20Bros&hl=en"
             },
             {
@@ -33737,7 +33737,7 @@ export const REPORT_DATA: ReportData = {
                   value: 9
                 }
               ],
-              decemberGrowth: 9,
+              latestGrowth: 9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Six%20Flags,Six%20Flags,Six%20Flags,Six%20Flags&hl=en"
             },
             {
@@ -33795,7 +33795,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F026mn_y,%2Fm%2F026mn_y,%2Fm%2F026mn_y,%2Fm%2F026mn_y&hl=en"
             },
             {
@@ -33853,7 +33853,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Cava,Cava,Cava,Cava&hl=en"
             },
             {
@@ -33911,7 +33911,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0znhmxd,%2Fm%2F0znhmxd,%2Fm%2F0znhmxd,%2Fm%2F0znhmxd&hl=en"
             },
             {
@@ -33969,7 +33969,7 @@ export const REPORT_DATA: ReportData = {
                   value: 5
                 }
               ],
-              decemberGrowth: 5,
+              latestGrowth: 5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Pollo%20Loco,Pollo%20Loco,Pollo%20Loco,Pollo%20Loco&hl=en"
             },
             {
@@ -34027,7 +34027,7 @@ export const REPORT_DATA: ReportData = {
                   value: 4
                 }
               ],
-              decemberGrowth: 4,
+              latestGrowth: 4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0500_j,%2Fm%2F0500_j,%2Fm%2F0500_j,%2Fm%2F0500_j&hl=en"
             },
             {
@@ -34085,7 +34085,7 @@ export const REPORT_DATA: ReportData = {
                   value: 2
                 }
               ],
-              decemberGrowth: 2,
+              latestGrowth: 2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Shake%20Shack,Shake%20Shack,Shake%20Shack,Shake%20Shack&hl=en"
             },
             {
@@ -34143,7 +34143,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1
                 }
               ],
-              decemberGrowth: 1,
+              latestGrowth: 1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Applebees%20%2B%20Applebee%27s,Applebees%20%2B%20Applebee%27s,Applebees%20%2B%20Applebee%27s,Applebees%20%2B%20Applebee%27s&hl=en"
             },
             {
@@ -34201,7 +34201,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1
                 }
               ],
-              decemberGrowth: 1,
+              latestGrowth: 1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Jack%20in%20the%20Box,Jack%20in%20the%20Box,Jack%20in%20the%20Box,Jack%20in%20the%20Box&hl=en"
             },
             {
@@ -34259,7 +34259,7 @@ export const REPORT_DATA: ReportData = {
                   value: 0
                 }
               ],
-              decemberGrowth: 0,
+              latestGrowth: 0,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%22First%20Watch%22,%22First%20Watch%22,%22First%20Watch%22,%22First%20Watch%22&hl=en"
             },
             {
@@ -34317,7 +34317,7 @@ export const REPORT_DATA: ReportData = {
                   value: 0
                 }
               ],
-              decemberGrowth: 0,
+              latestGrowth: 0,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=KFC,KFC,KFC,KFC&hl=en"
             },
             {
@@ -34375,7 +34375,7 @@ export const REPORT_DATA: ReportData = {
                   value: 0
                 }
               ],
-              decemberGrowth: 0,
+              latestGrowth: 0,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Taco%20Bell,Taco%20Bell,Taco%20Bell,Taco%20Bell&hl=en"
             },
             {
@@ -34433,7 +34433,7 @@ export const REPORT_DATA: ReportData = {
                   value: -1
                 }
               ],
-              decemberGrowth: -1,
+              latestGrowth: -1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Potbelly,Potbelly,Potbelly,Potbelly&hl=en"
             },
             {
@@ -34491,7 +34491,7 @@ export const REPORT_DATA: ReportData = {
                   value: -2
                 }
               ],
-              decemberGrowth: -2,
+              latestGrowth: -2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Starbucks,Starbucks,Starbucks,Starbucks&hl=en"
             },
             {
@@ -34549,7 +34549,7 @@ export const REPORT_DATA: ReportData = {
                   value: -2
                 }
               ],
-              decemberGrowth: -2,
+              latestGrowth: -2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Chipotle,Chipotle,Chipotle,Chipotle&hl=en"
             },
             {
@@ -34607,7 +34607,7 @@ export const REPORT_DATA: ReportData = {
                   value: -3
                 }
               ],
-              decemberGrowth: -3,
+              latestGrowth: -3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Texas%20Roadhouse,Texas%20Roadhouse,Texas%20Roadhouse,Texas%20Roadhouse&hl=en"
             },
             {
@@ -34665,7 +34665,7 @@ export const REPORT_DATA: ReportData = {
                   value: -3
                 }
               ],
-              decemberGrowth: -3,
+              latestGrowth: -3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=McDonald%27s%20%2B%20McDonalds%20%2B%20McDonald,McDonald%27s%20%2B%20McDonalds%20%2B%20McDonald,McDonald%27s%20%2B%20McDonalds%20%2B%20McDonald,McDonald%27s%20%2B%20McDonalds%20%2B%20McDonald&hl=en"
             },
             {
@@ -34723,7 +34723,7 @@ export const REPORT_DATA: ReportData = {
                   value: -3
                 }
               ],
-              decemberGrowth: -3,
+              latestGrowth: -3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Chuy%27s%20%2B%20Chuys,Chuy%27s%20%2B%20Chuys,Chuy%27s%20%2B%20Chuys,Chuy%27s%20%2B%20Chuys&hl=en"
             },
             {
@@ -34781,7 +34781,7 @@ export const REPORT_DATA: ReportData = {
                   value: -3
                 }
               ],
-              decemberGrowth: -3,
+              latestGrowth: -3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Portillo%27s%20%2B%20Portillos,Portillo%27s%20%2B%20Portillos,Portillo%27s%20%2B%20Portillos,Portillo%27s%20%2B%20Portillos&hl=en"
             },
             {
@@ -34839,7 +34839,7 @@ export const REPORT_DATA: ReportData = {
                   value: -4
                 }
               ],
-              decemberGrowth: -4,
+              latestGrowth: -4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=IHOP,IHOP,IHOP,IHOP&hl=en"
             },
             {
@@ -34897,7 +34897,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Tim%20Hortons,Tim%20Hortons,Tim%20Hortons,Tim%20Hortons&hl=en"
             },
             {
@@ -34955,7 +34955,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Olive%20Garden,Olive%20Garden,Olive%20Garden,Olive%20Garden&hl=en"
             },
             {
@@ -35013,7 +35013,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Red%20Robin,Red%20Robin,Red%20Robin,Red%20Robin&hl=en"
             },
             {
@@ -35071,7 +35071,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Krispy%20Kreme,Krispy%20Kreme,Krispy%20Kreme,Krispy%20Kreme&hl=en"
             },
             {
@@ -35129,7 +35129,7 @@ export const REPORT_DATA: ReportData = {
                   value: -7
                 }
               ],
-              decemberGrowth: -7,
+              latestGrowth: -7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Denny%27s%20%2B%20Dennys,Denny%27s%20%2B%20Dennys,Denny%27s%20%2B%20Dennys,Denny%27s%20%2B%20Dennys&hl=en"
             },
             {
@@ -35187,7 +35187,7 @@ export const REPORT_DATA: ReportData = {
                   value: -7
                 }
               ],
-              decemberGrowth: -7,
+              latestGrowth: -7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Cheesecake%20Factory,Cheesecake%20Factory,Cheesecake%20Factory,Cheesecake%20Factory&hl=en"
             },
             {
@@ -35245,7 +35245,7 @@ export const REPORT_DATA: ReportData = {
                   value: -8
                 }
               ],
-              decemberGrowth: -8,
+              latestGrowth: -8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Burger%20King,Burger%20King,Burger%20King,Burger%20King&hl=en"
             },
             {
@@ -35303,7 +35303,7 @@ export const REPORT_DATA: ReportData = {
                   value: -8
                 }
               ],
-              decemberGrowth: -8,
+              latestGrowth: -8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Cracker%20Barrel,Cracker%20Barrel,Cracker%20Barrel,Cracker%20Barrel&hl=en"
             },
             {
@@ -35361,7 +35361,7 @@ export const REPORT_DATA: ReportData = {
                   value: -10
                 }
               ],
-              decemberGrowth: -10,
+              latestGrowth: -10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Chili%27s%20%2B%20Chilis,Chili%27s%20%2B%20Chilis,Chili%27s%20%2B%20Chilis,Chili%27s%20%2B%20Chilis&hl=en"
             },
             {
@@ -35419,7 +35419,7 @@ export const REPORT_DATA: ReportData = {
                   value: -11
                 }
               ],
-              decemberGrowth: -11,
+              latestGrowth: -11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Wendy%27s%20%2B%20Wendys,Wendy%27s%20%2B%20Wendys,Wendy%27s%20%2B%20Wendys,Wendy%27s%20%2B%20Wendys&hl=en"
             },
             {
@@ -35477,7 +35477,7 @@ export const REPORT_DATA: ReportData = {
                   value: -14
                 }
               ],
-              decemberGrowth: -14,
+              latestGrowth: -14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0cp3p2,%2Fm%2F0cp3p2,%2Fm%2F0cp3p2,%2Fm%2F0cp3p2&hl=en"
             },
             {
@@ -35535,7 +35535,7 @@ export const REPORT_DATA: ReportData = {
                   value: -14
                 }
               ],
-              decemberGrowth: -14,
+              latestGrowth: -14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Wingstop%20%2B%20Wing%20Stop,Wingstop%20%2B%20Wing%20Stop,Wingstop%20%2B%20Wing%20Stop,Wingstop%20%2B%20Wing%20Stop&hl=en"
             },
             {
@@ -35593,7 +35593,7 @@ export const REPORT_DATA: ReportData = {
                   value: -16
                 }
               ],
-              decemberGrowth: -16,
+              latestGrowth: -16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Pizza%20Hut,Pizza%20Hut,Pizza%20Hut,Pizza%20Hut&hl=en"
             },
             {
@@ -35651,7 +35651,7 @@ export const REPORT_DATA: ReportData = {
                   value: -16
                 }
               ],
-              decemberGrowth: -16,
+              latestGrowth: -16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F023xnd,%2Fm%2F023xnd,%2Fm%2F023xnd,%2Fm%2F023xnd&hl=en"
             },
             {
@@ -35709,7 +35709,7 @@ export const REPORT_DATA: ReportData = {
                   value: -16
                 }
               ],
-              decemberGrowth: -16,
+              latestGrowth: -16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Popeyes,Popeyes,Popeyes,Popeyes&hl=en"
             },
             {
@@ -35767,7 +35767,7 @@ export const REPORT_DATA: ReportData = {
                   value: -16
                 }
               ],
-              decemberGrowth: -16,
+              latestGrowth: -16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Domino%27s%20%2B%20Dominos,Domino%27s%20%2B%20Dominos,Domino%27s%20%2B%20Dominos,Domino%27s%20%2B%20Dominos&hl=en"
             },
             {
@@ -35825,7 +35825,7 @@ export const REPORT_DATA: ReportData = {
                   value: -18
                 }
               ],
-              decemberGrowth: -18,
+              latestGrowth: -18,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Papa%20John%27s%20%2B%20Papa%20Johns,Papa%20John%27s%20%2B%20Papa%20Johns,Papa%20John%27s%20%2B%20Papa%20Johns,Papa%20John%27s%20%2B%20Papa%20Johns&hl=en"
             },
             {
@@ -35883,7 +35883,7 @@ export const REPORT_DATA: ReportData = {
                   value: -22
                 }
               ],
-              decemberGrowth: -22,
+              latestGrowth: -22,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0cqmsf,%2Fm%2F0cqmsf,%2Fm%2F0cqmsf,%2Fm%2F0cqmsf&hl=en"
             }
           ]
@@ -35946,7 +35946,7 @@ export const REPORT_DATA: ReportData = {
                   value: 23
                 }
               ],
-              decemberGrowth: 23,
+              latestGrowth: 23,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Pilates,Pilates,Pilates,Pilates&hl=en"
             },
             {
@@ -36004,7 +36004,7 @@ export const REPORT_DATA: ReportData = {
                   value: -3
                 }
               ],
-              decemberGrowth: -3,
+              latestGrowth: -3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Planet%20Fitness,Planet%20Fitness,Planet%20Fitness,Planet%20Fitness&hl=en"
             },
             {
@@ -36062,7 +36062,7 @@ export const REPORT_DATA: ReportData = {
                   value: -7
                 }
               ],
-              decemberGrowth: -7,
+              latestGrowth: -7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%22Club%20Pilates%22,%22Club%20Pilates%22,%22Club%20Pilates%22,%22Club%20Pilates%22&hl=en"
             },
             {
@@ -36120,7 +36120,7 @@ export const REPORT_DATA: ReportData = {
                   value: -18
                 }
               ],
-              decemberGrowth: -18,
+              latestGrowth: -18,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=StretchLab%20%2B%20%22Stretch%20Lab%22,StretchLab%20%2B%20%22Stretch%20Lab%22,StretchLab%20%2B%20%22Stretch%20Lab%22,StretchLab%20%2B%20%22Stretch%20Lab%22&hl=en"
             },
             {
@@ -36178,7 +36178,7 @@ export const REPORT_DATA: ReportData = {
                   value: -29
                 }
               ],
-              decemberGrowth: -29,
+              latestGrowth: -29,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Pure%20Barre,Pure%20Barre,Pure%20Barre,Pure%20Barre&hl=en"
             }
           ]
@@ -36241,7 +36241,7 @@ export const REPORT_DATA: ReportData = {
                   value: 16
                 }
               ],
-              decemberGrowth: 16,
+              latestGrowth: 16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0k9ts,%2Fm%2F0k9ts,%2Fm%2F0k9ts,%2Fm%2F0k9ts&hl=en"
             },
             {
@@ -36299,7 +36299,7 @@ export const REPORT_DATA: ReportData = {
                   value: 11
                 }
               ],
-              decemberGrowth: 11,
+              latestGrowth: 11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Marriott,Marriott,Marriott,Marriott&hl=en"
             },
             {
@@ -36357,7 +36357,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Hilton%20-head%20-paris,Hilton%20-head%20-paris,Hilton%20-head%20-paris,Hilton%20-head%20-paris&hl=en"
             },
             {
@@ -36415,7 +36415,7 @@ export const REPORT_DATA: ReportData = {
                   value: 5
                 }
               ],
-              decemberGrowth: 5,
+              latestGrowth: 5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F07y2s,%2Fm%2F07y2s,%2Fm%2F07y2s,%2Fm%2F07y2s&hl=en"
             },
             {
@@ -36473,7 +36473,7 @@ export const REPORT_DATA: ReportData = {
                   value: 3
                 }
               ],
-              decemberGrowth: 3,
+              latestGrowth: 3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Epic%20Pass%20-game,Epic%20Pass%20-game,Epic%20Pass%20-game,Epic%20Pass%20-game&hl=en"
             },
             {
@@ -36531,7 +36531,7 @@ export const REPORT_DATA: ReportData = {
                   value: -12
                 }
               ],
-              decemberGrowth: -12,
+              latestGrowth: -12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Ikon%20Pass,Ikon%20Pass,Ikon%20Pass,Ikon%20Pass&hl=en"
             },
             {
@@ -36589,7 +36589,7 @@ export const REPORT_DATA: ReportData = {
                   value: -13
                 }
               ],
-              decemberGrowth: -13,
+              latestGrowth: -13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Topgolf%20%2B%20%22Top%20Golf%22,Topgolf%20%2B%20%22Top%20Golf%22,Topgolf%20%2B%20%22Top%20Golf%22,Topgolf%20%2B%20%22Top%20Golf%22&hl=en"
             }
           ]
@@ -36657,7 +36657,7 @@ export const REPORT_DATA: ReportData = {
                   value: 99
                 }
               ],
-              decemberGrowth: 99,
+              latestGrowth: 99,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=SkyTab,SkyTab,SkyTab,SkyTab&hl=en"
             },
             {
@@ -36715,7 +36715,7 @@ export const REPORT_DATA: ReportData = {
                   value: 69
                 }
               ],
-              decemberGrowth: 69,
+              latestGrowth: 69,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Clover%20POS,Clover%20POS,Clover%20POS,Clover%20POS&hl=en"
             },
             {
@@ -36773,7 +36773,7 @@ export const REPORT_DATA: ReportData = {
                   value: 65
                 }
               ],
-              decemberGrowth: 65,
+              latestGrowth: 65,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Square%20POS,Square%20POS,Square%20POS,Square%20POS&hl=en"
             },
             {
@@ -36831,7 +36831,7 @@ export const REPORT_DATA: ReportData = {
                   value: 53
                 }
               ],
-              decemberGrowth: 53,
+              latestGrowth: 53,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=dLocal,dLocal,dLocal,dLocal&hl=en"
             },
             {
@@ -36889,7 +36889,7 @@ export const REPORT_DATA: ReportData = {
                   value: 40
                 }
               ],
-              decemberGrowth: 40,
+              latestGrowth: 40,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Shift4,Shift4,Shift4,Shift4&hl=en"
             },
             {
@@ -36947,7 +36947,7 @@ export const REPORT_DATA: ReportData = {
                   value: 32
                 }
               ],
-              decemberGrowth: 32,
+              latestGrowth: 32,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0h3qnb8,%2Fm%2F0h3qnb8,%2Fm%2F0h3qnb8,%2Fm%2F0h3qnb8&hl=en"
             },
             {
@@ -37005,7 +37005,7 @@ export const REPORT_DATA: ReportData = {
                   value: 32
                 }
               ],
-              decemberGrowth: 32,
+              latestGrowth: 32,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Sezzle,Sezzle,Sezzle,Sezzle&hl=en"
             },
             {
@@ -37063,7 +37063,7 @@ export const REPORT_DATA: ReportData = {
                   value: 25
                 }
               ],
-              decemberGrowth: 25,
+              latestGrowth: 25,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Adyen,Adyen,Adyen,Adyen&hl=en"
             },
             {
@@ -37121,7 +37121,7 @@ export const REPORT_DATA: ReportData = {
                   value: 14
                 }
               ],
-              decemberGrowth: 14,
+              latestGrowth: 14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Klarna,Klarna,Klarna,Klarna&hl=en"
             },
             {
@@ -37179,7 +37179,7 @@ export const REPORT_DATA: ReportData = {
                   value: 13
                 }
               ],
-              decemberGrowth: 13,
+              latestGrowth: 13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11c43tywx9,%2Fg%2F11c43tywx9,%2Fg%2F11c43tywx9,%2Fg%2F11c43tywx9&hl=en"
             },
             {
@@ -37237,7 +37237,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Affirm,Affirm,Affirm,Affirm&hl=en"
             },
             {
@@ -37295,7 +37295,7 @@ export const REPORT_DATA: ReportData = {
                   value: 7
                 }
               ],
-              decemberGrowth: 7,
+              latestGrowth: 7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F012fy389,%2Fm%2F012fy389,%2Fm%2F012fy389,%2Fm%2F012fy389&hl=en"
             }
           ]
@@ -37358,7 +37358,7 @@ export const REPORT_DATA: ReportData = {
                   value: 54
                 }
               ],
-              decemberGrowth: 54,
+              latestGrowth: 54,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Lemonade%20Insurance,Lemonade%20Insurance,Lemonade%20Insurance,Lemonade%20Insurance&hl=en"
             },
             {
@@ -37416,7 +37416,7 @@ export const REPORT_DATA: ReportData = {
                   value: 46
                 }
               ],
-              decemberGrowth: 46,
+              latestGrowth: 46,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Clover%20Health,Clover%20Health,Clover%20Health,Clover%20Health&hl=en"
             },
             {
@@ -37474,7 +37474,7 @@ export const REPORT_DATA: ReportData = {
                   value: 38
                 }
               ],
-              decemberGrowth: 38,
+              latestGrowth: 38,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11bwk_9yk_,%2Fg%2F11bwk_9yk_,%2Fg%2F11bwk_9yk_,%2Fg%2F11bwk_9yk_&hl=en"
             },
             {
@@ -37532,7 +37532,7 @@ export const REPORT_DATA: ReportData = {
                   value: 34
                 }
               ],
-              decemberGrowth: 34,
+              latestGrowth: 34,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Root%20Insurance,Root%20Insurance,Root%20Insurance,Root%20Insurance&hl=en"
             },
             {
@@ -37590,7 +37590,7 @@ export const REPORT_DATA: ReportData = {
                   value: 13
                 }
               ],
-              decemberGrowth: 13,
+              latestGrowth: 13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Hippo%20Insurance,Hippo%20Insurance,Hippo%20Insurance,Hippo%20Insurance&hl=en"
             },
             {
@@ -37648,7 +37648,7 @@ export const REPORT_DATA: ReportData = {
                   value: 11
                 }
               ],
-              decemberGrowth: 11,
+              latestGrowth: 11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Trupanion,Trupanion,Trupanion,Trupanion&hl=en"
             },
             {
@@ -37706,7 +37706,7 @@ export const REPORT_DATA: ReportData = {
                   value: 7
                 }
               ],
-              decemberGrowth: 7,
+              latestGrowth: 7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F032v2q,%2Fm%2F032v2q,%2Fm%2F032v2q,%2Fm%2F032v2q&hl=en"
             },
             {
@@ -37764,7 +37764,7 @@ export const REPORT_DATA: ReportData = {
                   value: -3
                 }
               ],
-              decemberGrowth: -3,
+              latestGrowth: -3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=State%20Farm,State%20Farm,State%20Farm,State%20Farm&hl=en"
             },
             {
@@ -37822,7 +37822,7 @@ export const REPORT_DATA: ReportData = {
                   value: -7
                 }
               ],
-              decemberGrowth: -7,
+              latestGrowth: -7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Allstate,Allstate,Allstate,Allstate&hl=en"
             }
           ]
@@ -37885,7 +37885,7 @@ export const REPORT_DATA: ReportData = {
                   value: 185
                 }
               ],
-              decemberGrowth: 185,
+              latestGrowth: 185,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Brex,Brex,Brex,Brex&hl=en"
             },
             {
@@ -37943,7 +37943,7 @@ export const REPORT_DATA: ReportData = {
                   value: 65
                 }
               ],
-              decemberGrowth: 65,
+              latestGrowth: 65,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Chase%20Sapphire,Chase%20Sapphire,Chase%20Sapphire,Chase%20Sapphire&hl=en"
             },
             {
@@ -38001,7 +38001,7 @@ export const REPORT_DATA: ReportData = {
                   value: 53
                 }
               ],
-              decemberGrowth: 53,
+              latestGrowth: 53,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=American%20Express%20Gold%20%2B%20Amex%20Gold,American%20Express%20Gold%20%2B%20Amex%20Gold,American%20Express%20Gold%20%2B%20Amex%20Gold,American%20Express%20Gold%20%2B%20Amex%20Gold&hl=en"
             },
             {
@@ -38059,7 +38059,7 @@ export const REPORT_DATA: ReportData = {
                   value: 51
                 }
               ],
-              decemberGrowth: 51,
+              latestGrowth: 51,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Capital%20One%20Venture,Capital%20One%20Venture,Capital%20One%20Venture,Capital%20One%20Venture&hl=en"
             },
             {
@@ -38117,7 +38117,7 @@ export const REPORT_DATA: ReportData = {
                   value: 50
                 }
               ],
-              decemberGrowth: 50,
+              latestGrowth: 50,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=American%20Express%20Platinum%20%2B%20Amex%20Platinum,American%20Express%20Platinum%20%2B%20Amex%20Platinum,American%20Express%20Platinum%20%2B%20Amex%20Platinum,American%20Express%20Platinum%20%2B%20Amex%20Platinum&hl=en"
             },
             {
@@ -38175,7 +38175,7 @@ export const REPORT_DATA: ReportData = {
                   value: 16
                 }
               ],
-              decemberGrowth: 16,
+              latestGrowth: 16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=American%20Express%20%2B%20Amex,American%20Express%20%2B%20Amex,American%20Express%20%2B%20Amex,American%20Express%20%2B%20Amex&hl=en"
             },
             {
@@ -38233,7 +38233,7 @@ export const REPORT_DATA: ReportData = {
                   value: 15
                 }
               ],
-              decemberGrowth: 15,
+              latestGrowth: 15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Mastercard%20%2B%20Master%20Card,Mastercard%20%2B%20Master%20Card,Mastercard%20%2B%20Master%20Card,Mastercard%20%2B%20Master%20Card&hl=en"
             },
             {
@@ -38291,7 +38291,7 @@ export const REPORT_DATA: ReportData = {
                   value: 10
                 }
               ],
-              decemberGrowth: 10,
+              latestGrowth: 10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11c59p2ng_,%2Fg%2F11c59p2ng_,%2Fg%2F11c59p2ng_,%2Fg%2F11c59p2ng_&hl=en"
             },
             {
@@ -38349,7 +38349,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Capital%20One,Capital%20One,Capital%20One,Capital%20One&hl=en"
             }
           ]
@@ -38412,7 +38412,7 @@ export const REPORT_DATA: ReportData = {
                   value: 35
                 }
               ],
-              decemberGrowth: 35,
+              latestGrowth: 35,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11bxfglw2n,%2Fg%2F11bxfglw2n,%2Fg%2F11bxfglw2n,%2Fg%2F11bxfglw2n&hl=en"
             },
             {
@@ -38470,7 +38470,7 @@ export const REPORT_DATA: ReportData = {
                   value: 20
                 }
               ],
-              decemberGrowth: 20,
+              latestGrowth: 20,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F1214mjjd,%2Fg%2F1214mjjd,%2Fg%2F1214mjjd,%2Fg%2F1214mjjd&hl=en"
             },
             {
@@ -38528,7 +38528,7 @@ export const REPORT_DATA: ReportData = {
                   value: 19
                 }
               ],
-              decemberGrowth: 19,
+              latestGrowth: 19,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Revolut,Revolut,Revolut,Revolut&hl=en"
             },
             {
@@ -38586,7 +38586,7 @@ export const REPORT_DATA: ReportData = {
                   value: 18
                 }
               ],
-              decemberGrowth: 18,
+              latestGrowth: 18,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=SoFi,SoFi,SoFi,SoFi&hl=en"
             },
             {
@@ -38644,7 +38644,7 @@ export const REPORT_DATA: ReportData = {
                   value: 16
                 }
               ],
-              decemberGrowth: 16,
+              latestGrowth: 16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11fy2dc0l8,%2Fg%2F11fy2dc0l8,%2Fg%2F11fy2dc0l8,%2Fg%2F11fy2dc0l8&hl=en"
             },
             {
@@ -38702,7 +38702,7 @@ export const REPORT_DATA: ReportData = {
                   value: 12
                 }
               ],
-              decemberGrowth: 12,
+              latestGrowth: 12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11fpcywns0,%2Fg%2F11fpcywns0,%2Fg%2F11fpcywns0,%2Fg%2F11fpcywns0&hl=en"
             },
             {
@@ -38760,7 +38760,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Citi%20%2B%20Citibank,Citi%20%2B%20Citibank,Citi%20%2B%20Citibank,Citi%20%2B%20Citibank&hl=en"
             },
             {
@@ -38818,7 +38818,7 @@ export const REPORT_DATA: ReportData = {
                   value: 4
                 }
               ],
-              decemberGrowth: 4,
+              latestGrowth: 4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=LendingClub%20%2B%20Lending%20Club,LendingClub%20%2B%20Lending%20Club,LendingClub%20%2B%20Lending%20Club,LendingClub%20%2B%20Lending%20Club&hl=en"
             },
             {
@@ -38876,7 +38876,7 @@ export const REPORT_DATA: ReportData = {
                   value: -1
                 }
               ],
-              decemberGrowth: -1,
+              latestGrowth: -1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Wealthfront,Wealthfront,Wealthfront,Wealthfront&hl=en"
             },
             {
@@ -38934,7 +38934,7 @@ export const REPORT_DATA: ReportData = {
                   value: -3
                 }
               ],
-              decemberGrowth: -3,
+              latestGrowth: -3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0221wv,%2Fm%2F0221wv,%2Fm%2F0221wv,%2Fm%2F0221wv&hl=en"
             },
             {
@@ -38992,7 +38992,7 @@ export const REPORT_DATA: ReportData = {
                   value: -4
                 }
               ],
-              decemberGrowth: -4,
+              latestGrowth: -4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F02l7_f&hl,%2Fm%2F02l7_f&hl,%2Fm%2F02l7_f&hl,%2Fm%2F02l7_f&hl&hl=en"
             },
             {
@@ -39050,7 +39050,7 @@ export const REPORT_DATA: ReportData = {
                   value: -7
                 }
               ],
-              decemberGrowth: -7,
+              latestGrowth: -7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Bank%20of%20America,Bank%20of%20America,Bank%20of%20America,Bank%20of%20America&hl=en"
             },
             {
@@ -39108,7 +39108,7 @@ export const REPORT_DATA: ReportData = {
                   value: -9
                 }
               ],
-              decemberGrowth: -9,
+              latestGrowth: -9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Wells%20Fargo,Wells%20Fargo,Wells%20Fargo,Wells%20Fargo&hl=en"
             }
           ]
@@ -39171,7 +39171,7 @@ export const REPORT_DATA: ReportData = {
                   value: 92
                 }
               ],
-              decemberGrowth: 92,
+              latestGrowth: 92,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Riskified,Riskified,Riskified,Riskified&hl=en"
             },
             {
@@ -39229,7 +39229,7 @@ export const REPORT_DATA: ReportData = {
                   value: 37
                 }
               ],
-              decemberGrowth: 37,
+              latestGrowth: 37,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Corpay%20%2B%20Fleetcor,Corpay%20%2B%20Fleetcor,Corpay%20%2B%20Fleetcor,Corpay%20%2B%20Fleetcor&hl=en"
             },
             {
@@ -39287,7 +39287,7 @@ export const REPORT_DATA: ReportData = {
                   value: 34
                 }
               ],
-              decemberGrowth: 34,
+              latestGrowth: 34,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Mercado%20Pago,Mercado%20Pago,Mercado%20Pago,Mercado%20Pago&hl=en"
             },
             {
@@ -39345,7 +39345,7 @@ export const REPORT_DATA: ReportData = {
                   value: 27
                 }
               ],
-              decemberGrowth: 27,
+              latestGrowth: 27,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0n5vwry,%2Fm%2F0n5vwry,%2Fm%2F0n5vwry,%2Fm%2F0n5vwry&hl=en"
             },
             {
@@ -39403,7 +39403,7 @@ export const REPORT_DATA: ReportData = {
                   value: 23
                 }
               ],
-              decemberGrowth: 23,
+              latestGrowth: 23,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Remitly,Remitly,Remitly,Remitly&hl=en"
             },
             {
@@ -39461,7 +39461,7 @@ export const REPORT_DATA: ReportData = {
                   value: 19
                 }
               ],
-              decemberGrowth: 19,
+              latestGrowth: 19,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=USDC,USDC,USDC,USDC&hl=en"
             },
             {
@@ -39519,7 +39519,7 @@ export const REPORT_DATA: ReportData = {
                   value: 18
                 }
               ],
-              decemberGrowth: 18,
+              latestGrowth: 18,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Cash%20App,Cash%20App,Cash%20App,Cash%20App&hl=en"
             },
             {
@@ -39577,7 +39577,7 @@ export const REPORT_DATA: ReportData = {
                   value: 9
                 }
               ],
-              decemberGrowth: 9,
+              latestGrowth: 9,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Payoneer,Payoneer,Payoneer,Payoneer&hl=en"
             },
             {
@@ -39635,7 +39635,7 @@ export const REPORT_DATA: ReportData = {
                   value: 6
                 }
               ],
-              decemberGrowth: 6,
+              latestGrowth: 6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Venmo,Venmo,Venmo,Venmo&hl=en"
             },
             {
@@ -39693,7 +39693,7 @@ export const REPORT_DATA: ReportData = {
                   value: 5
                 }
               ],
-              decemberGrowth: 5,
+              latestGrowth: 5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Bill.com,Bill.com,Bill.com,Bill.com&hl=en"
             },
             {
@@ -39751,7 +39751,7 @@ export const REPORT_DATA: ReportData = {
                   value: 5
                 }
               ],
-              decemberGrowth: 5,
+              latestGrowth: 5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F012849_p,%2Fm%2F012849_p,%2Fm%2F012849_p,%2Fm%2F012849_p&hl=en"
             },
             {
@@ -39809,7 +39809,7 @@ export const REPORT_DATA: ReportData = {
                   value: 2
                 }
               ],
-              decemberGrowth: 2,
+              latestGrowth: 2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=WEX,WEX,WEX,WEX&hl=en"
             },
             {
@@ -39867,7 +39867,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F04mys89,%2Fm%2F04mys89,%2Fm%2F04mys89,%2Fm%2F04mys89&hl=en"
             },
             {
@@ -39925,7 +39925,7 @@ export const REPORT_DATA: ReportData = {
                   value: -11
                 }
               ],
-              decemberGrowth: -11,
+              latestGrowth: -11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Western%20Union,Western%20Union,Western%20Union,Western%20Union&hl=en"
             },
             {
@@ -39983,7 +39983,7 @@ export const REPORT_DATA: ReportData = {
                   value: -11
                 }
               ],
-              decemberGrowth: -11,
+              latestGrowth: -11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=PayPal,PayPal,PayPal,PayPal&hl=en"
             }
           ]
@@ -40046,7 +40046,7 @@ export const REPORT_DATA: ReportData = {
                   value: 97
                 }
               ],
-              decemberGrowth: 97,
+              latestGrowth: 97,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=US,US,US,US&q=Forge%20Global,Forge%20Global,Forge%20Global,Forge%20Global&hl=en"
             },
             {
@@ -40104,7 +40104,7 @@ export const REPORT_DATA: ReportData = {
                   value: 53
                 }
               ],
-              decemberGrowth: 53,
+              latestGrowth: 53,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Interactive%20Brokers%20%2B%20Ibkr,Interactive%20Brokers%20%2B%20Ibkr,Interactive%20Brokers%20%2B%20Ibkr,Interactive%20Brokers%20%2B%20Ibkr&hl=en"
             },
             {
@@ -40162,7 +40162,7 @@ export const REPORT_DATA: ReportData = {
                   value: 28
                 }
               ],
-              decemberGrowth: 28,
+              latestGrowth: 28,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Moomoo%20-io%20-game%20-dress%20-moomoo.io,Moomoo%20-io%20-game%20-dress%20-moomoo.io,Moomoo%20-io%20-game%20-dress%20-moomoo.io,Moomoo%20-io%20-game%20-dress%20-moomoo.io&hl=en"
             },
             {
@@ -40220,7 +40220,7 @@ export const REPORT_DATA: ReportData = {
                   value: 11
                 }
               ],
-              decemberGrowth: 11,
+              latestGrowth: 11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Webull,Webull,Webull,Webull&hl=en"
             },
             {
@@ -40278,7 +40278,7 @@ export const REPORT_DATA: ReportData = {
                   value: 4
                 }
               ],
-              decemberGrowth: 4,
+              latestGrowth: 4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Fidelity,Fidelity,Fidelity,Fidelity&hl=en"
             },
             {
@@ -40336,7 +40336,7 @@ export const REPORT_DATA: ReportData = {
                   value: 2
                 }
               ],
-              decemberGrowth: 2,
+              latestGrowth: 2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Charles%20Schwab%20%2B%20Schwab,Charles%20Schwab%20%2B%20Schwab,Charles%20Schwab%20%2B%20Schwab,Charles%20Schwab%20%2B%20Schwab&hl=en"
             },
             {
@@ -40394,7 +40394,7 @@ export const REPORT_DATA: ReportData = {
                   value: -7
                 }
               ],
-              decemberGrowth: -7,
+              latestGrowth: -7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Robinhood,Robinhood,Robinhood,Robinhood&hl=en"
             },
             {
@@ -40452,7 +40452,7 @@ export const REPORT_DATA: ReportData = {
                   value: -19
                 }
               ],
-              decemberGrowth: -19,
+              latestGrowth: -19,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=eToro,eToro,eToro,eToro&hl=en"
             },
             {
@@ -40510,7 +40510,7 @@ export const REPORT_DATA: ReportData = {
                   value: -30
                 }
               ],
-              decemberGrowth: -30,
+              latestGrowth: -30,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Bitcoin,Bitcoin,Bitcoin,Bitcoin&hl=en"
             },
             {
@@ -40568,7 +40568,7 @@ export const REPORT_DATA: ReportData = {
                   value: -39
                 }
               ],
-              decemberGrowth: -39,
+              latestGrowth: -39,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Crypto,Crypto,Crypto,Crypto&hl=en"
             },
             {
@@ -40626,7 +40626,7 @@ export const REPORT_DATA: ReportData = {
                   value: -52
                 }
               ],
-              decemberGrowth: -52,
+              latestGrowth: -52,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Coinbase,Coinbase,Coinbase,Coinbase&hl=en"
             }
           ]
@@ -40689,7 +40689,7 @@ export const REPORT_DATA: ReportData = {
                   value: 51
                 }
               ],
-              decemberGrowth: 51,
+              latestGrowth: 51,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F06nlq,%2Fm%2F06nlq,%2Fm%2F06nlq,%2Fm%2F06nlq&hl=en"
             },
             {
@@ -40747,7 +40747,7 @@ export const REPORT_DATA: ReportData = {
                   value: 47
                 }
               ],
-              decemberGrowth: 47,
+              latestGrowth: 47,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F09qcsz,%2Fm%2F09qcsz,%2Fm%2F09qcsz,%2Fm%2F09qcsz&hl=en"
             },
             {
@@ -40805,7 +40805,7 @@ export const REPORT_DATA: ReportData = {
                   value: 47
                 }
               ],
-              decemberGrowth: 47,
+              latestGrowth: 47,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Invesco,Invesco,Invesco,Invesco&hl=en"
             },
             {
@@ -40863,7 +40863,7 @@ export const REPORT_DATA: ReportData = {
                   value: 42
                 }
               ],
-              decemberGrowth: 42,
+              latestGrowth: 42,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Goldman%20Sachs,Goldman%20Sachs,Goldman%20Sachs,Goldman%20Sachs&hl=en"
             },
             {
@@ -40921,7 +40921,7 @@ export const REPORT_DATA: ReportData = {
                   value: 39
                 }
               ],
-              decemberGrowth: 39,
+              latestGrowth: 39,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F03lpk9,%2Fm%2F03lpk9,%2Fm%2F03lpk9,%2Fm%2F03lpk9&hl=en"
             },
             {
@@ -40979,7 +40979,7 @@ export const REPORT_DATA: ReportData = {
                   value: 30
                 }
               ],
-              decemberGrowth: 30,
+              latestGrowth: 30,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Morgan%20Stanley,Morgan%20Stanley,Morgan%20Stanley,Morgan%20Stanley&hl=en"
             },
             {
@@ -41037,7 +41037,7 @@ export const REPORT_DATA: ReportData = {
                   value: 18
                 }
               ],
-              decemberGrowth: 18,
+              latestGrowth: 18,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=BlackRock,BlackRock,BlackRock,BlackRock&hl=en"
             },
             {
@@ -41095,7 +41095,7 @@ export const REPORT_DATA: ReportData = {
                   value: 16
                 }
               ],
-              decemberGrowth: 16,
+              latestGrowth: 16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=QQQ,QQQ,QQQ,QQQ&hl=en"
             },
             {
@@ -41153,7 +41153,7 @@ export const REPORT_DATA: ReportData = {
                   value: 11
                 }
               ],
-              decemberGrowth: 11,
+              latestGrowth: 11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F033778,%2Fm%2F033778,%2Fm%2F033778,%2Fm%2F033778&hl=en"
             },
             {
@@ -41211,7 +41211,7 @@ export const REPORT_DATA: ReportData = {
                   value: 4
                 }
               ],
-              decemberGrowth: 4,
+              latestGrowth: 4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Dodge%20Cox,Dodge%20Cox,Dodge%20Cox,Dodge%20Cox&hl=en"
             },
             {
@@ -41269,7 +41269,7 @@ export const REPORT_DATA: ReportData = {
                   value: -2
                 }
               ],
-              decemberGrowth: -2,
+              latestGrowth: -2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=GQG,GQG,GQG,GQG&hl=en"
             }
           ]
@@ -41337,7 +41337,7 @@ export const REPORT_DATA: ReportData = {
                   value: 88
                 }
               ],
-              decemberGrowth: 88,
+              latestGrowth: 88,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Verizon,Verizon,Verizon,Verizon&hl=en"
             },
             {
@@ -41395,7 +41395,7 @@ export const REPORT_DATA: ReportData = {
                   value: 39
                 }
               ],
-              decemberGrowth: 39,
+              latestGrowth: 39,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Starlink,Starlink,Starlink,Starlink&hl=en"
             },
             {
@@ -41453,7 +41453,7 @@ export const REPORT_DATA: ReportData = {
                   value: 15
                 }
               ],
-              decemberGrowth: 15,
+              latestGrowth: 15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=ATT%20%2B%20AT%26T,ATT%20%2B%20AT%26T,ATT%20%2B%20AT%26T,ATT%20%2B%20AT%26T&hl=en"
             },
             {
@@ -41511,7 +41511,7 @@ export const REPORT_DATA: ReportData = {
                   value: 8
                 }
               ],
-              decemberGrowth: 8,
+              latestGrowth: 8,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Xfinity%20%2B%20Comcast,Xfinity%20%2B%20Comcast,Xfinity%20%2B%20Comcast,Xfinity%20%2B%20Comcast&hl=en"
             },
             {
@@ -41569,7 +41569,7 @@ export const REPORT_DATA: ReportData = {
                   value: 3
                 }
               ],
-              decemberGrowth: 3,
+              latestGrowth: 3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=T%20Mobile%20%2B%20T-Mobile%20%2B%20TMobile,T%20Mobile%20%2B%20T-Mobile%20%2B%20TMobile,T%20Mobile%20%2B%20T-Mobile%20%2B%20TMobile,T%20Mobile%20%2B%20T-Mobile%20%2B%20TMobile&hl=en"
             },
             {
@@ -41627,7 +41627,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0f9lmh,%2Fm%2F0f9lmh,%2Fm%2F0f9lmh,%2Fm%2F0f9lmh&hl=en"
             }
           ]
@@ -41690,7 +41690,7 @@ export const REPORT_DATA: ReportData = {
                   value: 52
                 }
               ],
-              decemberGrowth: 52,
+              latestGrowth: 52,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Formula%201%20%2B%20Formula1%20%2B%20F1,Formula%201%20%2B%20Formula1%20%2B%20F1,Formula%201%20%2B%20Formula1%20%2B%20F1,Formula%201%20%2B%20Formula1%20%2B%20F1&hl=en"
             },
             {
@@ -41748,7 +41748,7 @@ export const REPORT_DATA: ReportData = {
                   value: 18
                 }
               ],
-              decemberGrowth: 18,
+              latestGrowth: 18,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=MLB,MLB,MLB,MLB&hl=en"
             },
             {
@@ -41806,7 +41806,7 @@ export const REPORT_DATA: ReportData = {
                   value: 12
                 }
               ],
-              decemberGrowth: 12,
+              latestGrowth: 12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=UFC,UFC,UFC,UFC&hl=en"
             },
             {
@@ -41864,7 +41864,7 @@ export const REPORT_DATA: ReportData = {
                   value: 4
                 }
               ],
-              decemberGrowth: 4,
+              latestGrowth: 4,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=NFL,NFL,NFL,NFL&hl=en"
             },
             {
@@ -41922,7 +41922,7 @@ export const REPORT_DATA: ReportData = {
                   value: -3
                 }
               ],
-              decemberGrowth: -3,
+              latestGrowth: -3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=NBA,NBA,NBA,NBA&hl=en"
             },
             {
@@ -41980,7 +41980,7 @@ export const REPORT_DATA: ReportData = {
                   value: -6
                 }
               ],
-              decemberGrowth: -6,
+              latestGrowth: -6,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=WWE,WWE,WWE,WWE&hl=en"
             },
             {
@@ -42038,7 +42038,7 @@ export const REPORT_DATA: ReportData = {
                   value: -12
                 }
               ],
-              decemberGrowth: -12,
+              latestGrowth: -12,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F0x2p,%2Fm%2F0x2p,%2Fm%2F0x2p,%2Fm%2F0x2p&hl=en"
             }
           ]
@@ -42101,7 +42101,7 @@ export const REPORT_DATA: ReportData = {
                   value: 32
                 }
               ],
-              decemberGrowth: 32,
+              latestGrowth: 32,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Bloomberg,Bloomberg,Bloomberg,Bloomberg&hl=en"
             },
             {
@@ -42159,7 +42159,7 @@ export const REPORT_DATA: ReportData = {
                   value: 19
                 }
               ],
-              decemberGrowth: 19,
+              latestGrowth: 19,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=WSJ%20%2B%20Wall%20Street%20Journal,WSJ%20%2B%20Wall%20Street%20Journal,WSJ%20%2B%20Wall%20Street%20Journal,WSJ%20%2B%20Wall%20Street%20Journal&hl=en"
             },
             {
@@ -42217,7 +42217,7 @@ export const REPORT_DATA: ReportData = {
                   value: -5
                 }
               ],
-              decemberGrowth: -5,
+              latestGrowth: -5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=BuzzFeed,BuzzFeed,BuzzFeed,BuzzFeed&hl=en"
             },
             {
@@ -42275,7 +42275,7 @@ export const REPORT_DATA: ReportData = {
                   value: -21
                 }
               ],
-              decemberGrowth: -21,
+              latestGrowth: -21,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=NYT%20%2B%20New%20York%20Times%20%2B%20NYtimes,NYT%20%2B%20New%20York%20Times%20%2B%20NYtimes,NYT%20%2B%20New%20York%20Times%20%2B%20NYtimes,NYT%20%2B%20New%20York%20Times%20%2B%20NYtimes&hl=en"
             }
           ]
@@ -42338,7 +42338,7 @@ export const REPORT_DATA: ReportData = {
                   value: 46
                 }
               ],
-              decemberGrowth: 46,
+              latestGrowth: 46,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F04rhz,%2Fm%2F04rhz,%2Fm%2F04rhz,%2Fm%2F04rhz&hl=en"
             },
             {
@@ -42396,7 +42396,7 @@ export const REPORT_DATA: ReportData = {
                   value: 16
                 }
               ],
-              decemberGrowth: 16,
+              latestGrowth: 16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Roblox,Roblox,Roblox,Roblox&hl=en"
             },
             {
@@ -42454,7 +42454,7 @@ export const REPORT_DATA: ReportData = {
                   value: 3
                 }
               ],
-              decemberGrowth: 3,
+              latestGrowth: 3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Grand%20Theft%20Auto%20%2B%20GTA,Grand%20Theft%20Auto%20%2B%20GTA,Grand%20Theft%20Auto%20%2B%20GTA,Grand%20Theft%20Auto%20%2B%20GTA&hl=en"
             },
             {
@@ -42512,7 +42512,7 @@ export const REPORT_DATA: ReportData = {
                   value: -7
                 }
               ],
-              decemberGrowth: -7,
+              latestGrowth: -7,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=PlayStation,PlayStation,PlayStation,PlayStation&hl=en"
             },
             {
@@ -42570,7 +42570,7 @@ export const REPORT_DATA: ReportData = {
                   value: -11
                 }
               ],
-              decemberGrowth: -11,
+              latestGrowth: -11,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11hd5fc5tr,%2Fg%2F11hd5fc5tr,%2Fg%2F11hd5fc5tr,%2Fg%2F11hd5fc5tr&hl=en"
             },
             {
@@ -42628,7 +42628,7 @@ export const REPORT_DATA: ReportData = {
                   value: -13
                 }
               ],
-              decemberGrowth: -13,
+              latestGrowth: -13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Xbox,Xbox,Xbox,Xbox&hl=en"
             },
             {
@@ -42686,7 +42686,7 @@ export const REPORT_DATA: ReportData = {
                   value: -15
                 }
               ],
-              decemberGrowth: -15,
+              latestGrowth: -15,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fg%2F11hf00yspg,%2Fg%2F11hf00yspg,%2Fg%2F11hf00yspg,%2Fg%2F11hf00yspg&hl=en"
             },
             {
@@ -42744,7 +42744,7 @@ export const REPORT_DATA: ReportData = {
                   value: -16
                 }
               ],
-              decemberGrowth: -16,
+              latestGrowth: -16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Nintendo,Nintendo,Nintendo,Nintendo&hl=en"
             },
             {
@@ -42802,7 +42802,7 @@ export const REPORT_DATA: ReportData = {
                   value: -16
                 }
               ],
-              decemberGrowth: -16,
+              latestGrowth: -16,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F02_js1&hl,%2Fm%2F02_js1&hl,%2Fm%2F02_js1&hl,%2Fm%2F02_js1&hl&hl=en"
             },
             {
@@ -42860,7 +42860,7 @@ export const REPORT_DATA: ReportData = {
                   value: -37
                 }
               ],
-              decemberGrowth: -37,
+              latestGrowth: -37,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F027qg4,%2Fm%2F027qg4,%2Fm%2F027qg4,%2Fm%2F027qg4&hl=en"
             },
             {
@@ -42918,7 +42918,7 @@ export const REPORT_DATA: ReportData = {
                   value: -71
                 }
               ],
-              decemberGrowth: -71,
+              latestGrowth: -71,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Marvel%20Rivals,Marvel%20Rivals,Marvel%20Rivals,Marvel%20Rivals&hl=en"
             }
           ]
@@ -42986,7 +42986,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1511
                 }
               ],
-              decemberGrowth: 1511,
+              latestGrowth: 1511,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Retatrutide,Retatrutide,Retatrutide,Retatrutide&hl=en"
             },
             {
@@ -43044,7 +43044,7 @@ export const REPORT_DATA: ReportData = {
                   value: 193
                 }
               ],
-              decemberGrowth: 193,
+              latestGrowth: 193,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=GLP-1%20%2B%20GLP%201,GLP-1%20%2B%20GLP%201,GLP-1%20%2B%20GLP%201,GLP-1%20%2B%20GLP%201&hl=en"
             },
             {
@@ -43102,7 +43102,7 @@ export const REPORT_DATA: ReportData = {
                   value: 132
                 }
               ],
-              decemberGrowth: 132,
+              latestGrowth: 132,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Tirzepatide,Tirzepatide,Tirzepatide,Tirzepatide&hl=en"
             },
             {
@@ -43160,7 +43160,7 @@ export const REPORT_DATA: ReportData = {
                   value: 82
                 }
               ],
-              decemberGrowth: 82,
+              latestGrowth: 82,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Wegovy,Wegovy,Wegovy,Wegovy&hl=en"
             },
             {
@@ -43218,7 +43218,7 @@ export const REPORT_DATA: ReportData = {
                   value: 78
                 }
               ],
-              decemberGrowth: 78,
+              latestGrowth: 78,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Mounjaro,Mounjaro,Mounjaro,Mounjaro&hl=en"
             },
             {
@@ -43276,7 +43276,7 @@ export const REPORT_DATA: ReportData = {
                   value: 71
                 }
               ],
-              decemberGrowth: 71,
+              latestGrowth: 71,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Zepbound,Zepbound,Zepbound,Zepbound&hl=en"
             },
             {
@@ -43334,7 +43334,7 @@ export const REPORT_DATA: ReportData = {
                   value: 10
                 }
               ],
-              decemberGrowth: 10,
+              latestGrowth: 10,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Semaglutide,Semaglutide,Semaglutide,Semaglutide&hl=en"
             },
             {
@@ -43392,7 +43392,7 @@ export const REPORT_DATA: ReportData = {
                   value: 3
                 }
               ],
-              decemberGrowth: 3,
+              latestGrowth: 3,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=AUSTEDO,AUSTEDO,AUSTEDO,AUSTEDO&hl=en"
             },
             {
@@ -43450,7 +43450,7 @@ export const REPORT_DATA: ReportData = {
                   value: -21
                 }
               ],
-              decemberGrowth: -21,
+              latestGrowth: -21,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Ozempic,Ozempic,Ozempic,Ozempic&hl=en"
             }
           ]
@@ -43513,7 +43513,7 @@ export const REPORT_DATA: ReportData = {
                   value: 35
                 }
               ],
-              decemberGrowth: 35,
+              latestGrowth: 35,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Natera,Natera,Natera,Natera&hl=en"
             },
             {
@@ -43571,7 +43571,7 @@ export const REPORT_DATA: ReportData = {
                   value: 24
                 }
               ],
-              decemberGrowth: 24,
+              latestGrowth: 24,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Galleri%20Test%20%2B%20Galleri%20Cancer,Galleri%20Test%20%2B%20Galleri%20Cancer,Galleri%20Test%20%2B%20Galleri%20Cancer,Galleri%20Test%20%2B%20Galleri%20Cancer&hl=en"
             },
             {
@@ -43629,7 +43629,7 @@ export const REPORT_DATA: ReportData = {
                   value: 5
                 }
               ],
-              decemberGrowth: 5,
+              latestGrowth: 5,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%22One%20Medical%22%20%2B%20OneMedical,%22One%20Medical%22%20%2B%20OneMedical,%22One%20Medical%22%20%2B%20OneMedical,%22One%20Medical%22%20%2B%20OneMedical&hl=en"
             },
             {
@@ -43687,7 +43687,7 @@ export const REPORT_DATA: ReportData = {
                   value: 2
                 }
               ],
-              decemberGrowth: 2,
+              latestGrowth: 2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Progyny,Progyny,Progyny,Progyny&hl=en"
             },
             {
@@ -43745,7 +43745,7 @@ export const REPORT_DATA: ReportData = {
                   value: 1
                 }
               ],
-              decemberGrowth: 1,
+              latestGrowth: 1,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Cologuard,Cologuard,Cologuard,Cologuard&hl=en"
             }
           ]
@@ -43808,7 +43808,7 @@ export const REPORT_DATA: ReportData = {
                   value: 42
                 }
               ],
-              decemberGrowth: 42,
+              latestGrowth: 42,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=%2Fm%2F02vkdh7,%2Fm%2F02vkdh7,%2Fm%2F02vkdh7,%2Fm%2F02vkdh7&hl=en"
             },
             {
@@ -43866,7 +43866,7 @@ export const REPORT_DATA: ReportData = {
                   value: 25
                 }
               ],
-              decemberGrowth: 25,
+              latestGrowth: 25,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Organ%20Care%20System%20%2B%20OCS,Organ%20Care%20System%20%2B%20OCS,Organ%20Care%20System%20%2B%20OCS,Organ%20Care%20System%20%2B%20OCS&hl=en"
             },
             {
@@ -43924,7 +43924,7 @@ export const REPORT_DATA: ReportData = {
                   value: 17
                 }
               ],
-              decemberGrowth: 17,
+              latestGrowth: 17,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Omnipod,Omnipod,Omnipod,Omnipod&hl=en"
             },
             {
@@ -43982,7 +43982,7 @@ export const REPORT_DATA: ReportData = {
                   value: 14
                 }
               ],
-              decemberGrowth: 14,
+              latestGrowth: 14,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Invisalign,Invisalign,Invisalign,Invisalign&hl=en"
             },
             {
@@ -44040,7 +44040,7 @@ export const REPORT_DATA: ReportData = {
                   value: 2
                 }
               ],
-              decemberGrowth: 2,
+              latestGrowth: 2,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Dexcom,Dexcom,Dexcom,Dexcom&hl=en"
             },
             {
@@ -44098,7 +44098,7 @@ export const REPORT_DATA: ReportData = {
                   value: -13
                 }
               ],
-              decemberGrowth: -13,
+              latestGrowth: -13,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Morpheus8%20%2B%20Morpheus%208,Morpheus8%20%2B%20Morpheus%208,Morpheus8%20%2B%20Morpheus%208,Morpheus8%20%2B%20Morpheus%208&hl=en"
             },
             {
@@ -44156,7 +44156,7 @@ export const REPORT_DATA: ReportData = {
                   value: -24
                 }
               ],
-              decemberGrowth: -24,
+              latestGrowth: -24,
               googleTrendsUrl: "https://trends.google.com/trends/explore?date=2026-01-01%202026-12-31,2025-01-01%202025-12-31,2024-01-01%202024-12-31,2023-01-01%202023-12-31&geo=,,,&q=Inspire%20Sleep,Inspire%20Sleep,Inspire%20Sleep,Inspire%20Sleep&hl=en"
             }
           ]

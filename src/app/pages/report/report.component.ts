@@ -18,7 +18,7 @@ interface CompanyWithContext extends CompanyData {
   subsectorName: string;
 }
 
-type SortColumn = 'searchQuery' | 'ticker' | 'weekReturn52' | 'peMultiple' | 'decemberGrowth' | string;
+type SortColumn = 'searchQuery' | 'ticker' | 'weekReturn52' | 'peMultiple' | 'latestGrowth' | string;
 type SortDirection = 'asc' | 'desc';
 
 interface SortState {
@@ -40,6 +40,18 @@ export class ReportComponent implements AfterViewInit, OnDestroy, OnInit {
 
   // Derive months from the actual data instead of a hardcoded constant
   readonly months = this.reportData.sectors[0]?.subsectors[0]?.companies[0]?.monthlyGrowth.map(m => m.month) ?? [];
+
+  // Full name of the latest month (e.g., "January" from "Jan '26")
+  readonly latestMonthName = (() => {
+    const last = this.months[this.months.length - 1] ?? '';
+    const abbr = last.split(' ')[0] ?? '';
+    const map: Record<string, string> = {
+      'Jan': 'January', 'Feb': 'February', 'Mar': 'March', 'Apr': 'April',
+      'May': 'May', 'Jun': 'June', 'Jul': 'July', 'Aug': 'August',
+      'Sep': 'September', 'Oct': 'October', 'Nov': 'November', 'Dec': 'December'
+    };
+    return map[abbr] ?? abbr;
+  })();
 
   // Mobile detection for responsive placeholder
   isMobile = signal(false);
@@ -207,16 +219,16 @@ export class ReportComponent implements AfterViewInit, OnDestroy, OnInit {
   // All top gainers (highest December growth) - only positive growth, up to max
   allTopGainers = computed(() => {
     return [...this.allCompanies()]
-      .filter(c => c.decemberGrowth !== null && c.decemberGrowth > 0)
-      .sort((a, b) => (b.decemberGrowth ?? 0) - (a.decemberGrowth ?? 0))
+      .filter(c => c.latestGrowth !== null && c.latestGrowth > 0)
+      .sort((a, b) => (b.latestGrowth ?? 0) - (a.latestGrowth ?? 0))
       .slice(0, TOP_LIST_MAX_COUNT);
   });
 
   // All top decliners (lowest December growth) - only negative growth, up to max
   allTopDecliners = computed(() => {
     return [...this.allCompanies()]
-      .filter(c => c.decemberGrowth !== null && c.decemberGrowth < 0)
-      .sort((a, b) => (a.decemberGrowth ?? 0) - (b.decemberGrowth ?? 0))
+      .filter(c => c.latestGrowth !== null && c.latestGrowth < 0)
+      .sort((a, b) => (a.latestGrowth ?? 0) - (b.latestGrowth ?? 0))
       .slice(0, TOP_LIST_MAX_COUNT);
   });
 
@@ -405,9 +417,9 @@ export class ReportComponent implements AfterViewInit, OnDestroy, OnInit {
             aVal = a.peMultiple;
             bVal = b.peMultiple;
             break;
-          case 'decemberGrowth':
-            aVal = a.decemberGrowth;
-            bVal = b.decemberGrowth;
+          case 'latestGrowth':
+            aVal = a.latestGrowth;
+            bVal = b.latestGrowth;
             break;
           default:
             return 0;
