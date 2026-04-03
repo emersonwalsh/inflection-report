@@ -74,12 +74,11 @@ export class ReportComponent implements AfterViewInit, OnDestroy, OnInit {
   expandedSubsectors = signal<Set<string>>(new Set());
 
   constructor(private ngZone: NgZone) {
-    // Expand the first subsector (alphabetically) of each sector by default
+    // Expand the first subsector of each sector by default (CSV order)
     const expandedKeys = new Set<string>();
     for (const sector of this.reportData.sectors) {
       if (sector.subsectors.length > 0) {
-        const firstSubsector = [...sector.subsectors].sort((a, b) => a.name.localeCompare(b.name))[0];
-        expandedKeys.add(`${sector.name}::${firstSubsector.name}`);
+        expandedKeys.add(`${sector.name}::${sector.subsectors[0].name}`);
       }
     }
     this.expandedSubsectors.set(expandedKeys);
@@ -261,8 +260,7 @@ export class ReportComponent implements AfterViewInit, OnDestroy, OnInit {
   // Filter sectors based on search
   filteredSectors = computed(() => {
     const query = this.searchQuery().toLowerCase().trim();
-    const sortSubsectors = (subsectors: Subsector[]) =>
-      [...subsectors].sort((a, b) => a.name.localeCompare(b.name));
+    const sortSubsectors = (subsectors: Subsector[]) => subsectors;
 
     if (!query) {
       return this.reportData.sectors.map(sector => ({
